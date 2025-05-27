@@ -1,0 +1,134 @@
+[
+    {
+      "fieldName": "单据种类",
+      "fieldValue": "商业发票",
+      "index": 0,
+      "level": 0
+    },
+    {
+      "fieldName": "发票编号",
+      "fieldValue": "LKMD24555",
+      "index": 1,
+      "level": 0
+    },
+    {
+      "fieldName": "发票日期",
+      "fieldValue": "NOV.18,2024",
+      "index": 2,
+      "level": 0
+    },
+    {
+      "fieldName": "卖方信息",
+      "fieldValue": "",
+      "index": 3,
+      "level": 0
+    },
+    {
+      "fieldName": "公司名称",
+      "fieldValue": "JIANGSU LIKANG MEDICAL PRODUCTS CO.,LTD.",
+      "index": 4,
+      "level": 1
+    },
+    {
+      "fieldName": "地址",
+      "fieldValue": "",
+      "index": 5,
+      "level": 1
+    },
+    {
+      "fieldName": "联系方式",
+      "fieldValue": "",
+      "index": 6,
+      "level": 1
+    },
+    {
+      "fieldName": "买方信息",
+      "fieldValue": "",
+      "index": 7,
+      "level": 0
+    },
+    {
+      "fieldName": "公司名称",
+      "fieldValue": "DUKAL LLC",
+      "index": 8,
+      "level": 1
+    },
+    {
+      "fieldName": "地址",
+      "fieldValue": "2 FLEETWOOD COURT RONKONKOMA .NY 11779",
+      "index": 9,
+      "level": 1
+    },
+    {
+      "fieldName": "联系方式",
+      "fieldValue": "",
+      "index": 10,
+      "level": 1
+    },
+    {
+      "fieldName": "出发港口",
+      "fieldValue": "SHANGHAI. CHINA",
+      "index": 11,
+      "level": 0
+    },
+    {
+      "fieldName": "到达港口",
+      "fieldValue": "LA VERGNE.TN 37086",
+      "index": 12,
+      "level": 0
+    },
+    {
+      "fieldName": "货物信息1",
+      "fieldValue": "",
+      "index": 13,
+      "level": 0
+    },
+    {
+      "fieldName": "货物名称",
+      "fieldValue": "ABSORBENT COTTON ROLL",
+      "index": 14,
+      "level": 1
+    },
+    {
+      "fieldName": "数量",
+      "fieldValue": "100 CTNS",
+      "index": 15,
+      "level": 1
+    },
+    {
+      "fieldName": "单价",
+      "fieldValue": "RMB 116.56/CTN",
+      "index": 16,
+      "level": 1
+    },
+    {
+      "fieldName": "总价",
+      "fieldValue": "RMB 11656.00",
+      "index": 17,
+      "level": 1
+    },
+    {
+      "fieldName": "货物总数量",
+      "fieldValue": "100 CTNS",
+      "index": 18,
+      "level": 0
+    },
+    {
+      "fieldName": "货物总价格",
+      "fieldValue": "MB 11656.00",
+      "index": 19,
+      "level": 0
+    },
+    {
+      "fieldName": "印章信息",
+      "fieldValue": "",
+      "index": 20,
+      "level": 0
+    },
+    {
+      "fieldName": "公司名称",
+      "fieldValue": "江苏利康医疗用品有限公司",
+      "index": 21,
+      "level": 1
+    }
+  ]

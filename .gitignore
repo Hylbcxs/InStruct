@@ -1,0 +1,20 @@
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+/backend/.env
+/backend/.venv
+/backend/upload/
+*.db
+backend/core
+backend/ocr/core
+*.core
+*.dump
+*.bin
+*.pth
+*.pt
+*.ckpt
+# big File
+/model/
+/frontend/node_modules

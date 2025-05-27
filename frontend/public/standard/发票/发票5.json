@@ -1,0 +1,122 @@
+[
+    {
+      "fieldName": "单据种类",
+      "fieldValue": "COMMERCIAL INVOICE",
+      "index": 0,
+      "level": 0
+    },
+    {
+      "fieldName": "发票编号",
+      "fieldValue": "FY240510",
+      "index": 1,
+      "level": 0
+    },
+    {
+      "fieldName": "发票日期",
+      "fieldValue": "MAY.09, 2024",
+      "index": 2,
+      "level": 0
+    },
+    {
+      "fieldName": "卖方信息",
+      "fieldValue": "",
+      "index": 3,
+      "level": 0
+    },
+    {
+      "fieldName": "公司名称",
+      "fieldValue": "鴻榮染整機械股份有限公司",
+      "index": 4,
+      "level": 1
+    },
+    {
+      "fieldName": "地址",
+      "fieldValue": "新北市樹林區俊安街45號 No.45, Jiunn An St. Shu Lin Dist, New Taipei City, Taiwan, China",
+      "index": 5,
+      "level": 1
+    },
+    {
+      "fieldName": "电话",
+      "fieldValue": "TEL:02-26893135",
+      "index": 6,
+      "level": 1
+    },
+    {
+      "fieldName": "传真",
+      "fieldValue": "FAX:02-26891318",
+      "index": 7,
+      "level": 1
+    },
+    {
+      "fieldName": "买方信息",
+      "fieldValue": "",
+      "index": 8,
+      "level": 0
+    },
+    {
+      "fieldName": "公司名称",
+      "fieldValue": "WUJIANG TIANHAI IMPORT AND EXPORT CO., LTD.吳江市天海進出口有限公司",
+      "index": 9,
+      "level": 1
+    },
+    {
+      "fieldName": "地址",
+      "fieldValue": "ROOM 801, SHANGLING BUILDING, NO.1729 SOUTH XHONGSHAN ROAD, WUJIANG CITY, JIANGSU CHINA 江蘇省吳江市中山南路1729號上領大廈 801室",
+      "index": 10,
+      "level": 1
+    },
+    {
+      "fieldName": "电话",
+      "fieldValue": "TEL:0512-63422562",
+      "index": 11,
+      "level": 1
+    },
+    {
+      "fieldName": "传真",
+      "fieldValue": "FAX:0512-63428269",
+      "index": 12,
+      "level": 1
+    },
+    {
+      "fieldName": "货物信息1",
+      "fieldValue": "",
+      "index": 13,
+      "level": 0
+    },
+    {
+      "fieldName": "货物名称",
+      "fieldValue": "OPEN SOAPER DESIZING MACHINE (退漿機))",
+      "index": 14,
+      "level": 1
+    },
+    {
+      "fieldName": "数量",
+      "fieldValue": "1 SET",
+      "index": 15,
+      "level": 1
+    },
+    {
+      "fieldName": "单价",
+      "fieldValue": "CNY 2.380,000.00",
+      "index": 16,
+      "level": 1
+    },
+    {
+      "fieldName": "总价",
+      "fieldValue": "CNY 2.380,000.00",
+      "index": 17,
+      "level": 1
+    },
+    {
+      "fieldName": "货物总数量",
+      "fieldValue": "1 SET",
+      "index": 18,
+      "level": 0
+    },
+    {
+      "fieldName": "货物总价格",
+      "fieldValue": "CNY 2.380,000.00",
+      "index": 19,
+      "level": 0
+    }
+  ]

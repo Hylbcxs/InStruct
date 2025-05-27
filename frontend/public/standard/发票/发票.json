@@ -1,0 +1,128 @@
+[
+  {
+    "fieldName": "单据种类",
+    "fieldValue": "Invoice",
+    "index": 0,
+    "level": 0
+  },
+  {
+    "fieldName": "发票编号",
+    "fieldValue": "240828002",
+    "index": 1,
+    "level": 0
+  },
+  {
+    "fieldName": "发票日期",
+    "fieldValue": "2024/08/28",
+    "index": 2,
+    "level": 0
+  },
+  {
+    "fieldName": "卖方信息",
+    "fieldValue": "",
+    "index": 3,
+    "level": 0
+  },
+  {
+    "fieldName": "公司名称",
+    "fieldValue": "MingScape International Co., Ltd.",
+    "index": 4,
+    "level": 1
+  },
+  {
+    "fieldName": "地址",
+    "fieldValue": "9, Lane 292, Sec. 1, Ta-Tung Road, Hsi-Chih, Taipei Hsien Taiwan,R.O.C",
+    "index": 5,
+    "level": 1
+  },
+  {
+    "fieldName": "电话",
+    "fieldValue": "886-2-86423648",
+    "index": 6,
+    "level": 1
+  },
+  {
+    "fieldName": "传真",
+    "fieldValue": "886-2-26496153",
+    "index": 7,
+    "level": 1
+  },
+  {
+    "fieldName": "买方信息",
+    "fieldValue": "",
+    "index": 8,
+    "level": 0
+  },
+  {
+    "fieldName": "公司名称",
+    "fieldValue": "吳江市宏炬印染機械有限公司",
+    "index": 9,
+    "level": 1
+  },
+  {
+    "fieldName": "地址",
+    "fieldValue": "吳江區盛澤鎮東港村 (227省道西側)",
+    "index": 10,
+    "level": 1
+  },
+  {
+    "fieldName": "电话",
+    "fieldValue": "+86-18762436980",
+    "index": 11,
+    "level": 1
+  },
+  {
+    "fieldName": "传真",
+    "fieldValue": "+86-0512-63088273",
+    "index": 12,
+    "level": 1
+  },
+  {
+    "fieldName": "货物信息 1",
+    "fieldValue": "",
+    "index": 13,
+    "level": 0
+  },
+  {
+    "fieldName": "货物名称",
+    "fieldValue": "無管路滴液機",
+    "index": 14,
+    "level": 1
+  },
+  {
+    "fieldName": "规格型号",
+    "fieldValue": "MDS152IU",
+    "index": 15,
+    "level": 1
+  },
+  {
+    "fieldName": "数量",
+    "fieldValue": "1台",
+    "index": 16,
+    "level": 1
+  },
+  {
+    "fieldName": "单价",
+    "fieldValue": "RMB 215,000.00",
+    "index": 17,
+    "level": 1
+  },
+  {
+    "fieldName": "总价",
+    "fieldValue": "RMB 215,000.00",
+    "index": 18,
+    "level": 1
+  },
+  {
+    "fieldName": "货物总数量",
+    "fieldValue": "1台",
+    "index": 19,
+    "level": 0
+  },
+  {
+    "fieldName": "货物总价",
+    "fieldValue": "RMB 215,000.00",
+    "index": 20,
+    "level": 0
+  }
+]

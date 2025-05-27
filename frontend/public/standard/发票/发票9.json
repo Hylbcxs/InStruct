@@ -1,0 +1,182 @@
+[
+    {
+      "fieldName": "单据种类",
+      "fieldValue": "INVOICE",
+      "index": 0,
+      "level": 0
+    },
+    {
+      "fieldName": "发票编号",
+      "fieldValue": "2K240921",
+      "index": 1,
+      "level": 0
+    },
+    {
+      "fieldName": "发票日期",
+      "fieldValue": "21st Sep., 2024",
+      "index": 2,
+      "level": 0
+    },
+    {
+      "fieldName": "卖方信息",
+      "fieldValue": "",
+      "index": 3,
+      "level": 0
+    },
+    {
+      "fieldName": "公司名称",
+      "fieldValue": "康柏斯企业有限公司",
+      "index": 4,
+      "level": 1
+    },
+    {
+      "fieldName": "地址",
+      "fieldValue": "Unit H, 10/F., Phase 2, Kaiser Estate, 51 Man Yue St., Hung Hom, Kowloon, Hong Kong",
+      "index": 5,
+      "level": 1
+    },
+    {
+      "fieldName": "联系方式",
+      "fieldValue": "Tel: (852) 2356-1838 (6 Lines) Fax: (852) 2356-1666",
+      "index": 6,
+      "level": 1
+    },
+    {
+      "fieldName": "买方信息",
+      "fieldValue": "",
+      "index": 7,
+      "level": 0
+    },
+    {
+      "fieldName": "公司名称",
+      "fieldValue": "pmpasseco Enterprises (Suzhou) Petrochemical Co., Ltd.",
+      "index": 8,
+      "level": 1
+    },
+    {
+      "fieldName": "地址",
+      "fieldValue": "Highway 318, LiliTown, Wujiang Jiangsu,215212 P.R.China",
+      "index": 9,
+      "level": 1
+    },
+    {
+      "fieldName": "联系方式",
+      "fieldValue": "",
+      "index": 10,
+      "level": 1
+    },
+    {
+      "fieldName": "货物信息1",
+      "fieldValue": "",
+      "index": 11,
+      "level": 0
+    },
+    {
+      "fieldName": "货物名称",
+      "fieldValue": "732 CLEAR - 3 Oz",
+      "index": 12,
+      "level": 1
+    },
+    {
+      "fieldName": "数量",
+      "fieldValue": "204",
+      "index": 13,
+      "level": 1
+    },
+    {
+      "fieldName": "单价",
+      "fieldValue": "USD3.12",
+      "index": 14,
+      "level": 1
+    },
+    {
+      "fieldName": "总价",
+      "fieldValue": "USD636.48",
+      "index": 15,
+      "level": 1
+    },
+    {
+      "fieldName": "货物信息2",
+      "fieldValue": "",
+      "index": 16,
+      "level": 0
+    },
+    {
+      "fieldName": "货物名称",
+      "fieldValue": "IMFBT-16",
+      "index": 17,
+      "level": 1
+    },
+    {
+      "fieldName": "数量",
+      "fieldValue": "96",
+      "index": 18,
+      "level": 1
+    },
+    {
+      "fieldName": "单价",
+      "fieldValue": "USD11.99",
+      "index": 19,
+      "level": 1
+    },
+    {
+      "fieldName": "总价",
+      "fieldValue": "USD1151.04",
+      "index": 20,
+      "level": 1
+    },
+    {
+      "fieldName": "货物信息3",
+      "fieldValue": "",
+      "index": 21,
+      "level": 0
+    },
+    {
+      "fieldName": "货物名称",
+      "fieldValue": "SBT-16-16 Oz",
+      "index": 22,
+      "level": 1
+    },
+    {
+      "fieldName": "数量",
+      "fieldValue": "36",
+      "index": 23,
+      "level": 1
+    },
+    {
+      "fieldName": "单价",
+      "fieldValue": "USD6.03",
+      "index": 24,
+      "level": 1
+    },
+    {
+      "fieldName": "总价",
+      "fieldValue": "USD217.08",
+      "index": 25,
+      "level": 1
+    },
+    {
+      "fieldName": "货物总数量",
+      "fieldValue": "",
+      "index": 28,
+      "level": 0
+    },
+    {
+      "fieldName": "货物总价格",
+      "fieldValue": "USD2004.8",
+      "index": 29,
+      "level": 0
+    },
+    {
+      "fieldName": "印章信息",
+      "fieldValue": "",
+      "index": 30,
+      "level": 0
+    },
+    {
+      "fieldName": "公司名称",
+      "fieldValue": "康柏斯企业有限公司",
+      "index": 31,
+      "level": 1
+    }
+  ]

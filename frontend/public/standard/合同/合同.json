@@ -1,0 +1,110 @@
+[
+    {
+      "fieldName": "单据种类",
+      "fieldValue": "合同",
+      "index": 0,
+      "level": 0
+    },
+    {
+      "fieldName": "合同号",
+      "fieldValue": "HJ20240827",
+      "index": 1,
+      "level": 0
+    },
+    {
+      "fieldName": "日期",
+      "fieldValue": "2024/08/27",
+      "index": 2,
+      "level": 0
+    },
+    {
+      "fieldName": "卖方信息",
+      "fieldValue": "",
+      "index": 3,
+      "level": 0
+    },
+    {
+      "fieldName": "公司名称",
+      "fieldValue": "名璟科技股份有限公司",
+      "index": 4,
+      "level": 1
+    },
+    {
+      "fieldName": "地址",
+      "fieldValue": "臺灣臺北縣汐止市大同路一段292巷9號 Add: No.9, Lane 292, Sec 1, Daitung Rd., Shijr City, Taipei county, Taiwan",
+      "index": 5,
+      "level": 1
+    },
+    {
+      "fieldName": "电话",
+      "fieldValue": "+886-2-86423648",
+      "index": 6,
+      "level": 1
+    },
+    {
+      "fieldName": "传真",
+      "fieldValue": "+886-2-26496153",
+      "index": 7,
+      "level": 1
+    },
+    {
+      "fieldName": "买方信息",
+      "fieldValue": "",
+      "index": 8,
+      "level": 0
+    },
+    {
+      "fieldName": "公司名称",
+      "fieldValue": "吳江市宏炬印染機械有限公司",
+      "index": 9,
+      "level": 1
+    },
+    {
+      "fieldName": "地址",
+      "fieldValue": "吴江区盛泽镇东港村(227省道西側)",
+      "index": 10,
+      "level": 1
+    },
+    {
+      "fieldName": "电话",
+      "fieldValue": "",
+      "index": 11,
+      "level": 1
+    },
+    {
+      "fieldName": "传真",
+      "fieldValue": "",
+      "index": 12,
+      "level": 1
+    },
+    {
+      "fieldName": "商品信息 1",
+      "fieldValue": "",
+      "index": 13,
+      "level": 0
+    },
+    {
+      "fieldName": "商品名称",
+      "fieldValue": "TUBELESS DISPENSER MODEL:MDS152U 無管路滴液機",
+      "index": 14,
+      "level": 1
+    },
+    {
+      "fieldName": "数量",
+      "fieldValue": "1 SET",
+      "index": 15,
+      "level": 1
+    },
+    {
+      "fieldName": "单价",
+      "fieldValue": "CIF SHANGHAI RMB 215000",
+      "index": 16,
+      "level": 1
+    },
+    {
+      "fieldName": "总价",
+      "fieldValue": "RMB 215000",
+      "index": 17,
+      "level": 1
+    }
+  ]

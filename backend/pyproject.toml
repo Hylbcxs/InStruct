@@ -1,0 +1,21 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10.16"
+dependencies = [
+    "cryptography>=45.0.3",
+    "dotenv>=0.9.9",
+    "fastapi>=0.115.12",
+    "paddleocr==3.0.0",
+    "paddlepaddle",
+    "pymysql>=1.1.1",
+    "python-multipart>=0.0.20",
+    "setuptools>=80.9.0",
+    "sqlalchemy>=2.0.41",
+    "uvicorn>=0.34.2",
+]
+
+[tool.uv.sources]
+paddlepaddle = { path = "../model/wheel/paddlepaddle-3.0.0-cp310-cp310-linux_x86_64.whl" }

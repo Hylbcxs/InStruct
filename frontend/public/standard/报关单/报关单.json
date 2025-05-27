@@ -1,0 +1,146 @@
+[
+    {
+      "fieldName": "单据种类",
+      "fieldValue": "中华人民共和国海关出口货物报关单",
+      "index": 0,
+      "level": 0
+    },
+    {
+      "fieldName": "合同协议号",
+      "fieldValue": "NDSEV24003",
+      "index": 1,
+      "level": 0
+    },
+    {
+      "fieldName": "申报日期",
+      "fieldValue": "20241231",
+      "index": 2,
+      "level": 0
+    },
+    {
+      "fieldName": "发货人信息",
+      "fieldValue": "",
+      "index": 3,
+      "level": 0
+    },
+    {
+      "fieldName": "名称",
+      "fieldValue": "苏州纳地金属制品股份有限公司",
+      "index": 4,
+      "level": 1
+    },
+    {
+      "fieldName": "编号",
+      "fieldValue": "9132050078836196XU",
+      "index": 5,
+      "level": 1
+    },
+    {
+      "fieldName": "收货人信息",
+      "fieldValue": "",
+      "index": 6,
+      "level": 0
+    },
+    {
+      "fieldName": "名称",
+      "fieldValue": "PROTEGE CASUAL FURNITURE INC",
+      "index": 7,
+      "level": 1
+    },
+    {
+      "fieldName": "编号",
+      "fieldValue": "",
+      "index": 8,
+      "level": 1
+    },
+    {
+      "fieldName": "生产销售单位信息",
+      "fieldValue": "",
+      "index": 9,
+      "level": 0
+    },
+    {
+      "fieldName": "名称",
+      "fieldValue": "苏州纳地金属制品股份有限公司",
+      "index": 10,
+      "level": 1
+    },
+    {
+      "fieldName": "编号",
+      "fieldValue": "9132050078836196XU",
+      "index": 11,
+      "level": 1
+    },
+    {
+      "fieldName": "运输方式",
+      "fieldValue": "水路运输",
+      "index": 12,
+      "level": 0
+    },
+    {
+      "fieldName": "运抵国",
+      "fieldValue": "加拿大",
+      "index": 13,
+      "level": 0
+    },
+    {
+      "fieldName": "商品信息 1",
+      "fieldValue": "",
+      "index": 14,
+      "level": 0
+    },
+    {
+      "fieldName": "商品名称",
+      "fieldValue": "铸铝桌子",
+      "index": 15,
+      "level": 1
+    },
+    {
+      "fieldName": "数量",
+      "fieldValue": "108件",
+      "index": 16,
+      "level": 1
+    },
+    {
+      "fieldName": "单价",
+      "fieldValue": "254.6431美元",
+      "index": 17,
+      "level": 1
+    },
+    {
+      "fieldName": "总价",
+      "fieldValue": "38301.52",
+      "index": 18,
+      "level": 1
+    },
+    {
+      "fieldName": "商品信息 2",
+      "fieldValue": "",
+      "index": 19,
+      "level": 0
+    },
+    {
+      "fieldName": "商品名称",
+      "fieldValue": "铸铝椅子",
+      "index": 20,
+      "level": 1
+    },
+    {
+      "fieldName": "数量",
+      "fieldValue": "105个",
+      "index": 21,
+      "level": 1
+    },
+    {
+      "fieldName": "单价",
+      "fieldValue": "91.2227美元",
+      "index": 22,
+      "level": 1
+    },
+    {
+      "fieldName": "总价",
+      "fieldValue": "9578.38美元",
+      "index": 23,
+      "level": 1
+    }
+  ]
