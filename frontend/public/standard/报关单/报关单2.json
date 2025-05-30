@@ -1,116 +1,20 @@
-[
+{
+  "单据种类": "中华人民共和国海关出口货物报关单",
+  "合同协议号": "SZSYBNM24L011/2168",
+  "申报日期": "20241029",
+  "境内发货人": "苏州顺谊纺织印染有限公司 (91320507756441623U)",
+  "境外收货人": "IMPORTADORA AMIGO S.A.",
+  "生产销售单位": "苏州顺谊纺织印染有限公司 (91320507756441623U)",
+  "运输方式": "水路运输",
+  "运抵国": "巴拿马",
+  "商品信息": [
     {
-      "fieldName": "单据种类",
-      "fieldValue": "中华人民共和国海关出口货物报关单",
-      "index": 0,
-      "level": 0
-    },
-    {
-      "fieldName": "合同协议号",
-      "fieldValue": "SZSY-BNM24L011/2168",
-      "index": 1,
-      "level": 0
-    },
-    {
-      "fieldName": "申报日期",
-      "fieldValue": "20241029",
-      "index": 2,
-      "level": 0
-    },
-    {
-      "fieldName": "发货人信息",
-      "fieldValue": "",
-      "index": 3,
-      "level": 0
-    },
-    {
-      "fieldName": "名称",
-      "fieldValue": "苏州顺谊纺织印染有限公司",
-      "index": 4,
-      "level": 1
-    },
-    {
-      "fieldName": "编号",
-      "fieldValue": "91320507756441623U",
-      "index": 5,
-      "level": 1
-    },
-    {
-      "fieldName": "收货人信息",
-      "fieldValue": "",
-      "index": 6,
-      "level": 0
-    },
-    {
-      "fieldName": "名称",
-      "fieldValue": "IMPORTADORA AMIGO S.A.",
-      "index": 7,
-      "level": 1
-    },
-    {
-      "fieldName": "编号",
-      "fieldValue": "",
-      "index": 8,
-      "level": 1
-    },
-    {
-      "fieldName": "生产销售单位信息",
-      "fieldValue": "",
-      "index": 9,
-      "level": 0
-    },
-    {
-      "fieldName": "名称",
-      "fieldValue": "苏州顺谊纺织印染有限公司",
-      "index": 10,
-      "level": 1
-    },
-    {
-      "fieldName": "编号",
-      "fieldValue": "91320507756441623U",
-      "index": 11,
-      "level": 1
-    },
-    {
-      "fieldName": "运输方式",
-      "fieldValue": "水路运输",
-      "index": 12,
-      "level": 0
-    },
-    {
-      "fieldName": "运抵国",
-      "fieldValue": "巴拿马",
-      "index": 13,
-      "level": 0
-    },
-    {
-      "fieldName": "商品信息 1",
-      "fieldValue": "",
-      "index": 14,
-      "level": 0
-    },
-    {
-      "fieldName": "商品名称",
-      "fieldValue": "毯子",
-      "index": 15,
-      "level": 1
-    },
-    {
-      "fieldName": "数量",
-      "fieldValue": "19200条",
-      "index": 16,
-      "level": 1
-    },
-    {
-      "fieldName": "单价",
-      "fieldValue": "3.3900美元",
-      "index": 17,
-      "level": 1
-    },
-    {
-      "fieldName": "总价",
-      "fieldValue": "65088.00美元",
-      "index": 18,
-      "level": 1
+      "商品名称": "毯子",
+      "数量": "19200条",
+      "单价": "3.3900美元",
+      "总价": "65088.00美元"
     }
-  ]
+  ],
+  "商品总数量": "19200条",
+  "商品总价格": "65088.00美元"
+}   

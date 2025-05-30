@@ -1,140 +1,32 @@
-[
+
+{
+  "单据种类": "BILL OF LADING",
+  "提单号": "278949065",
+  "收货人信息":{
+    "公司名称": "T&A TEXTILES AND HOSIERY LIMITED",
+    "地址": "SLEEPDOWN HOUSE BOWER STREET, OFF TEN ACRE LANE NEWTON HEATH, MANCHESTER, LANCSHIRE, M40 2BH"
+  },
+  "发货人信息": {
+    "公司名称": "SUZHOU SHUNYI TEXTILE PRINTING AND DYEING CO., LTD",
+    "地址": "JINFENG INDUSTRIAL PARK, LINGFENG VILLAGE, BEIQIAO TOWN, XIANGCHENG DISTRICT, SUZHOU 215144"
+  },
+  "通知方": {
+    "公司名称": "SAME AS CONSIGNEE",
+    "地址": ""
+  },
+  "运输方式": "OCEANVESSEL",
+  "船只信息和编号": "MOSCOW MAERSK/433W",
+  "船舶航次信息": "",
+  "装货港": "QINGDAO",
+  "卸货港": "FELIXSTOWE",
+  "货物信息": [
     {
-      "fieldName": "单据种类",
-      "fieldValue": "BILL OF LADING",
-      "index": 0,
-      "level": 0
-    },
-    {
-      "fieldName": "提单号",
-      "fieldValue": "278949065",
-      "index": 1,
-      "level": 0
-    },
-    {
-      "fieldName": "收货人信息",
-      "fieldValue": "",
-      "index": 2,
-      "level": 0
-    },
-    {
-      "fieldName": "公司名称",
-      "fieldValue": "T&A TEXTILES AND HOSIERY LIMITED",
-      "index": 3,
-      "level": 1
-    },
-    {
-      "fieldName": "地址",
-      "fieldValue": "SLEEPDOWN HOUSE BOWER STREET, OFF TEN ACRE LANE NEWTON HEATH, MANCHESTER, LANCSHIRE, M40 28H",
-      "index": 4,
-      "level": 1
-    },
-    {
-      "fieldName": "发货人信息",
-      "fieldValue": "",
-      "index": 5,
-      "level": 0
-    },
-    {
-      "fieldName": "公司名称",
-      "fieldValue": "SUZHOU SHUNYI TEXTILE PRINTING AND DYEING CO., LTD",
-      "index": 6,
-      "level": 1
-    },
-    {
-      "fieldName": "地址",
-      "fieldValue": "JINFENG INDUSTRIAL PARK, LINGFENG VILLAGE, BEIQIAO TOWN, XIANGCHENG DISTRICT, SUZHOU 215144",
-      "index": 7,
-      "level": 1
-    },
-    {
-      "fieldName": "通知方",
-      "fieldValue": "",
-      "index": 8,
-      "level": 0
-    },
-    {
-      "fieldName": "公司名称",
-      "fieldValue": "T&A TEXTILES AND HOSIERY LIMITED",
-      "index": 9,
-      "level": 1
-    },
-    {
-      "fieldName": "地址",
-      "fieldValue": "SLEEPDOWN HOUSE BOWER STREET, OFF TEN ACRE LANE NEWTON HEATH, MANCHESTER, LANCSHIRE, M40 2BH",
-      "index": 10,
-      "level": 1
-    },
-    {
-      "fieldName": "运输方式",
-      "fieldValue": "OCEAN VESSEL",
-      "index": 11,
-      "level": 0
-    },
-    {
-      "fieldName": "船只信息和编号",
-      "fieldValue": "MOSCOW MAERSK/433W",
-      "index": 12,
-      "level": 0
-    },
-    {
-      "fieldName": "船舶航次信息",
-      "fieldValue": "",
-      "index": 13,
-      "level": 0
-    },
-    {
-      "fieldName": "装货港",
-      "fieldValue": "QINGDAO",
-      "index": 14,
-      "level": 0
-    },
-    {
-      "fieldName": "卸货港",
-      "fieldValue": "FELIXSTOWE",
-      "index": 15,
-      "level": 0
-    },
-    {
-      "fieldName": "货物信息 1",
-      "fieldValue": "",
-      "index": 16,
-      "level": 0
-    },
-    {
-      "fieldName": "货物名称",
-      "fieldValue": "100% POLYESTER THROW DUVET COVER SETS",
-      "index": 17,
-      "level": 1
-    },
-    {
-      "fieldName": "重量",
-      "fieldValue": "12202.000 KGS",
-      "index": 18,
-      "level": 1
-    },
-    {
-      "fieldName": "货物体积",
-      "fieldValue": "68.000 CBM",
-      "index": 19,
-      "level": 1
-    },
-    {
-      "fieldName": "运费",
-      "fieldValue": "",
-      "index": 20,
-      "level": 0
-    },
-    {
-      "fieldName": "装船日期",
-      "fieldValue": "AUG.19, 2024",
-      "index": 21,
-      "level": 0
-    },
-    {
-      "fieldName": "签发地点与日期",
-      "fieldValue": "",
-      "index": 22,
-      "level": 0
+      "货物名称": "100% POLYESTER THROW DUVET COVER SETS",
+      "重量": "12202.000KGS",
+      "货物体积": "68.000CBM"
     }
-  ]
+  ],
+  "运费": "Freight and Charges",
+  "装船日期": "AUG.19, 2024",
+  "签发地点与日期": ""
+}

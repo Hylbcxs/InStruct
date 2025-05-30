@@ -1,0 +1,886 @@
+[
+    {
+        "name": "报关单1_useocr_True",
+        "matchCount": 23,
+        "totalCount": 24,
+        "accuracyRate": 95.83,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "中华人民共和国海关出口货物报关单",
+                "extractedValue": "中华人民共和国海关出口货物报关单",
+                "matched": true
+            },
+            {
+                "path": "合同协议号",
+                "standardValue": "SZSY-YG24Y607017054S",
+                "extractedValue": "SZSY-YG24Y607017054S",
+                "matched": true
+            },
+            {
+                "path": "申报日期",
+                "standardValue": "2024-10-27",
+                "extractedValue": "2024-10-27",
+                "matched": true
+            },
+            {
+                "path": "境内发货人",
+                "standardValue": "苏州顺谊纺织印染有限公司 (91320507756441623U",
+                "extractedValue": "苏州顺谊纺织印染有限公司 (91320507756441623U)",
+                "matched": false
+            },
+            {
+                "path": "境外收货人",
+                "standardValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "extractedValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "matched": true
+            },
+            {
+                "path": "生产销售单位",
+                "standardValue": "苏州顺谊纺织印染有限公司 (91320507756441623U)",
+                "extractedValue": "苏州顺谊纺织印染有限公司 (91320507756441623U)",
+                "matched": true
+            },
+            {
+                "path": "运输方式",
+                "standardValue": "水路运输",
+                "extractedValue": "水路运输",
+                "matched": true
+            },
+            {
+                "path": "运抵国",
+                "standardValue": "英国",
+                "extractedValue": "英国",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 商品名称",
+                "standardValue": "床笠",
+                "extractedValue": "床笠",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 数量",
+                "standardValue": "1200条",
+                "extractedValue": "1200条",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 单价",
+                "standardValue": "4.98美元",
+                "extractedValue": "4.98美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 总价",
+                "standardValue": "5976美元",
+                "extractedValue": "5976美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 商品名称",
+                "standardValue": "毯子",
+                "extractedValue": "毯子",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 数量",
+                "standardValue": "3168条",
+                "extractedValue": "3168条",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 单价",
+                "standardValue": "9.89美元",
+                "extractedValue": "9.89美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 总价",
+                "standardValue": "31331.52美元",
+                "extractedValue": "31331.52美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 商品名称",
+                "standardValue": "枕套",
+                "extractedValue": "枕套",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 数量",
+                "standardValue": "3324条",
+                "extractedValue": "3324条",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 单价",
+                "standardValue": "2.65美元",
+                "extractedValue": "2.65美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 总价",
+                "standardValue": "8808.6美元",
+                "extractedValue": "8808.6美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[3] > 商品名称",
+                "standardValue": "被套",
+                "extractedValue": "被套",
+                "matched": true
+            },
+            {
+                "path": "商品信息[3] > 数量",
+                "standardValue": "336条",
+                "extractedValue": "336条",
+                "matched": true
+            },
+            {
+                "path": "商品信息[3] > 单价",
+                "standardValue": "2.65美元",
+                "extractedValue": "2.65美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[3] > 总价",
+                "standardValue": "890.4美元",
+                "extractedValue": "890.4美元",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "报关单_useocr_False",
+        "matchCount": 11,
+        "totalCount": 18,
+        "accuracyRate": 61.11,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "中华人民共和国海关出口货物报关单",
+                "extractedValue": "中华人民共和国海关出口货物报关单",
+                "matched": true
+            },
+            {
+                "path": "合同协议号",
+                "standardValue": "NDSEV24003",
+                "extractedValue": "NDSEV24003",
+                "matched": true
+            },
+            {
+                "path": "申报日期",
+                "standardValue": "20241231",
+                "extractedValue": "20241231",
+                "matched": true
+            },
+            {
+                "path": "境内发货人",
+                "standardValue": "苏州纳地金属制品股份有限公司 (9132050078836196XU)",
+                "extractedValue": "苏州纳地金属制品股份有限公司 (9132050075836196XU)",
+                "matched": false
+            },
+            {
+                "path": "境外收货人",
+                "standardValue": "PROTEGE CASUAL FURNITURE INC",
+                "extractedValue": "PROTEGE CASUAL FURNITURE INC",
+                "matched": true
+            },
+            {
+                "path": "生产销售单位",
+                "standardValue": "苏州纳地金属制品股份有限公司 (9132050078836196XU)",
+                "extractedValue": "苏州纳地金属制品股份有限公司 (9132050075836196XU)",
+                "matched": false
+            },
+            {
+                "path": "运输方式",
+                "standardValue": "水路运输",
+                "extractedValue": "水路运输",
+                "matched": true
+            },
+            {
+                "path": "运抵国",
+                "standardValue": "加拿大",
+                "extractedValue": "加拿大",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 商品名称",
+                "standardValue": "铸铝桌子",
+                "extractedValue": "铸铝桌子",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 数量",
+                "standardValue": "108件",
+                "extractedValue": "108件",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 单价",
+                "standardValue": "354.6437美元",
+                "extractedValue": "354.6437元/件",
+                "matched": false
+            },
+            {
+                "path": "商品信息[0] > 总价",
+                "standardValue": "38301.52美元",
+                "extractedValue": "38301.52元",
+                "matched": false
+            },
+            {
+                "path": "商品信息[1] > 商品名称",
+                "standardValue": "铸铝椅子",
+                "extractedValue": "铸铝椅子",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 数量",
+                "standardValue": "105个",
+                "extractedValue": "105个",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 单价",
+                "standardValue": "91.2227美元",
+                "extractedValue": "91.2227元/个",
+                "matched": false
+            },
+            {
+                "path": "商品信息[1] > 总价",
+                "standardValue": "9578.38美元",
+                "extractedValue": "9578.38元",
+                "matched": false
+            },
+            {
+                "path": "商品总数量",
+                "standardValue": "213件",
+                "extractedValue": "213件",
+                "matched": true
+            },
+            {
+                "path": "商品总价格",
+                "standardValue": "47879.9美元",
+                "extractedValue": "47879.9元",
+                "matched": false
+            }
+        ]
+    },
+    {
+        "name": "报关单1_useocr_False",
+        "matchCount": 16,
+        "totalCount": 24,
+        "accuracyRate": 66.67,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "中华人民共和国海关出口货物报关单",
+                "extractedValue": "中华人民共和国海关出口货物报关单",
+                "matched": true
+            },
+            {
+                "path": "合同协议号",
+                "standardValue": "SZSY-YG24Y607017054S",
+                "extractedValue": "SZSY-YG24Y607017054S",
+                "matched": true
+            },
+            {
+                "path": "申报日期",
+                "standardValue": "2024-10-27",
+                "extractedValue": "2024-10-27",
+                "matched": true
+            },
+            {
+                "path": "境内发货人",
+                "standardValue": "苏州顺谊纺织印染有限公司 (91320507756441623U)",
+                "extractedValue": "苏州顺谊纺织印染有限公司 (91320507756441623U)",
+                "matched": true
+            },
+            {
+                "path": "境外收货人",
+                "standardValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "extractedValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "matched": true
+            },
+            {
+                "path": "生产销售单位",
+                "standardValue": "苏州顺谊纺织印染有限公司 (91320507756441623U)",
+                "extractedValue": "苏州顺谊纺织印染有限公司 (91320507756441623U)",
+                "matched": true
+            },
+            {
+                "path": "运输方式",
+                "standardValue": "水路运输",
+                "extractedValue": "水路运输",
+                "matched": true
+            },
+            {
+                "path": "运抵国",
+                "standardValue": "英国",
+                "extractedValue": "英国",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 商品名称",
+                "standardValue": "床笠",
+                "extractedValue": "床笠",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 数量",
+                "standardValue": "1200条",
+                "extractedValue": "1200条",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 单价",
+                "standardValue": "4.98美元",
+                "extractedValue": "4.98元/人民币",
+                "matched": false
+            },
+            {
+                "path": "商品信息[0] > 总价",
+                "standardValue": "5976美元",
+                "extractedValue": "5976元/人民币",
+                "matched": false
+            },
+            {
+                "path": "商品信息[1] > 商品名称",
+                "standardValue": "毯子",
+                "extractedValue": "毯子",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 数量",
+                "standardValue": "3168条",
+                "extractedValue": "3168条",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 单价",
+                "standardValue": "9.89美元",
+                "extractedValue": "9.89元/人民币",
+                "matched": false
+            },
+            {
+                "path": "商品信息[1] > 总价",
+                "standardValue": "31331.52美元",
+                "extractedValue": "31331.52元/人民币",
+                "matched": false
+            },
+            {
+                "path": "商品信息[2] > 商品名称",
+                "standardValue": "枕套",
+                "extractedValue": "枕套",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 数量",
+                "standardValue": "3324条",
+                "extractedValue": "3324条",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 单价",
+                "standardValue": "2.65美元",
+                "extractedValue": "2.65元/人民币",
+                "matched": false
+            },
+            {
+                "path": "商品信息[2] > 总价",
+                "standardValue": "8808.6美元",
+                "extractedValue": "8808.6元/人民币",
+                "matched": false
+            },
+            {
+                "path": "商品信息[3] > 商品名称",
+                "standardValue": "被套",
+                "extractedValue": "被套",
+                "matched": true
+            },
+            {
+                "path": "商品信息[3] > 数量",
+                "standardValue": "336条",
+                "extractedValue": "336条",
+                "matched": true
+            },
+            {
+                "path": "商品信息[3] > 单价",
+                "standardValue": "2.65美元",
+                "extractedValue": "2.65元/人民币",
+                "matched": false
+            },
+            {
+                "path": "商品信息[3] > 总价",
+                "standardValue": "890.4美元",
+                "extractedValue": "890.4元/人民币",
+                "matched": false
+            }
+        ]
+    },
+    {
+        "name": "报关单7_useocr_True",
+        "matchCount": 22,
+        "totalCount": 22,
+        "accuracyRate": 100.0,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "中华人民共和国海关出口货物报关单",
+                "extractedValue": "中华人民共和国海关出口货物报关单",
+                "matched": true
+            },
+            {
+                "path": "合同协议号",
+                "standardValue": "SZSY-YG24Y6070167770.54S",
+                "extractedValue": "SZSY-YG24Y6070167770.54S",
+                "matched": true
+            },
+            {
+                "path": "申报日期",
+                "standardValue": "20240816",
+                "extractedValue": "20240816",
+                "matched": true
+            },
+            {
+                "path": "境内发货人",
+                "standardValue": "苏州顺谊纺织印染有限公司",
+                "extractedValue": "苏州顺谊纺织印染有限公司",
+                "matched": true
+            },
+            {
+                "path": "境外收货人",
+                "standardValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "extractedValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "matched": true
+            },
+            {
+                "path": "生产销售单位",
+                "standardValue": "苏州顺谊纺织印染有限公司",
+                "extractedValue": "苏州顺谊纺织印染有限公司",
+                "matched": true
+            },
+            {
+                "path": "运输方式",
+                "standardValue": "水路运输",
+                "extractedValue": "水路运输",
+                "matched": true
+            },
+            {
+                "path": "运抵国",
+                "standardValue": "英国",
+                "extractedValue": "英国",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 商品名称",
+                "standardValue": "被套",
+                "extractedValue": "被套",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 数量",
+                "standardValue": "6876条",
+                "extractedValue": "6876条",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 单价",
+                "standardValue": "7.3500美元",
+                "extractedValue": "7.3500美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 总价",
+                "standardValue": "50538.60美元",
+                "extractedValue": "50538.60美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 商品名称",
+                "standardValue": "枕套",
+                "extractedValue": "枕套",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 数量",
+                "standardValue": "9580条",
+                "extractedValue": "9580条",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 单价",
+                "standardValue": "1.2500美元",
+                "extractedValue": "1.2500美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 总价",
+                "standardValue": "11975.00美元",
+                "extractedValue": "11975.00美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 商品名称",
+                "standardValue": "毯子",
+                "extractedValue": "毯子",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 数量",
+                "standardValue": "498条",
+                "extractedValue": "498条",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 单价",
+                "standardValue": "9.5000美元",
+                "extractedValue": "9.5000美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 总价",
+                "standardValue": "4731.00美元",
+                "extractedValue": "4731.00美元",
+                "matched": true
+            },
+            {
+                "path": "商品总数量",
+                "standardValue": "16954件",
+                "extractedValue": "16954件",
+                "matched": true
+            },
+            {
+                "path": "商品总价格",
+                "standardValue": "67244.60美元",
+                "extractedValue": "67244.60美元",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "报关单7_useocr_False",
+        "matchCount": 22,
+        "totalCount": 22,
+        "accuracyRate": 100.0,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "中华人民共和国海关出口货物报关单",
+                "extractedValue": "中华人民共和国海关出口货物报关单",
+                "matched": true
+            },
+            {
+                "path": "合同协议号",
+                "standardValue": "SZSY-YG24Y6070167770.54S",
+                "extractedValue": "SZSY-YG24Y6070167770.54S",
+                "matched": true
+            },
+            {
+                "path": "申报日期",
+                "standardValue": "20240816",
+                "extractedValue": "20240816",
+                "matched": true
+            },
+            {
+                "path": "境内发货人",
+                "standardValue": "苏州顺谊纺织印染有限公司(91320507756441623U)",
+                "extractedValue": "苏州顺谊纺织印染有限公司(91320507756441623U)",
+                "matched": true
+            },
+            {
+                "path": "境外收货人",
+                "standardValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "extractedValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "matched": true
+            },
+            {
+                "path": "生产销售单位",
+                "standardValue": "苏州顺谊纺织印染有限公司(91320507756441623U)",
+                "extractedValue": "苏州顺谊纺织印染有限公司(91320507756441623U)",
+                "matched": true
+            },
+            {
+                "path": "运输方式",
+                "standardValue": "水路运输",
+                "extractedValue": "水路运输",
+                "matched": true
+            },
+            {
+                "path": "运抵国",
+                "standardValue": "英国",
+                "extractedValue": "英国",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 商品名称",
+                "standardValue": "被套",
+                "extractedValue": "被套",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 数量",
+                "standardValue": "6876条",
+                "extractedValue": "6876条",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 单价",
+                "standardValue": "7.3500美元",
+                "extractedValue": "7.3500美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 总价",
+                "standardValue": "50538.60美元",
+                "extractedValue": "50538.60美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 商品名称",
+                "standardValue": "枕套",
+                "extractedValue": "枕套",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 数量",
+                "standardValue": "9580条",
+                "extractedValue": "9580条",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 单价",
+                "standardValue": "1.2500美元",
+                "extractedValue": "1.2500美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 总价",
+                "standardValue": "11975.00美元",
+                "extractedValue": "11975.00美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 商品名称",
+                "standardValue": "毯子",
+                "extractedValue": "毯子",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 数量",
+                "standardValue": "498条",
+                "extractedValue": "498条",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 单价",
+                "standardValue": "9.5000美元",
+                "extractedValue": "9.5000美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 总价",
+                "standardValue": "4731.00美元",
+                "extractedValue": "4731.00美元",
+                "matched": true
+            },
+            {
+                "path": "商品总数量",
+                "standardValue": "16954件",
+                "extractedValue": "16954件",
+                "matched": true
+            },
+            {
+                "path": "商品总价格",
+                "standardValue": "67244.60美元",
+                "extractedValue": "67244.60美元",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "报关单2_useocr_True",
+        "matchCount": 12,
+        "totalCount": 14,
+        "accuracyRate": 85.71,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "中华人民共和国海关出口货物报关单",
+                "extractedValue": "中华人民共和国海关出口货物报关单",
+                "matched": true
+            },
+            {
+                "path": "合同协议号",
+                "standardValue": "SZSY-BNM24L011/2168",
+                "extractedValue": "SZSY-BNM24L011/2168",
+                "matched": true
+            },
+            {
+                "path": "申报日期",
+                "standardValue": "20241029",
+                "extractedValue": "20241029",
+                "matched": true
+            },
+            {
+                "path": "境内发货人",
+                "standardValue": "苏州顺谊纺织印染有限公司 (91320507756441623U)",
+                "extractedValue": "苏州顺谊纺织印染有限公司 (913205077564416230)",
+                "matched": false
+            },
+            {
+                "path": "境外收货人",
+                "standardValue": "IMPORTADORA AMIGO S.A",
+                "extractedValue": "IMPORTADORA AMIGO S.A",
+                "matched": true
+            },
+            {
+                "path": "生产销售单位",
+                "standardValue": "苏州顺谊纺织印染有限公司 (91320507756441623U)",
+                "extractedValue": "苏州顺谊纺织印染有限公司 (913205077564416230)",
+                "matched": false
+            },
+            {
+                "path": "运输方式",
+                "standardValue": "水路运输",
+                "extractedValue": "水路运输",
+                "matched": true
+            },
+            {
+                "path": "运抵国",
+                "standardValue": "巴拿马 (PAN)",
+                "extractedValue": "巴拿马 (PAN)",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 商品名称",
+                "standardValue": "毯子",
+                "extractedValue": "毯子",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 数量",
+                "standardValue": "19200条",
+                "extractedValue": "19200条",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 单价",
+                "standardValue": "3.3900美元",
+                "extractedValue": "3.3900美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 总价",
+                "standardValue": "65088.00美元",
+                "extractedValue": "65088.00美元",
+                "matched": true
+            },
+            {
+                "path": "商品总数量",
+                "standardValue": "19200条",
+                "extractedValue": "19200条",
+                "matched": true
+            },
+            {
+                "path": "商品总价格",
+                "standardValue": "65088.00美元",
+                "extractedValue": "65088.00美元",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "报关单2_useocr_False",
+        "matchCount": 11,
+        "totalCount": 14,
+        "accuracyRate": 78.57,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "中华人民共和国海关出口货物报关单",
+                "extractedValue": "中华人民共和国海关出口货物报关单",
+                "matched": true
+            },
+            {
+                "path": "合同协议号",
+                "standardValue": "SZSYBNM24L011/2168",
+                "extractedValue": "SZSYBNM24L011/2168",
+                "matched": true
+            },
+            {
+                "path": "申报日期",
+                "standardValue": "20241029",
+                "extractedValue": "20241029",
+                "matched": true
+            },
+            {
+                "path": "境内发货人",
+                "standardValue": "苏州顺谊纺织印染有限公司 (91320507756441623U)",
+                "extractedValue": "苏州顺谊纺织印染有限公司 (913205077564416230)",
+                "matched": false
+            },
+            {
+                "path": "境外收货人",
+                "standardValue": "IMPORTADORA AMIGO S.A.",
+                "extractedValue": "IMPORTADORA AMIGO S.A.",
+                "matched": true
+            },
+            {
+                "path": "生产销售单位",
+                "standardValue": "苏州顺谊纺织印染有限公司 (91320507756441623U)",
+                "extractedValue": "苏州顺谊纺织印染有限公司 (913205077564416230)",
+                "matched": false
+            },
+            {
+                "path": "运输方式",
+                "standardValue": "水路运输",
+                "extractedValue": "水路运输",
+                "matched": true
+            },
+            {
+                "path": "运抵国",
+                "standardValue": "巴拿马",
+                "extractedValue": "巴拿马",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 商品名称",
+                "standardValue": "毯子",
+                "extractedValue": "毯子",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 数量",
+                "standardValue": "19200条",
+                "extractedValue": "19200条",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 单价",
+                "standardValue": "3.3900美元",
+                "extractedValue": "3.3900美元",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 总价",
+                "standardValue": "65088.00美元",
+                "extractedValue": "65088.00美元",
+                "matched": true
+            },
+            {
+                "path": "商品总数量",
+                "standardValue": "19200条",
+                "extractedValue": "37600件",
+                "matched": false
+            },
+            {
+                "path": "商品总价格",
+                "standardValue": "65088.00美元",
+                "extractedValue": "65088.00美元",
+                "matched": true
+            }
+        ]
+    }
+]

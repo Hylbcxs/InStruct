@@ -1,134 +1,25 @@
-[
-    {
-      "fieldName": "单据种类",
-      "fieldValue": "商业发票",
-      "index": 0,
-      "level": 0
+
+  {
+    "单据种类": "商业发票",
+    "发票编号": "LKMD24555",
+    "发票日期": "NOV.18,2024",
+    "卖方信息": {
+      "公司名称": "江苏利康医疗用品有限公司",
+      "地址": "SHEXING RD, BEISHE QOWN WUJIANG CITY, JIANGSU PROVINCE, CHINA P.O. 215214"
     },
-    {
-      "fieldName": "发票编号",
-      "fieldValue": "LKMD24555",
-      "index": 1,
-      "level": 0
+    "买方信息": {
+      "公司名称": "DUKAL LLC",
+      "地址": "2 FLEETWOOD COURT RONKONKOMA, NY 11779"
     },
-    {
-      "fieldName": "发票日期",
-      "fieldValue": "NOV.18,2024",
-      "index": 2,
-      "level": 0
-    },
-    {
-      "fieldName": "卖方信息",
-      "fieldValue": "",
-      "index": 3,
-      "level": 0
-    },
-    {
-      "fieldName": "公司名称",
-      "fieldValue": "JIANGSU LIKANG MEDICAL PRODUCTS CO.,LTD.",
-      "index": 4,
-      "level": 1
-    },
-    {
-      "fieldName": "地址",
-      "fieldValue": "",
-      "index": 5,
-      "level": 1
-    },
-    {
-      "fieldName": "联系方式",
-      "fieldValue": "",
-      "index": 6,
-      "level": 1
-    },
-    {
-      "fieldName": "买方信息",
-      "fieldValue": "",
-      "index": 7,
-      "level": 0
-    },
-    {
-      "fieldName": "公司名称",
-      "fieldValue": "DUKAL LLC",
-      "index": 8,
-      "level": 1
-    },
-    {
-      "fieldName": "地址",
-      "fieldValue": "2 FLEETWOOD COURT RONKONKOMA .NY 11779",
-      "index": 9,
-      "level": 1
-    },
-    {
-      "fieldName": "联系方式",
-      "fieldValue": "",
-      "index": 10,
-      "level": 1
-    },
-    {
-      "fieldName": "出发港口",
-      "fieldValue": "SHANGHAI. CHINA",
-      "index": 11,
-      "level": 0
-    },
-    {
-      "fieldName": "到达港口",
-      "fieldValue": "LA VERGNE.TN 37086",
-      "index": 12,
-      "level": 0
-    },
-    {
-      "fieldName": "货物信息1",
-      "fieldValue": "",
-      "index": 13,
-      "level": 0
-    },
-    {
-      "fieldName": "货物名称",
-      "fieldValue": "ABSORBENT COTTON ROLL",
-      "index": 14,
-      "level": 1
-    },
-    {
-      "fieldName": "数量",
-      "fieldValue": "100 CTNS",
-      "index": 15,
-      "level": 1
-    },
-    {
-      "fieldName": "单价",
-      "fieldValue": "RMB 116.56/CTN",
-      "index": 16,
-      "level": 1
-    },
-    {
-      "fieldName": "总价",
-      "fieldValue": "RMB 11656.00",
-      "index": 17,
-      "level": 1
-    },
-    {
-      "fieldName": "货物总数量",
-      "fieldValue": "100 CTNS",
-      "index": 18,
-      "level": 0
-    },
-    {
-      "fieldName": "货物总价格",
-      "fieldValue": "MB 11656.00",
-      "index": 19,
-      "level": 0
-    },
-    {
-      "fieldName": "印章信息",
-      "fieldValue": "",
-      "index": 20,
-      "level": 0
-    },
-    {
-      "fieldName": "公司名称",
-      "fieldValue": "江苏利康医疗用品有限公司",
-      "index": 21,
-      "level": 1
-    }
-  ]
+    "货物信息": [
+      {
+        "货物名称": "ABSORBENT COTTON ROLL",
+        "数量": "100 CTNS",
+        "单价": "RMB 116.56 / CTN",
+        "总价": "RMB 11656.00"
+      }
+    ],
+    "货物总数量": "100",
+    "货物总价格": "RMB 11656.00"
+  }
+  

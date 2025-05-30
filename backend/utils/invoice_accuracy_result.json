@@ -1,0 +1,2530 @@
+[
+    {
+        "name": "发票_useocr_True",
+        "matchCount": 16,
+        "totalCount": 17,
+        "accuracyRate": 94.12,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "Invoice",
+                "extractedValue": "Invoice",
+                "matched": true
+            },
+            {
+                "path": "发票编号",
+                "standardValue": "240828002",
+                "extractedValue": "24082802",
+                "matched": false
+            },
+            {
+                "path": "发票日期",
+                "standardValue": "2024/08/28",
+                "extractedValue": "2024/08/28",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "MingScape International Co., Ltd.",
+                "extractedValue": "MingScape International Co., Ltd.",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "9, Lane 292, Sec. 1, Ta-Tung Road, Hsi-Chih, Taipei Hsien Taiwan,R.O.C",
+                "extractedValue": "9, Lane 292, Sec. 1, Ta-Tung Road, Hsi-Chih, Taipei Hsien Taiwan, R.O.C.",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 电话",
+                "standardValue": "886-2-86423648",
+                "extractedValue": "886-2-86423648",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 传真",
+                "standardValue": "886-2-26496153",
+                "extractedValue": "886-2-26496153",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "吳江市宏炬印染機械有限公司",
+                "extractedValue": "吴江市宏炬印染機械有限公司",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "吳江區盛澤鎮東港村（227省道西側）",
+                "extractedValue": "吳江區盛澤鎮東港村（227省道西側）",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 电话",
+                "standardValue": "+86-18762436980",
+                "extractedValue": "+86-18762436980",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 传真",
+                "standardValue": "+86-0512-63088273",
+                "extractedValue": "+86-0512-63088273",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "無管路滴液機",
+                "extractedValue": "無管路滴液機",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 数量",
+                "standardValue": "1台",
+                "extractedValue": "1台",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 单价",
+                "standardValue": "RMB 215,000.00",
+                "extractedValue": "RMB 215,000.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 总价",
+                "standardValue": "RMB 215,000.00",
+                "extractedValue": "RMB 215,000.00",
+                "matched": true
+            },
+            {
+                "path": "货物总数量",
+                "standardValue": "1",
+                "extractedValue": "1",
+                "matched": true
+            },
+            {
+                "path": "货物总价格",
+                "standardValue": "RMB 215,000.00",
+                "extractedValue": "RMB 215,000.00",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "发票_useocr_False",
+        "matchCount": 15,
+        "totalCount": 17,
+        "accuracyRate": 88.24,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "Invoice",
+                "extractedValue": "Invoice",
+                "matched": true
+            },
+            {
+                "path": "发票编号",
+                "standardValue": "240828002",
+                "extractedValue": "240828002",
+                "matched": true
+            },
+            {
+                "path": "发票日期",
+                "standardValue": "2024/08/28",
+                "extractedValue": "2024/08/28",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "名璟科技股份有限公司",
+                "extractedValue": "名璟科技股份有限公司",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "9, Lane 292, Sec. 1, Ta-Tung Road, Hsi-Chih, Taipei Hsien Taiwan,R.O.C",
+                "extractedValue": "新北市汐止區大同路一段276號",
+                "matched": false
+            },
+            {
+                "path": "卖方信息 > 电话",
+                "standardValue": "886-2-86423648",
+                "extractedValue": "+86-2-86423648",
+                "matched": false
+            },
+            {
+                "path": "卖方信息 > 传真",
+                "standardValue": "886-2-26496153",
+                "extractedValue": "886-2-26496153",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "吳江市宏炬印染機械有限公司",
+                "extractedValue": "吳江市宏炬印染機械有限公司",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "吳江區盛澤鎮東港村（227省道西側）",
+                "extractedValue": "吳江區盛澤鎮東港村(227省道西側)",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 电话",
+                "standardValue": "+86-18762436980",
+                "extractedValue": "+86-18762436980",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 传真",
+                "standardValue": "+86-0512-63088273",
+                "extractedValue": "+86-0512-63088273",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "無管路滴液機",
+                "extractedValue": "無管路滴液機",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 数量",
+                "standardValue": "1台",
+                "extractedValue": "1台",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 单价",
+                "standardValue": "RMB 215,000.00",
+                "extractedValue": "RMB 215,000.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 总价",
+                "standardValue": "RMB 215,000.00",
+                "extractedValue": "RMB 215,000.00",
+                "matched": true
+            },
+            {
+                "path": "货物总数量",
+                "standardValue": "1",
+                "extractedValue": "1",
+                "matched": true
+            },
+            {
+                "path": "货物总价格",
+                "standardValue": "RMB 215,000.00",
+                "extractedValue": "RMB 215,000.00",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "invoice1_useocr_True",
+        "matchCount": 17,
+        "totalCount": 17,
+        "accuracyRate": 100.0,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "ORIGINAL COMMERCIAL INVOICE",
+                "extractedValue": "ORIGINAL COMMERCIAL INVOICE",
+                "matched": true
+            },
+            {
+                "path": "发票编号",
+                "standardValue": "25XJ019 L/C NO.:147521570110",
+                "extractedValue": "25XJ019 L/C NO.:147521570110",
+                "matched": true
+            },
+            {
+                "path": "发票日期",
+                "standardValue": "MAY 06, 2025",
+                "extractedValue": "MAY 06, 2025",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "SUZHOU TEUA TEXTILE CO., LTD",
+                "extractedValue": "SUZHOU TEUA TEXTILE CO., LTD",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "TESHU VILLAGE, SHENGZE TOWN, WUJIANG DISTRICT SUZHOU CITY, JIANGSU PROVINCE, CHINA",
+                "extractedValue": "TESHU VILLAGE, SHENGZE TOWN, WUJIANG DISTRICT, SUZHOU CITY, JIANGSU PROVINCE, CHINA",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "M/S LYACK INDUSTRIES (PVT) LTD.",
+                "extractedValue": "M/S LYACK INDUSTRIES (PVT) LTD.",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "FACTORY:CHA BANAMAN ROAD EAST MOUCHAK KALIAKOIR, GAZIPUR, BANGLADESH.",
+                "extractedValue": "FACTORY:CHA BANAMAN ROAD, EAST MOUCHAK KALIAKOIR, GAZIPUR, BANGLADESH.",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "Body lining-100% Recycled Polyester 300T Pongee, 65 GSM, Fabric Cuttable: 57",
+                "extractedValue": "Body lining- 100% Recycled Polyester 300T Pongee, 65 GSM, Fabric Cuttable: 57\"",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 数量",
+                "standardValue": "7968 YDS",
+                "extractedValue": "7968 YDS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 单价",
+                "standardValue": "0.7200 USD/YDS",
+                "extractedValue": "0.7200 USD/YDS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 总价",
+                "standardValue": "$5,736.96",
+                "extractedValue": "$5,736.96",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 货物名称",
+                "standardValue": "Body lining-100% Recycled Polyester 300T Pongee, 65 GSM, Fabric Cuttable: 57",
+                "extractedValue": "Body lining- 100% Recycled Polyester 300T Pongee, 65 GSM, Fabric Cuttable: 57\"",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 数量",
+                "standardValue": "2609 YDS",
+                "extractedValue": "2609 YDS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 单价",
+                "standardValue": "0.7200 USD/YDS",
+                "extractedValue": "0.7200 USD/YDS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 总价",
+                "standardValue": "$1,878.48",
+                "extractedValue": "$1,878.48",
+                "matched": true
+            },
+            {
+                "path": "货物总数量",
+                "standardValue": "10577 YDS",
+                "extractedValue": "10577 YDS",
+                "matched": true
+            },
+            {
+                "path": "货物总价格",
+                "standardValue": "$7,615.44",
+                "extractedValue": "$7,615.44",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "invoice1_useocr_False",
+        "matchCount": 17,
+        "totalCount": 17,
+        "accuracyRate": 100.0,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "ORIGINAL COMMERCIAL INVOICE",
+                "extractedValue": "ORIGINAL COMMERCIAL INVOICE",
+                "matched": true
+            },
+            {
+                "path": "发票编号",
+                "standardValue": "25XJ019 L/C NO.:147521570110",
+                "extractedValue": "25XJ019 L/C NO.:147521570110",
+                "matched": true
+            },
+            {
+                "path": "发票日期",
+                "standardValue": "MAY 06, 2025",
+                "extractedValue": "MAY 06, 2025",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "SUZHOU TEUA TEXTILE CO., LTD",
+                "extractedValue": "SUZHOU TEUA TEXTILE CO., LTD",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "TESHU VILLAGE, SHENGZE TOWN, WUJIANG DISTRICT SUZHOU CITY, JIANGSU PROVINCE, CHINA",
+                "extractedValue": "TESHU VILLAGE, SHENGZE TOWN, WUJIANG DISTRICT, SUZHOU CITY, JIANGSU PROVINCE, CHINA",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "M/S LYACK INDUSTRIES (PVT) LTD.",
+                "extractedValue": "M/S LYACK INDUSTRIES (PVT) LTD.",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "FACTORY:CHA BANAMAN ROAD EAST MOUCHAK KALIAKOIR, GAZIPUR, BANGLADESH.",
+                "extractedValue": "FACTORY:CHA BANAMAN ROAD,EAST MOUCHAK KALIAKOIR,GAZIPUR,BANGLADESH.",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "Body lining-100% Recycled Polyester 300T Pongee, 65 GSM, Fabric Cuttable: 57",
+                "extractedValue": "Body lining-100% Recycled Polyester 300T Pongee, 65 GSM, Fabric Cuttable: 57\"",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 数量",
+                "standardValue": "7968 YDS",
+                "extractedValue": "7968 YDS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 单价",
+                "standardValue": "0.7200 USD/YDS",
+                "extractedValue": "0.7200 USD/YDS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 总价",
+                "standardValue": "$5,736.96",
+                "extractedValue": "$5,736.96",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 货物名称",
+                "standardValue": "Body lining-100% Recycled Polyester 300T Pongee, 65 GSM, Fabric Cuttable: 57",
+                "extractedValue": "Body lining-100% Recycled Polyester 300T Pongee, 65 GSM, Fabric Cuttable: 57\"",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 数量",
+                "standardValue": "2609 YDS",
+                "extractedValue": "2609 YDS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 单价",
+                "standardValue": "0.7200 USD/YDS",
+                "extractedValue": "0.7200 USD/YDS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 总价",
+                "standardValue": "$1,878.48",
+                "extractedValue": "$1,878.48",
+                "matched": true
+            },
+            {
+                "path": "货物总数量",
+                "standardValue": "10577 YDS",
+                "extractedValue": "10577 YDS",
+                "matched": true
+            },
+            {
+                "path": "货物总价格",
+                "standardValue": "$7,615.44",
+                "extractedValue": "$7,615.44",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "invoice2_useocr_True",
+        "matchCount": 15,
+        "totalCount": 17,
+        "accuracyRate": 88.24,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "COMMERCIAL INVOICE",
+                "extractedValue": "COMMERCIAL INVOICE",
+                "matched": true
+            },
+            {
+                "path": "发票编号",
+                "standardValue": "25XJ921",
+                "extractedValue": "25XJ921",
+                "matched": true
+            },
+            {
+                "path": "发票日期",
+                "standardValue": "MAY,06,2025",
+                "extractedValue": "MAY,06,2025",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "SUZHOU TEUA TEXTILE CO., LTD",
+                "extractedValue": "SUZHOU TEUA TEXTILE CO., LTD",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "TESHU VILLAGE, SHENGZE TOWN, WUJIANG DISTRICT, SUZHOU CITY, JIANGSU PROVINCE, CHINA",
+                "extractedValue": "TESHU VILLAGE, SHENGZE TOWN, WUJIANG DISTRICT, SUZHOU CITY, JIANGSU PROVINCE, CHINA",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "M/S LYEC INDUSTRIES (PVT) LTD.",
+                "extractedValue": "M/S LYEC INDUSTRIES (PVT) LTD.",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "FACTORY:CHA BANG ROAD, EAST MOUCHAK KALIAKOIR, GAZIPUR, BANGLADESH.",
+                "extractedValue": "FACTORY:CHA BANG ROAD,EAST MOUCHAK KALIAKOIR,GAZIPUR,BANGLADESH.",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "Body lining-100% Recycled Polyester 300T Pongee, 65 GSM, Fabric Cuttable: 57",
+                "extractedValue": "FABRICS FOR 100 PCT EXPORT ORIENTED READY MADE GARMENTS",
+                "matched": false
+            },
+            {
+                "path": "货物信息[0] > 数量",
+                "standardValue": "7968 YDS",
+                "extractedValue": "7968 YDS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 单价",
+                "standardValue": "0.7200 USD/YDS",
+                "extractedValue": "0.7200 USD/YDS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 总价",
+                "standardValue": "$5,736.96",
+                "extractedValue": "$5,736.96",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 货物名称",
+                "standardValue": "Body lining-100% Recycled Polyester 300T Pongee, 65 GSM, Fabric Cuttable: 57",
+                "extractedValue": "FABRICS FOR 100 PCT EXPORT ORIENTED READY MADE GARMENTS",
+                "matched": false
+            },
+            {
+                "path": "货物信息[1] > 数量",
+                "standardValue": "2609 YDS",
+                "extractedValue": "2609 YDS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 单价",
+                "standardValue": "0.7200 USD/YDS",
+                "extractedValue": "0.7200 USD/YDS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 总价",
+                "standardValue": "$1,878.48",
+                "extractedValue": "$1,878.48",
+                "matched": true
+            },
+            {
+                "path": "货物总数量",
+                "standardValue": "10577 YDS",
+                "extractedValue": "10577 YDS",
+                "matched": true
+            },
+            {
+                "path": "货物总价",
+                "standardValue": "$7,615.44",
+                "extractedValue": "$7,615.44",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "invoice2_useocr_False",
+        "matchCount": 13,
+        "totalCount": 17,
+        "accuracyRate": 76.47,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "COMMERCIAL INVOICE",
+                "extractedValue": "COMMERCIAL INVOICE",
+                "matched": true
+            },
+            {
+                "path": "发票编号",
+                "standardValue": "25XJ921",
+                "extractedValue": "25XJ921",
+                "matched": true
+            },
+            {
+                "path": "发票日期",
+                "standardValue": "MAY 06, 2025",
+                "extractedValue": "MAY 06, 2025",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "SUZHOU TEUA TEXTILE CO., LTD",
+                "extractedValue": "SUZHOU TEUA TEXTILE CO., LTD",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "TESHU VILLAGE, SHENGZE TOWN, WUJIANG DISTRICT, SUZHOU CITY, JIANGSU PROVINCE, CHINA",
+                "extractedValue": "TESHU VILLAGE, SHENGZE TOWN, WUJIANG DISTRICT, SUZHOU CITY, JIANGSU PROVINCE, CHINA",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "M/S LYEC INDUSTRIES (PVT) LTD.",
+                "extractedValue": "M/S LYEC INDUSTRIES (PVT) LTD.",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "FACTORY:CHA BANG ROAD, EAST MOUCHAK KALIAKOIR, GAZIPUR, BANGLADESH.",
+                "extractedValue": "FACTORY:CHA BANG ROAD,EAST MOUCHAK KALIAKOIR,GAZIPUR,BANGLADESH.",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "Body lining-100% Recycled Polyester 300T Pongee, 65 GSM, Fabric Cuttable: 57",
+                "extractedValue": "FABRICS FOR 100 PCT EXPORT ORIENTED READY MADE GARMENTS INDUSTRY",
+                "matched": false
+            },
+            {
+                "path": "货物信息[0] > 数量",
+                "standardValue": "7968 YDS",
+                "extractedValue": "7968 YDS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 单价",
+                "standardValue": "0.7200 USD/YDS",
+                "extractedValue": "0.7200 USD/YD",
+                "matched": false
+            },
+            {
+                "path": "货物信息[0] > 总价",
+                "standardValue": "$5,736.96",
+                "extractedValue": "$5,736.96",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 货物名称",
+                "standardValue": "Body lining-100% Recycled Polyester 300T Pongee, 65 GSM, Fabric Cuttable: 57",
+                "extractedValue": "FABRICS FOR 100 PCT EXPORT ORIENTED READY MADE GARMENTS INDUSTRY",
+                "matched": false
+            },
+            {
+                "path": "货物信息[1] > 数量",
+                "standardValue": "2609 YDS",
+                "extractedValue": "2609 YDS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 单价",
+                "standardValue": "0.7200 USD/YDS",
+                "extractedValue": "0.7200 USD/YD",
+                "matched": false
+            },
+            {
+                "path": "货物信息[1] > 总价",
+                "standardValue": "$1,878.48",
+                "extractedValue": "$1,878.48",
+                "matched": true
+            },
+            {
+                "path": "货物总数量",
+                "standardValue": "10577 YDS",
+                "extractedValue": "10577 YDS",
+                "matched": true
+            },
+            {
+                "path": "货物总价格",
+                "standardValue": "$7,615.44",
+                "extractedValue": "$7,615.44",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "发票2_useocr_False",
+        "matchCount": 61,
+        "totalCount": 73,
+        "accuracyRate": 83.56,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "INVOICE",
+                "extractedValue": "INVOICE",
+                "matched": true
+            },
+            {
+                "path": "发票编号",
+                "standardValue": "LWC202406JS001",
+                "extractedValue": "LWC202406J8001",
+                "matched": false
+            },
+            {
+                "path": "发票日期",
+                "standardValue": "2024-6-25",
+                "extractedValue": "2024-6-25",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "江苏联炜诚电子科技有限公司",
+                "extractedValue": "江苏联炜城电子科技有限公司",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "江苏省昆山市巴城镇东盛路350号",
+                "extractedValue": "江苏省昆山市巴城镇东盛路350号",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 电话",
+                "standardValue": "+86-512-3669-6920",
+                "extractedValue": "+86-512-3669-6920",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 传真",
+                "standardValue": "+86-512-3669-6921",
+                "extractedValue": "+86-512-3669-6921",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "苏州精实电子科技有限公司",
+                "extractedValue": "苏州精实电子科技有限公司",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "江苏吴江经济开发区益胜路南製",
+                "extractedValue": "江苏省吴江经济开发区益胜路南侧",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 电话",
+                "standardValue": "0512-85166666",
+                "extractedValue": "15012-8516666",
+                "matched": false
+            },
+            {
+                "path": "买方信息 > 传真",
+                "standardValue": "0512-85167777",
+                "extractedValue": "15012-8516777",
+                "matched": false
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "连接器",
+                "extractedValue": "连接器",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 数量",
+                "standardValue": "9.00",
+                "extractedValue": "9.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 单价",
+                "standardValue": "26.000",
+                "extractedValue": "26.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 总价",
+                "standardValue": "234.00",
+                "extractedValue": "234.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 货物名称",
+                "standardValue": "连接器",
+                "extractedValue": "连接器",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 数量",
+                "standardValue": "10.00",
+                "extractedValue": "10.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 单价",
+                "standardValue": "33.000",
+                "extractedValue": "33.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 总价",
+                "standardValue": "330.00",
+                "extractedValue": "330.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[2] > 货物名称",
+                "standardValue": "连接器",
+                "extractedValue": "连接器",
+                "matched": true
+            },
+            {
+                "path": "货物信息[2] > 数量",
+                "standardValue": "10.00",
+                "extractedValue": "33.000",
+                "matched": false
+            },
+            {
+                "path": "货物信息[2] > 单价",
+                "standardValue": "46.000",
+                "extractedValue": "460.00",
+                "matched": false
+            },
+            {
+                "path": "货物信息[2] > 总价",
+                "standardValue": "460.00",
+                "extractedValue": "14,880.00",
+                "matched": false
+            },
+            {
+                "path": "货物信息[3] > 货物名称",
+                "standardValue": "连接器零件",
+                "extractedValue": "连接器零件",
+                "matched": true
+            },
+            {
+                "path": "货物信息[3] > 数量",
+                "standardValue": "11.00",
+                "extractedValue": "11.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[3] > 单价",
+                "standardValue": "13.00",
+                "extractedValue": "13.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[3] > 总价",
+                "standardValue": "143.00",
+                "extractedValue": "143.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[4] > 货物名称",
+                "standardValue": "连接器",
+                "extractedValue": "连接器",
+                "matched": true
+            },
+            {
+                "path": "货物信息[4] > 数量",
+                "standardValue": "4.000",
+                "extractedValue": "4.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[4] > 单价",
+                "standardValue": "50.000",
+                "extractedValue": "50.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[4] > 总价",
+                "standardValue": "200.00",
+                "extractedValue": "200.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[5] > 货物名称",
+                "standardValue": "连接器",
+                "extractedValue": "连接器",
+                "matched": true
+            },
+            {
+                "path": "货物信息[5] > 数量",
+                "standardValue": "20.000",
+                "extractedValue": "20.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[5] > 单价",
+                "standardValue": "50.500",
+                "extractedValue": "50.500",
+                "matched": true
+            },
+            {
+                "path": "货物信息[5] > 总价",
+                "standardValue": "1,010.00",
+                "extractedValue": "1,010.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[6] > 货物名称",
+                "standardValue": "连接器",
+                "extractedValue": "连接器",
+                "matched": true
+            },
+            {
+                "path": "货物信息[6] > 数量",
+                "standardValue": "10.00",
+                "extractedValue": "3.000",
+                "matched": false
+            },
+            {
+                "path": "货物信息[6] > 单价",
+                "standardValue": "148.000",
+                "extractedValue": "498.000",
+                "matched": false
+            },
+            {
+                "path": "货物信息[6] > 总价",
+                "standardValue": "1480.00",
+                "extractedValue": "1,494.00",
+                "matched": false
+            },
+            {
+                "path": "货物信息[7] > 货物名称",
+                "standardValue": "连接器零件",
+                "extractedValue": "连接器零件",
+                "matched": true
+            },
+            {
+                "path": "货物信息[7] > 数量",
+                "standardValue": "9.00",
+                "extractedValue": "16.000",
+                "matched": false
+            },
+            {
+                "path": "货物信息[7] > 单价",
+                "standardValue": "16.000",
+                "extractedValue": "144.00",
+                "matched": false
+            },
+            {
+                "path": "货物信息[7] > 总价",
+                "standardValue": "144.00",
+                "extractedValue": "2,304.00",
+                "matched": false
+            },
+            {
+                "path": "货物信息[8] > 货物名称",
+                "standardValue": "金属壳",
+                "extractedValue": "金属壳",
+                "matched": true
+            },
+            {
+                "path": "货物信息[8] > 数量",
+                "standardValue": "10.00",
+                "extractedValue": "10.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[8] > 单价",
+                "standardValue": "15.000",
+                "extractedValue": "15.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[8] > 总价",
+                "standardValue": "150.00",
+                "extractedValue": "150.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[9] > 货物名称",
+                "standardValue": "金属壳",
+                "extractedValue": "金属壳",
+                "matched": true
+            },
+            {
+                "path": "货物信息[9] > 数量",
+                "standardValue": "10.00",
+                "extractedValue": "10.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[9] > 单价",
+                "standardValue": "15.000",
+                "extractedValue": "15.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[9] > 总价",
+                "standardValue": "150.00",
+                "extractedValue": "150.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[10] > 货物名称",
+                "standardValue": "金属壳",
+                "extractedValue": "金属壳",
+                "matched": true
+            },
+            {
+                "path": "货物信息[10] > 数量",
+                "standardValue": "15.00",
+                "extractedValue": "15.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[10] > 单价",
+                "standardValue": "18.000",
+                "extractedValue": "18.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[10] > 总价",
+                "standardValue": "270.00",
+                "extractedValue": "270.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[11] > 货物名称",
+                "standardValue": "金属壳",
+                "extractedValue": "金属壳",
+                "matched": true
+            },
+            {
+                "path": "货物信息[11] > 数量",
+                "standardValue": "5.00",
+                "extractedValue": "5.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[11] > 单价",
+                "standardValue": "15.000",
+                "extractedValue": "15.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[11] > 总价",
+                "standardValue": "75.00",
+                "extractedValue": "75.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[12] > 货物名称",
+                "standardValue": "金属壳",
+                "extractedValue": "金属壳",
+                "matched": true
+            },
+            {
+                "path": "货物信息[12] > 数量",
+                "standardValue": "15.00",
+                "extractedValue": "15.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[12] > 单价",
+                "standardValue": "14.000",
+                "extractedValue": "14.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[12] > 总价",
+                "standardValue": "210.00",
+                "extractedValue": "210.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[13] > 货物名称",
+                "standardValue": "金属壳",
+                "extractedValue": "金属壳",
+                "matched": true
+            },
+            {
+                "path": "货物信息[13] > 数量",
+                "standardValue": "5.00",
+                "extractedValue": "5.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[13] > 单价",
+                "standardValue": "15.000",
+                "extractedValue": "15.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[13] > 总价",
+                "standardValue": "75.00",
+                "extractedValue": "75.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[14] > 货物名称",
+                "standardValue": "金属壳",
+                "extractedValue": "金属壳",
+                "matched": true
+            },
+            {
+                "path": "货物信息[14] > 数量",
+                "standardValue": "5.00",
+                "extractedValue": "5.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[14] > 单价",
+                "standardValue": "21.000",
+                "extractedValue": "21.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[14] > 总价",
+                "standardValue": "105.00",
+                "extractedValue": "105.00",
+                "matched": true
+            },
+            {
+                "path": "货物总数量",
+                "standardValue": "148.000",
+                "extractedValue": "148.000",
+                "matched": true
+            },
+            {
+                "path": "货物总价格",
+                "standardValue": "5,036.00",
+                "extractedValue": "5,036.00",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "发票2_useocr_True",
+        "matchCount": 62,
+        "totalCount": 73,
+        "accuracyRate": 84.93,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "INVOICE",
+                "extractedValue": "INVOICE",
+                "matched": true
+            },
+            {
+                "path": "发票编号",
+                "standardValue": "LWC202406JS001",
+                "extractedValue": "LWC202406JS001",
+                "matched": true
+            },
+            {
+                "path": "发票日期",
+                "standardValue": "2024-6-25",
+                "extractedValue": "2024-6-25",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "江苏联炜诚电子科技有限公司",
+                "extractedValue": "江苏联炜诚电子科技有限公司",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "江苏省昆山市巴城镇东盛路350号",
+                "extractedValue": "江苏省昆山市巴城镇东盛路350号",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 电话",
+                "standardValue": "+86-512-3669-6920",
+                "extractedValue": "+86-512-3669-6920",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 传真",
+                "standardValue": "+86-512-3669-6921",
+                "extractedValue": "+86-512-3669-6921",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "苏州精实电子科技有限公司",
+                "extractedValue": "苏州精实电子科技有限公司",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "江苏吴江经济开发区益胜路南製",
+                "extractedValue": "江苏吴江经济开发区益胜路南侧",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 电话",
+                "standardValue": "0512-85166666",
+                "extractedValue": "0512-85166666, 0512-85167777",
+                "matched": false
+            },
+            {
+                "path": "买方信息 > 传真",
+                "standardValue": "0512-85167777",
+                "extractedValue": "",
+                "matched": false
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "连接器",
+                "extractedValue": "连接器",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 数量",
+                "standardValue": "9.00",
+                "extractedValue": "9.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 单价",
+                "standardValue": "26.000",
+                "extractedValue": "26.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 总价",
+                "standardValue": "234.00",
+                "extractedValue": "234.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 货物名称",
+                "standardValue": "连接器",
+                "extractedValue": "连接器",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 数量",
+                "standardValue": "10.00",
+                "extractedValue": "10.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 单价",
+                "standardValue": "33.000",
+                "extractedValue": "33.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 总价",
+                "standardValue": "330.00",
+                "extractedValue": "330.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[2] > 货物名称",
+                "standardValue": "连接器",
+                "extractedValue": "连接器",
+                "matched": true
+            },
+            {
+                "path": "货物信息[2] > 数量",
+                "standardValue": "10.00",
+                "extractedValue": "46.000",
+                "matched": false
+            },
+            {
+                "path": "货物信息[2] > 单价",
+                "standardValue": "46.000",
+                "extractedValue": "",
+                "matched": false
+            },
+            {
+                "path": "货物信息[2] > 总价",
+                "standardValue": "460.00",
+                "extractedValue": "460.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[3] > 货物名称",
+                "standardValue": "连接器零件",
+                "extractedValue": "连接器零件",
+                "matched": true
+            },
+            {
+                "path": "货物信息[3] > 数量",
+                "standardValue": "11.00",
+                "extractedValue": "11.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[3] > 单价",
+                "standardValue": "13.00",
+                "extractedValue": "",
+                "matched": false
+            },
+            {
+                "path": "货物信息[3] > 总价",
+                "standardValue": "143.00",
+                "extractedValue": "143.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[4] > 货物名称",
+                "standardValue": "连接器",
+                "extractedValue": "连接器",
+                "matched": true
+            },
+            {
+                "path": "货物信息[4] > 数量",
+                "standardValue": "4.000",
+                "extractedValue": "50.000",
+                "matched": false
+            },
+            {
+                "path": "货物信息[4] > 单价",
+                "standardValue": "50.000",
+                "extractedValue": "",
+                "matched": false
+            },
+            {
+                "path": "货物信息[4] > 总价",
+                "standardValue": "200.00",
+                "extractedValue": "200.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[5] > 货物名称",
+                "standardValue": "连接器",
+                "extractedValue": "连接器",
+                "matched": true
+            },
+            {
+                "path": "货物信息[5] > 数量",
+                "standardValue": "20.00",
+                "extractedValue": "20.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[5] > 单价",
+                "standardValue": "50.500",
+                "extractedValue": "50.500",
+                "matched": true
+            },
+            {
+                "path": "货物信息[5] > 总价",
+                "standardValue": "1,010.00",
+                "extractedValue": "1,010.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[6] > 货物名称",
+                "standardValue": "连接器",
+                "extractedValue": "连接器",
+                "matched": true
+            },
+            {
+                "path": "货物信息[6] > 数量",
+                "standardValue": "10.00",
+                "extractedValue": "",
+                "matched": false
+            },
+            {
+                "path": "货物信息[6] > 单价",
+                "standardValue": "148.000",
+                "extractedValue": "",
+                "matched": false
+            },
+            {
+                "path": "货物信息[6] > 总价",
+                "standardValue": "1,480.00",
+                "extractedValue": "1,480.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[7] > 货物名称",
+                "standardValue": "连接器零件",
+                "extractedValue": "连接器零件",
+                "matched": true
+            },
+            {
+                "path": "货物信息[7] > 数量",
+                "standardValue": "9.00",
+                "extractedValue": "16.000",
+                "matched": false
+            },
+            {
+                "path": "货物信息[7] > 单价",
+                "standardValue": "16.000",
+                "extractedValue": "",
+                "matched": false
+            },
+            {
+                "path": "货物信息[7] > 总价",
+                "standardValue": "144.00",
+                "extractedValue": "144.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[8] > 货物名称",
+                "standardValue": "金属壳",
+                "extractedValue": "金属壳",
+                "matched": true
+            },
+            {
+                "path": "货物信息[8] > 数量",
+                "standardValue": "10.00",
+                "extractedValue": "10.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[8] > 单价",
+                "standardValue": "15.000",
+                "extractedValue": "15.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[8] > 总价",
+                "standardValue": "150.00",
+                "extractedValue": "150.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[9] > 货物名称",
+                "standardValue": "金属壳",
+                "extractedValue": "金属壳",
+                "matched": true
+            },
+            {
+                "path": "货物信息[9] > 数量",
+                "standardValue": "10.00",
+                "extractedValue": "10.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[9] > 单价",
+                "standardValue": "15.000",
+                "extractedValue": "15.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[9] > 总价",
+                "standardValue": "150.00",
+                "extractedValue": "150.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[10] > 货物名称",
+                "standardValue": "金属壳",
+                "extractedValue": "金属壳",
+                "matched": true
+            },
+            {
+                "path": "货物信息[10] > 数量",
+                "standardValue": "15.00",
+                "extractedValue": "15.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[10] > 单价",
+                "standardValue": "18.000",
+                "extractedValue": "18.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[10] > 总价",
+                "standardValue": "270.00",
+                "extractedValue": "270.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[11] > 货物名称",
+                "standardValue": "金属壳",
+                "extractedValue": "金属壳",
+                "matched": true
+            },
+            {
+                "path": "货物信息[11] > 数量",
+                "standardValue": "5.00",
+                "extractedValue": "5.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[11] > 单价",
+                "standardValue": "15.000",
+                "extractedValue": "15.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[11] > 总价",
+                "standardValue": "75.00",
+                "extractedValue": "75.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[12] > 货物名称",
+                "standardValue": "金属壳",
+                "extractedValue": "金属壳",
+                "matched": true
+            },
+            {
+                "path": "货物信息[12] > 数量",
+                "standardValue": "15.00",
+                "extractedValue": "15.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[12] > 单价",
+                "standardValue": "14.000",
+                "extractedValue": "14.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[12] > 总价",
+                "standardValue": "210.00",
+                "extractedValue": "210.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[13] > 货物名称",
+                "standardValue": "金属壳",
+                "extractedValue": "金属壳",
+                "matched": true
+            },
+            {
+                "path": "货物信息[13] > 数量",
+                "standardValue": "5.00",
+                "extractedValue": "5.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[13] > 单价",
+                "standardValue": "15.000",
+                "extractedValue": "15.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[13] > 总价",
+                "standardValue": "75.00",
+                "extractedValue": "75.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[14] > 货物名称",
+                "standardValue": "金属壳",
+                "extractedValue": "金属壳",
+                "matched": true
+            },
+            {
+                "path": "货物信息[14] > 数量",
+                "standardValue": "5.00",
+                "extractedValue": "5.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[14] > 单价",
+                "standardValue": "21.000",
+                "extractedValue": "21.000",
+                "matched": true
+            },
+            {
+                "path": "货物信息[14] > 总价",
+                "standardValue": "105.00",
+                "extractedValue": "105.00",
+                "matched": true
+            },
+            {
+                "path": "货物总数量",
+                "standardValue": "148.000",
+                "extractedValue": "148.000",
+                "matched": true
+            },
+            {
+                "path": "货物总价",
+                "standardValue": "5,036.00",
+                "extractedValue": "5,036.00",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "发票5_useocr_False",
+        "matchCount": 17,
+        "totalCount": 17,
+        "accuracyRate": 100.0,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "COMMERCIAL INVOICE",
+                "extractedValue": "COMMERCIAL INVOICE",
+                "matched": true
+            },
+            {
+                "path": "发票编号",
+                "standardValue": "FY240510",
+                "extractedValue": "FY240510",
+                "matched": true
+            },
+            {
+                "path": "发票日期",
+                "standardValue": "MAY.09, 2024",
+                "extractedValue": "MAY.09, 2024",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "鴻榮染整機械股份有限公司",
+                "extractedValue": "鴻榮染整機械股份有限公司",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "新北市樹林區俊安街45號 No.45, Jiunn An St. Shu Lin Dist, New Taipei City, Taiwan, China",
+                "extractedValue": "新北市樹林區俊安街45號 No.45, Jiunn An St. Shu Lin Dist, New Taipei City, Taiwan, China",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 电话",
+                "standardValue": "02-26893135",
+                "extractedValue": "02-26893135",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 传真",
+                "standardValue": "02-26891318",
+                "extractedValue": "02-26891318",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "吳江市天海進出口有限公司",
+                "extractedValue": "吳江市天海進出口有限公司",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "ROOM 801, SHANGLING BUILDING, NO.1729 SOUTH XHONGSHAN ROAD, WUJIANG CITY, JIANGSU CHINA 江蘇省吳江市中山南路1729號上領大廈801室",
+                "extractedValue": "ROOM 801, SHANGLING BUILDING, NO.1729 SOUTH ZHONGSHAN ROAD, WUJIANG CITY, JIANGSU CHINA 江蘇省吳江市中山南路1729號上領大廈801室",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 电话",
+                "standardValue": "0512-63422562",
+                "extractedValue": "0512-63422562",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 传真",
+                "standardValue": "0512-63428269",
+                "extractedValue": "0512-63428269",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "OPEN SOAPER DESIZING MACHINE",
+                "extractedValue": "OPEN SOAPER DESIZING MACHINE",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 数量",
+                "standardValue": "1 SET",
+                "extractedValue": "1 SET",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 单价",
+                "standardValue": "CNY2,380,000.00",
+                "extractedValue": "CNY2,380,000.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 总价",
+                "standardValue": "CNY2,380,000.00",
+                "extractedValue": "CNY2,380,000.00",
+                "matched": true
+            },
+            {
+                "path": "货物总数量",
+                "standardValue": "1 SET",
+                "extractedValue": "1 SET",
+                "matched": true
+            },
+            {
+                "path": "货物总价格",
+                "standardValue": "CNY2,380,000.00",
+                "extractedValue": "CNY2,380,000.00",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "发票5_useocr_True",
+        "matchCount": 17,
+        "totalCount": 17,
+        "accuracyRate": 100.0,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "COMMERCIAL INVOICE",
+                "extractedValue": "COMMERCIAL INVOICE",
+                "matched": true
+            },
+            {
+                "path": "发票编号",
+                "standardValue": "FY240510",
+                "extractedValue": "FY240510",
+                "matched": true
+            },
+            {
+                "path": "发票日期",
+                "standardValue": "MAY.09,2024",
+                "extractedValue": "MAY.09,2024",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "鴻榮染整機械股份有限公司",
+                "extractedValue": "鴻榮染整機械股份有限公司",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "新北市樹林區俊安街45號 No.45, Jiunn An St. Shu Lin Dist, New Taipei City, Taiwan, China",
+                "extractedValue": "新北市樹林區俊安街45號 No.45, Jiunn An St. Shu Lin Dist, New Taipei City, Taiwan, China",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 电话",
+                "standardValue": "02-26893135",
+                "extractedValue": "02-26893135",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 传真",
+                "standardValue": "02-26891318",
+                "extractedValue": "02-26891318",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "吳江市天海進出口有限公司 WUJIANG TIANHAI IMPORT AND EXPORT CO., LTD.",
+                "extractedValue": "吳江市天海進出口有限公司 WUJIANG TIANHAI IMPORT AND EXPORT CO., LTD.",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "江蘇省吳江市中山南路1729號上領大廈801室 ROOM 801, SHANGLING BUILDING, NO.1729 SOUTH XHONGSHAN ROAD, WUJIANG CITY, JIANGSU CHINA ",
+                "extractedValue": "江蘇省吴江市中山南路1729號上领大厦801室 ROOM 801, SHANGLING BUILDING, NO.1729 SOUTH ZHONGSHAN ROAD, WUJIANG CITY, JIANGSU CHINA",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 电话",
+                "standardValue": "0512-63422562",
+                "extractedValue": "0512-63422562",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 传真",
+                "standardValue": "0512-63428269",
+                "extractedValue": "0512-63428269",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "OPEN SOAPER DESIZING MACHINE",
+                "extractedValue": "OPEN SOAPER DESIZING MACHINE",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 数量",
+                "standardValue": "1 SET",
+                "extractedValue": "1 SET",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 单价",
+                "standardValue": "CNY2,380,000.00",
+                "extractedValue": "CNY2,380,000.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 总价",
+                "standardValue": "CNY2,380,000.00",
+                "extractedValue": "CNY2,380,000.00",
+                "matched": true
+            },
+            {
+                "path": "货物总数量",
+                "standardValue": "1 SET",
+                "extractedValue": "1 SET",
+                "matched": true
+            },
+            {
+                "path": "货物总价",
+                "standardValue": "CNY2,380,000.00",
+                "extractedValue": "CNY2,380,000.00",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "发票6_useocr_True",
+        "matchCount": 21,
+        "totalCount": 21,
+        "accuracyRate": 100.0,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "COMMERCIAL INVOICE",
+                "extractedValue": "COMMERCIAL INVOICE",
+                "matched": true
+            },
+            {
+                "path": "发票编号",
+                "standardValue": "YX24062TH",
+                "extractedValue": "YX24062TH",
+                "matched": true
+            },
+            {
+                "path": "发票日期",
+                "standardValue": "18-Dec-24",
+                "extractedValue": "18-Dec-24",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "SUZHOU YOUXINUO TRADING CO., LTD.",
+                "extractedValue": "SUZHOU YOUXINUO TRADING CO., LTD.",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "Wujiang District of the Fenhu Town of Beishe Community in the East Village",
+                "extractedValue": "Wujiang District of the Fenhu Town of Beishe Community in the East Village",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 电话",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 传真",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "TOHO LAMAC CO., LTD",
+                "extractedValue": "TOHO LAMAC CO., LTD",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "42-6 3-CHOME YUSHIMA BUNKYO-KU, TOKYO 113-8513, JAPAN",
+                "extractedValue": "42-6 3-CHOME YUSHIMA BUNKYO-KU, TOKYO 113-8513, JAPAN",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 电话",
+                "standardValue": "+81-3-3834-4262",
+                "extractedValue": "+81-3-3834-4262",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 传真",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "FOOTWEAR",
+                "extractedValue": "FOOTWEAR",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 数量",
+                "standardValue": "4662",
+                "extractedValue": "4662",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 单价",
+                "standardValue": "￥46.73",
+                "extractedValue": "￥46.73",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 总价",
+                "standardValue": "￥217,840.00",
+                "extractedValue": "￥217,840.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 货物名称",
+                "standardValue": "FOOTWEAR",
+                "extractedValue": "FOOTWEAR",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 数量",
+                "standardValue": "2712",
+                "extractedValue": "2712",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 单价",
+                "standardValue": "￥40.00",
+                "extractedValue": "￥40.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 总价",
+                "standardValue": "￥108,480.00",
+                "extractedValue": "￥108,480.00",
+                "matched": true
+            },
+            {
+                "path": "货物总数量",
+                "standardValue": "7374",
+                "extractedValue": "7374",
+                "matched": true
+            },
+            {
+                "path": "货物总价",
+                "standardValue": "￥326,320.00",
+                "extractedValue": "￥326,320.00",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "发票6_useocr_False",
+        "matchCount": 21,
+        "totalCount": 21,
+        "accuracyRate": 100.0,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "COMMERCIAL INVOICE",
+                "extractedValue": "COMMERCIAL INVOICE",
+                "matched": true
+            },
+            {
+                "path": "发票编号",
+                "standardValue": "YX24062TH",
+                "extractedValue": "YX24062TH",
+                "matched": true
+            },
+            {
+                "path": "发票日期",
+                "standardValue": "18-Dec-24",
+                "extractedValue": "18-Dec-24",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "SUZHOU YOUXINUO TRADING CO., LTD.",
+                "extractedValue": "SUZHOU YOUXINUO TRADING CO., LTD.",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "Wujiang District of the Fenhu Town of Beishe Community in the East Village",
+                "extractedValue": "Wujiang District of the Fenhu Town of Beishe Community in the East Village",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 电话",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 传真",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "TOHO LAMAC CO., LTD",
+                "extractedValue": "TOHO LAMAC CO., LTD",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "42-6 3-CHOME YUSHIMA BUNKYO-KU, TOKYO 113-8513, JAPAN",
+                "extractedValue": "42-6 3-CHOME YUSHIMA BUNKYO-KU, TOKYO 113-8513, JAPAN",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 电话",
+                "standardValue": "+81-3-3834-4262",
+                "extractedValue": "+81-3-3834-4262",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 传真",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "FOOTWEAR",
+                "extractedValue": "FOOTWEAR",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 数量",
+                "standardValue": "4662",
+                "extractedValue": "4662",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 单价",
+                "standardValue": "¥46.73",
+                "extractedValue": "¥46.73",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 总价",
+                "standardValue": "¥217,840.00",
+                "extractedValue": "¥217,840.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 货物名称",
+                "standardValue": "FOOTWEAR",
+                "extractedValue": "FOOTWEAR",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 数量",
+                "standardValue": "2712",
+                "extractedValue": "2712",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 单价",
+                "standardValue": "¥40.00",
+                "extractedValue": "¥40.00",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 总价",
+                "standardValue": "¥108,480.00",
+                "extractedValue": "¥108,480.00",
+                "matched": true
+            },
+            {
+                "path": "货物总数量",
+                "standardValue": "7374",
+                "extractedValue": "7374",
+                "matched": true
+            },
+            {
+                "path": "货物总价格",
+                "standardValue": "¥326,320.00",
+                "extractedValue": "¥326,320.00",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "发票7_useocr_True",
+        "matchCount": 13,
+        "totalCount": 13,
+        "accuracyRate": 100.0,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "商业发票",
+                "extractedValue": "商业发票",
+                "matched": true
+            },
+            {
+                "path": "发票编号",
+                "standardValue": "LKMD24555",
+                "extractedValue": "LKMD24555",
+                "matched": true
+            },
+            {
+                "path": "发票日期",
+                "standardValue": "NOV.18,2024",
+                "extractedValue": "NOV.18,2024",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "江苏利康医疗用品有限公司",
+                "extractedValue": "江苏利康医疗用品有限公司",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "SHEXING RD, BEISHE QOWN WUJIANG CITY, JIANGSU PROVINCE, CHINA P.O. 215214",
+                "extractedValue": "SHEXING RD, BEISHE TOWN WUJIANG CITY, JIANGSU PROVINCE, CHINA P.O. 215214",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "DUKAL LLC",
+                "extractedValue": "DUKAL LLC",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "2 FLEETWOOD COURT RONKONKOMA, NY 11779",
+                "extractedValue": "2 FLEETWOOD COURT RONKONKOMA, NY 11779",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "ABSORBENT COTTON ROLL",
+                "extractedValue": "ABSORBENT COTTON ROLL",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 数量",
+                "standardValue": "100 CTNS",
+                "extractedValue": "100 CTNS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 单价",
+                "standardValue": "RMB 116.56/CTN",
+                "extractedValue": "RMB 116.56/CTN",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 总价",
+                "standardValue": "RMB 11656.00",
+                "extractedValue": "RMB 11656.00",
+                "matched": true
+            },
+            {
+                "path": "货物总数量",
+                "standardValue": "100",
+                "extractedValue": "100",
+                "matched": true
+            },
+            {
+                "path": "货物总价格",
+                "standardValue": "RMB 11656.00",
+                "extractedValue": "RMB 11656.00",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "发票7_useocr_False",
+        "matchCount": 13,
+        "totalCount": 13,
+        "accuracyRate": 100.0,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "商业发票",
+                "extractedValue": "商业发票",
+                "matched": true
+            },
+            {
+                "path": "发票编号",
+                "standardValue": "LKMD24555",
+                "extractedValue": "LKMD24555",
+                "matched": true
+            },
+            {
+                "path": "发票日期",
+                "standardValue": "NOV.18,2024",
+                "extractedValue": "NOV.18,2024",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "江苏利康医疗用品有限公司",
+                "extractedValue": "江苏利康医疗用品有限公司",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "SHEXING RD, BEISHE QOWN WUJIANG CITY, JIANGSU PROVINCE, CHINA P.O. 215214",
+                "extractedValue": "SHEXING RD, BEISHE TOWN WUJIANG CITY, JIANGSU PROVINCE, CHINA P.O. 215214",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "DUKAL LLC",
+                "extractedValue": "DUKAL LLC",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "2 FLEETWOOD COURT RONKONKOMA, NY 11779",
+                "extractedValue": "2 FLEETWOOD COURT RONKONKOMA, NY 11779",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "ABSORBENT COTTON ROLL",
+                "extractedValue": "ABSORBENT COTTON ROLL",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 数量",
+                "standardValue": "100 CTNS",
+                "extractedValue": "100 CTNS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 单价",
+                "standardValue": "RMB 116.56 / CTN",
+                "extractedValue": "RMB 116.56 / CTN",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 总价",
+                "standardValue": "RMB 11656.00",
+                "extractedValue": "RMB 11656.00",
+                "matched": true
+            },
+            {
+                "path": "货物总数量",
+                "standardValue": "100",
+                "extractedValue": "100",
+                "matched": true
+            },
+            {
+                "path": "货物总价格",
+                "standardValue": "RMB 11656.00",
+                "extractedValue": "RMB 11656.00",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "发票9_useocr_False",
+        "matchCount": 25,
+        "totalCount": 25,
+        "accuracyRate": 100.0,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "INVOICE",
+                "extractedValue": "INVOICE",
+                "matched": true
+            },
+            {
+                "path": "发票编号",
+                "standardValue": "2K240921",
+                "extractedValue": "2K240921",
+                "matched": true
+            },
+            {
+                "path": "发票日期",
+                "standardValue": "21st Sep., 2024",
+                "extractedValue": "21st Sep., 2024",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "康柏斯企业有限公司",
+                "extractedValue": "康柏斯企业有限公司",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "Unit H, 10/F., Phase 2, Kaiser Estate, 51 Man Yue St., Hung Hom, Kowloon, Hong Kong",
+                "extractedValue": "Unit H, 10/F., Phase 2, Kaiser Estate, 51 Man Yue St., Hung Hom, Kowloon, Hong Kong",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 电话",
+                "standardValue": "(852) 2356-1838 (6 Lines)",
+                "extractedValue": "(852) 2356-1838 (6 Lines)",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 传真",
+                "standardValue": "(852) 2356-1666",
+                "extractedValue": "(852) 2356-1666",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "pmpasseco Enterprises (Suzhou) Petrochemical Co., Ltd.",
+                "extractedValue": "Compasseco Enterprises (Suzhou) Petrochemical Co., Ltd.",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "Highway 318, Lili Town, Wujiang Jiangsu, 215212 P.R. China",
+                "extractedValue": "Highway 318, Lili Town, Wujiang Jiangsu, 215212, P.R. China",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 电话",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 传真",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "732 CLEAR",
+                "extractedValue": "732 CLEAR",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 数量",
+                "standardValue": "204",
+                "extractedValue": "204",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 单价",
+                "standardValue": "USD 3.12",
+                "extractedValue": "USD 3.12",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 总价",
+                "standardValue": "USD 636.48",
+                "extractedValue": "USD 636.48",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 货物名称",
+                "standardValue": "IMFBT-16",
+                "extractedValue": "MFBT-16",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 数量",
+                "standardValue": "96",
+                "extractedValue": "96",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 单价",
+                "standardValue": "USD 11.99",
+                "extractedValue": "USD 11.99",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 总价",
+                "standardValue": "USD 1151.04",
+                "extractedValue": "USD 1151.04",
+                "matched": true
+            },
+            {
+                "path": "货物信息[2] > 货物名称",
+                "standardValue": "SBT-16",
+                "extractedValue": "SBT-16",
+                "matched": true
+            },
+            {
+                "path": "货物信息[2] > 数量",
+                "standardValue": "36",
+                "extractedValue": "36",
+                "matched": true
+            },
+            {
+                "path": "货物信息[2] > 单价",
+                "standardValue": "USD 6.03",
+                "extractedValue": "USD 6.03",
+                "matched": true
+            },
+            {
+                "path": "货物信息[2] > 总价",
+                "standardValue": "USD 217.08",
+                "extractedValue": "USD 217.08",
+                "matched": true
+            },
+            {
+                "path": "货物总数量",
+                "standardValue": "336",
+                "extractedValue": "336",
+                "matched": true
+            },
+            {
+                "path": "货物总价格",
+                "standardValue": "USD 2004.6",
+                "extractedValue": "USD 2004.6",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "发票9_useocr_True",
+        "matchCount": 25,
+        "totalCount": 25,
+        "accuracyRate": 100.0,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "INVOICE",
+                "extractedValue": "INVOICE",
+                "matched": true
+            },
+            {
+                "path": "发票编号",
+                "standardValue": "2K240921",
+                "extractedValue": "2K240921",
+                "matched": true
+            },
+            {
+                "path": "发票日期",
+                "standardValue": "21st Sep., 2024",
+                "extractedValue": "21st Sep., 2024",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "康柏斯企业有限公司",
+                "extractedValue": "康柏斯企业有限公司",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "Unit H, 10/F., Phase 2, Kaiser Estate, 51 Man Yue St., Hung Hom, Kowloon, Hong Kong",
+                "extractedValue": "Unit H, 10/F., Phase 2, Kaiser Estate, 51 Man Yue St., Hung Hom, Kowloon, Hong Kong",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 电话",
+                "standardValue": "(852) 2356-1838 (6 Lines)",
+                "extractedValue": "(852) 2356-1838 (6 Lines)",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 传真",
+                "standardValue": "(852) 2356-1666",
+                "extractedValue": "(852) 2356-1666",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "pmpasseco Enterprises (Suzhou) Petrochemical Co., Ltd.",
+                "extractedValue": "Compasseco Enterprises (Suzhou) Petrochemical Co., Ltd.",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "Highway 318, Lili Town, Wujiang Jiangsu, 215212 P.R. China",
+                "extractedValue": "Highway 318, Lili Town, Wujiang Jiangsu, 215212, P.R. China",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 电话",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 传真",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "732 CLEAR",
+                "extractedValue": "732 CLEAR",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 数量",
+                "standardValue": "204",
+                "extractedValue": "204",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 单价",
+                "standardValue": "USD 3.12",
+                "extractedValue": "USD 3.12",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 总价",
+                "standardValue": "USD 636.48",
+                "extractedValue": "USD 636.48",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 货物名称",
+                "standardValue": "IMFBT",
+                "extractedValue": "MFBT",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 数量",
+                "standardValue": "96",
+                "extractedValue": "96",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 单价",
+                "standardValue": "USD 11.99",
+                "extractedValue": "USD 11.99",
+                "matched": true
+            },
+            {
+                "path": "货物信息[1] > 总价",
+                "standardValue": "USD 1151.04",
+                "extractedValue": "USD 1151.04",
+                "matched": true
+            },
+            {
+                "path": "货物信息[2] > 货物名称",
+                "standardValue": "SBT",
+                "extractedValue": "SBT",
+                "matched": true
+            },
+            {
+                "path": "货物信息[2] > 数量",
+                "standardValue": "36",
+                "extractedValue": "36",
+                "matched": true
+            },
+            {
+                "path": "货物信息[2] > 单价",
+                "standardValue": "USD 6.03",
+                "extractedValue": "USD 6.03",
+                "matched": true
+            },
+            {
+                "path": "货物信息[2] > 总价",
+                "standardValue": "USD 217.08",
+                "extractedValue": "USD 217.08",
+                "matched": true
+            },
+            {
+                "path": "货物总数量",
+                "standardValue": "336",
+                "extractedValue": "336",
+                "matched": true
+            },
+            {
+                "path": "货物总价格",
+                "standardValue": "USD 2004.6",
+                "extractedValue": "USD 2004.6",
+                "matched": true
+            }
+        ]
+    }
+]

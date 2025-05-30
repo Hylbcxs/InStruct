@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 TEXT_DETECTION_MODEL = os.getenv("TEXT_DETECTION_MODEL")
 TEXT_RECOGNITION_MODEL = os.getenv("TEXT_RECOGNITION_MODEL")
-SAVE_JSON = "./output"
+SAVE_JSON = "../ocr/output"
 
 def get_top_left(box):
     return box[0][1], box[0][0]
@@ -51,7 +51,8 @@ def ocr_extract(prompt, img_url):
     lines = []
     for idx, (text, box) in enumerate(sorted_items):
         x, y = box[0]
-        lines.append(f"[位置:({int(x)}, {int(y)})] {text}")
+        # lines.append(f"[位置:({int(x)}, {int(y)})] {text}")
+        lines.append(f"{idx+1}. {text}")
     # 构造结构化 OCR 信息列表
     ocr_lines = "\n".join(lines)
     parts = prompt.split("### 需要提取的字段：")
@@ -64,6 +65,7 @@ def ocr_extract(prompt, img_url):
     # ### 需要提取的字段：
     # {prompt_end}
     # """
-    new_prompt = prompt + "以下是ocr识别到的文本内容作为参考："+ocr_lines
+    print(ocr_lines)
+    new_prompt = prompt + "\n以下是ocr识别到的文本内容仅作为参考："+ocr_lines + "\n请确保字段尽可能完整、语义准确，保持 JSON 结构规范, 不要添加任何解释或文本说明。"
 
     return new_prompt

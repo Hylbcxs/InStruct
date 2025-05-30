@@ -1,134 +1,44 @@
-[
-    {
-      "fieldName": "单据种类",
-      "fieldValue": "COMMERCIAL INVOICE",
-      "index": 0,
-      "level": 0
+{
+    "单据种类": "INVOICE",
+    "发票编号": "72E0031",
+    "发票日期": "May 24, 2024",
+    "卖方信息":{
+      "公司名称": "MingScape International Co., Ltd.",
+      "地址": "9,Lane 292, Sec. 1,Ta-Tung Road, Hsi-Chih, Taipei Hsien Taiwan,R.O.C",
+      "电话": "886-2-86423648",
+      "传真": "886-2-26496153"
     },
-    {
-      "fieldName": "发票编号",
-      "fieldValue": "240828002",
-      "index": 1,
-      "level": 0
+   
+    "买方信息":{
+      "公司名称": "吴江市宏炬印染机械有限公司",
+      "地址": "吴江区盛泽镇东港村（227省道西侧）",
+      "电话": "+86-18762436980",
+      "传真": "+86-0512-63088273"
     },
-    {
-      "fieldName": "发票日期",
-      "fieldValue": "2024/08/28",
-      "index": 2,
-      "level": 0
-    },
-    {
-      "fieldName": "卖方信息",
-      "fieldValue": "",
-      "index": 3,
-      "level": 0
-    },
-    {
-      "fieldName": "公司名称",
-      "fieldValue": "MingScape International Co., Ltd.",
-      "index": 4,
-      "level": 1
-    },
-    {
-      "fieldName": "地址",
-      "fieldValue": "9,Lane 292, Sec. 1,Ta-Tung Road, Hsi-Chih, Taipei Hsien Taiwan,R.O.C",
-      "index": 5,
-      "level": 1
-    },
-    {
-      "fieldName": "联系方式",
-      "fieldValue": "TEL:886-2-86423648 FAX:886-2-26496153",
-      "index": 6,
-      "level": 1
-    },
-    {
-      "fieldName": "买方信息",
-      "fieldValue": "",
-      "index": 7,
-      "level": 0
-    },
-    {
-      "fieldName": "公司名称",
-      "fieldValue": "吴江市宏炬印染机械有限公司",
-      "index": 8,
-      "level": 1
-    },
-    {
-      "fieldName": "地址",
-      "fieldValue": "吴江区盛泽镇东港村（227省道西侧）",
-      "index": 9,
-      "level": 1
-    },
-    {
-      "fieldName": "联系方式",
-      "fieldValue": "电话:+86-18762436980 传真:+86-0512-63088273",
-      "index": 10,
-      "level": 1
-    },
-    {
-      "fieldName": "出发港口",
-      "fieldValue": "",
-      "index": 11,
-      "level": 0
-    },
-    {
-      "fieldName": "到达港口",
-      "fieldValue": "",
-      "index": 12,
-      "level": 0
-    },
-    {
-      "fieldName": "货物信息1",
-      "fieldValue": "",
-      "index": 13,
-      "level": 0
-    },
-    {
-      "fieldName": "货物名称",
-      "fieldValue": "无管路滴液机",
-      "index": 14,
-      "level": 1
-    },
-    {
-      "fieldName": "数量",
-      "fieldValue": "1台",
-      "index": 15,
-      "level": 1
-    },
-    {
-      "fieldName": "单价",
-      "fieldValue": "RMB215,000.00",
-      "index": 16,
-      "level": 1
-    },
-    {
-      "fieldName": "总价",
-      "fieldValue": "RMB215,000.00",
-      "index": 17,
-      "level": 1
-    },
-    {
-      "fieldName": "货物总数量",
-      "fieldValue": "1",
-      "index": 18,
-      "level": 0
-    },
-    {
-      "fieldName": "货物总价格",
-      "fieldValue": "RMB215,000.00",
-      "index": 19,
-      "level": 0
-    },
-    {
-      "fieldName": "印章信息",
-      "fieldValue": "",
-      "index": 20,
-      "level": 0
-    },
-    {
-      "fieldName": "公司名称",
-      "fieldValue": "吴江市宏炬印染机械有限公司",
-      "index": 21,
-      "level": 1
-    }
-  ]
+    "货物信息"[
+      {
+        "货物名称": "PLAS SIZE T-780",
+        "数量": "15,750.00 KG",
+        "单价": "JPY 270",
+        "总价": "JPY 4,252,500"
+      },
+      {
+        "货物名称": "SYETEX K-390",
+        "数量": "1,440.00 KG",
+        "单价": "JPY 520",
+        "总价": "JPY 748,800"
+      },
+      {
+        "货物名称": "SYETEX S-1500",
+        "数量": "640.00 KG",
+        "单价": "JPY 1,050",
+        "总价": "JPY 672,000"
+      },
+      {
+        "货物名称": "SYETEX K-330",
+        "数量": "122.00 KG",
+        "单价": "JPY 620",
+        "总价": "JPY 75,660"
+      }
+    ]
+}

@@ -67,18 +67,19 @@ async def extract_fields(payload: dict):
         full_prompt = ocr_extract(InvoicePrompt, full_path)
         full_prompt = full_prompt.strip().replace(" ","")
     else:
-        full_prompt = InvoicePrompt.strip().replace(" ","")
+        full_prompt = InvoicePrompt.strip().replace(" ","") + "\n请确保字段尽可能完整、语义准确，保持 JSON 结构规范, 不要添加任何解释或文本说明。"
     try:
         response = client.chat.completions.create(
+            # model='Qwen/Qwen2.5-VL-32B-Instruct',
             model='Qwen/Qwen2.5-VL-32B-Instruct',
-            # model='Qwen/Qwen2.5-VL-72B-Instruct',
+            # model='qwen-vl-plus',
             messages=[{
                 'role': 'user',
                 'content': [
-                    {'type': 'text', 'text': full_prompt},
                     {'type': 'image_url', 'image_url': {
                         'url': f"data:image/jpeg;base64,{image_to_base64(full_path)}"
                     }},
+                    {'type': 'text', 'text': full_prompt},
                 ]
             }]
         )
@@ -97,6 +98,10 @@ async def extract_fields(payload: dict):
             json_content = json_match.group(1)
             parsed_json = json.loads(json_content)
             print(parsed_json)
+    
+            # save_output = re.sub(r'\.(jpe?g|png)$', fr'_useocr_{use_ocr}.json', image_url)
+            # with open(f"/opt/data/private/hyl/code/InStruct/backend/output{save_output}","w", encoding="utf-8") as f:
+            #     json.dump(parsed_json, f, ensure_ascii=False, indent=4)
             return JSONResponse(content=parsed_json, media_type="application/json")
 
     except Exception as e:

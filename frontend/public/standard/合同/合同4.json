@@ -1,230 +1,51 @@
-[
+{
+  "单据种类": "销货合同",
+  "合同号": "MY24069",
+  "日期": "2024.04.16",
+  "卖方信息":{
+    "公司名称": "晋裕国际贸易发展有限公司",
+    "地址": "佛山顺德",
+    "电话": "00852-25668109",
+    "传真": "00852-22345811"
+  },
+  "买方信息": {
+    "公司名称": "苏州精实电子科技有限公司",
+    "地址": "",
+    "电话": "",
+    "传真": "0512-85166666"
+  },
+  "商品信息": [
     {
-      "fieldName": "单据种类",
-      "fieldValue": "销货合同",
-      "index": 0,
-      "level": 0
+      "商品名称": "PET薄膜",
+      "数量": "7560平方米",
+      "单价": "3.6239",
+      "总价": "27,396.69"
     },
     {
-      "fieldName": "合同号",
-      "fieldValue": "MY24069",
-      "index": 1,
-      "level": 0
+      "商品名称": "PET薄膜",
+      "数量": "1760平方米",
+      "单价": "3.6239",
+      "总价": "6,378.07"
     },
     {
-      "fieldName": "日期",
-      "fieldValue": "2024.04.16",
-      "index": 2,
-      "level": 0
+      "商品名称": "PET薄膜",
+      "数量": "16380平方米",
+      "单价": "3.6239",
+      "总价": "59,359.48"
     },
     {
-      "fieldName": "卖方信息",
-      "fieldValue": "",
-      "index": 3,
-      "level": 0
+      "商品名称": "PET薄膜",
+      "数量": "840平方米",
+      "单价": "7.4735",
+      "总价": "6,277.74"
     },
     {
-      "fieldName": "公司名称",
-      "fieldValue": "晋裕国际贸易发展有限公司",
-      "index": 4,
-      "level": 1
-    },
-    {
-      "fieldName": "地址",
-      "fieldValue": "佛山顺德",
-      "index": 5,
-      "level": 1
-    },
-    {
-      "fieldName": "电话",
-      "fieldValue": "00852-25668109",
-      "index": 6,
-      "level": 1
-    },
-    {
-      "fieldName": "传真",
-      "fieldValue": "00852-22345811",
-      "index": 7,
-      "level": 1
-    },
-    {
-      "fieldName": "买方信息",
-      "fieldValue": "",
-      "index": 8,
-      "level": 0
-    },
-    {
-      "fieldName": "公司名称",
-      "fieldValue": "苏州精实电子科技有限公司",
-      "index": 9,
-      "level": 1
-    },
-    {
-      "fieldName": "地址",
-      "fieldValue": "",
-      "index": 10,
-      "level": 1
-    },
-    {
-      "fieldName": "电话",
-      "fieldValue": "",
-      "index": 11,
-      "level": 1
-    },
-    {
-      "fieldName": "传真",
-      "fieldValue": "0512-85166666",
-      "index": 12,
-      "level": 1
-    },
-    {
-      "fieldName": "商品信息 1",
-      "fieldValue": "",
-      "index": 13,
-      "level": 0
-    },
-    {
-      "fieldName": "商品名称",
-      "fieldValue": "PET薄膜",
-      "index": 14,
-      "level": 1
-    },
-    {
-      "fieldName": "数量",
-      "fieldValue": "7560平方米",
-      "index": 15,
-      "level": 1
-    },
-    {
-      "fieldName": "单价",
-      "fieldValue": "3.6239 RMB",
-      "index": 16,
-      "level": 1
-    },
-    {
-      "fieldName": "总价",
-      "fieldValue": "27,396.69 RMB",
-      "index": 17,
-      "level": 1
-    },
-    {
-      "fieldName": "商品信息 2",
-      "fieldValue": "",
-      "index": 18,
-      "level": 0
-    },
-    {
-      "fieldName": "商品名称",
-      "fieldValue": "PET薄膜",
-      "index": 19,
-      "level": 1
-    },
-    {
-      "fieldName": "数量",
-      "fieldValue": "1760平方米",
-      "index": 20,
-      "level": 1
-    },
-    {
-      "fieldName": "单价",
-      "fieldValue": "3.6239 RMB",
-      "index": 21,
-      "level": 1
-    },
-    {
-      "fieldName": "总价",
-      "fieldValue": "6,378.07 RMB",
-      "index": 22,
-      "level": 1
-    },
-    {
-      "fieldName": "商品信息 3",
-      "fieldValue": "",
-      "index": 23,
-      "level": 0
-    },
-    {
-      "fieldName": "商品名称",
-      "fieldValue": "PET薄膜",
-      "index": 24,
-      "level": 1
-    },
-    {
-      "fieldName": "数量",
-      "fieldValue": "16380平方米",
-      "index": 25,
-      "level": 1
-    },
-    {
-      "fieldName": "单价",
-      "fieldValue": "3.6239 RMB",
-      "index": 26,
-      "level": 1
-    },
-    {
-      "fieldName": "总价",
-      "fieldValue": "59,359.48 RMB",
-      "index": 27,
-      "level": 1
-    },
-    {
-      "fieldName": "商品信息 4",
-      "fieldValue": "",
-      "index": 28,
-      "level": 0
-    },
-    {
-      "fieldName": "商品名称",
-      "fieldValue": "PET薄膜",
-      "index": 29,
-      "level": 1
-    },
-    {
-      "fieldName": "数量",
-      "fieldValue": "840平方米",
-      "index": 30,
-      "level": 1
-    },
-    {
-      "fieldName": "单价",
-      "fieldValue": "7.4735 RMB",
-      "index": 31,
-      "level": 1
-    },
-    {
-      "fieldName": "总价",
-      "fieldValue": "6,277.74 RMB",
-      "index": 32,
-      "level": 1
-    },
-    {
-      "fieldName": "商品信息 5",
-      "fieldValue": "",
-      "index": 33,
-      "level": 0
-    },
-    {
-      "fieldName": "商品名称",
-      "fieldValue": "PET薄膜",
-      "index": 34,
-      "level": 1
-    },
-    {
-      "fieldName": "数量",
-      "fieldValue": "440平方米",
-      "index": 35,
-      "level": 1
-    },
-    {
-      "fieldName": "单价",
-      "fieldValue": "6.9700 RMB",
-      "index": 36,
-      "level": 1
-    },
-    {
-      "fieldName": "总价",
-      "fieldValue": "3,066.80 RMB",
-      "index": 37,
-      "level": 1
+      "商品名称": "PET薄膜",
+      "数量": "440平方米",
+      "单价": "6.9700",
+      "总价": "3,066.80"
     }
-  ]
+  ],
+  "商品总数量": "26980平方米",
+  "商品总价格": "102,478.78"
+}

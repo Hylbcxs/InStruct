@@ -1,0 +1,868 @@
+[
+    {
+        "name": "提单4_useocr_True",
+        "matchCount": 18,
+        "totalCount": 19,
+        "accuracyRate": 94.74,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "BILL OF LOADING - ORIGINAL",
+                "extractedValue": "BILL OF LOADING - ORIGINAL",
+                "matched": true
+            },
+            {
+                "path": "提单号",
+                "standardValue": "DOWN010089-YGG0130990",
+                "extractedValue": "DOWN010089-YGG0130990",
+                "matched": true
+            },
+            {
+                "path": "收货人信息 > 公司名称",
+                "standardValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "extractedValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "matched": true
+            },
+            {
+                "path": "收货人信息 > 地址",
+                "standardValue": "SLEEPDOWN HOUSE, BOWER STREET, OFF TEN ACRE LANE, NEWTON HEATH, MANCHESTER, LANCSHIRE, M4028H, Company No. 4902501",
+                "extractedValue": "SLEEPDOWN HOUSE BOWERS STREET, OFF TENACRE LANE NEWTON HEATH, MANCHESTER, LANCASHIRE, M402BH",
+                "matched": true
+            },
+            {
+                "path": "发货人信息 > 公司名称",
+                "standardValue": "SUZHOU SHUNYI TEXTILE PRINTING AND DYEING CO., LTD",
+                "extractedValue": "SUZHOU SHUNYI TEXTILE PRINTING AND DYEING CO., LTD",
+                "matched": true
+            },
+            {
+                "path": "发货人信息 > 地址",
+                "standardValue": "JINFENG INDUSTRIAL PARK, LINGFENG VILLAGE, XIANGCHENG DISTRICT, SUZHOU 215144",
+                "extractedValue": "JINFENG INDUSTRIAL PARK, LINGFENG VILLAGE, BEIQIAOTOWN, XIANGCHENG DISTRICT, SUZHOU 215144",
+                "matched": true
+            },
+            {
+                "path": "通知方 > 公司名称",
+                "standardValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "extractedValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "matched": true
+            },
+            {
+                "path": "通知方 > 地址",
+                "standardValue": "SLEEP DOWN HOUSE, BOWER STREET, OFF TEN ACRE LANE, NEWTON HEATH, MANCHESTER, LANCSHIRE, M4028H, Company No. 4902501",
+                "extractedValue": "SLEEPDOWN HOUSE BOWERS STREET, OFF TENACRE LANE NEWTON HEATH, MANCHESTER, LANCASHIRE, M402BH",
+                "matched": true
+            },
+            {
+                "path": "运输方式",
+                "standardValue": "OCEAN VESSEL",
+                "extractedValue": "OCEAN VESSEL",
+                "matched": true
+            },
+            {
+                "path": "船只信息和编号",
+                "standardValue": "CHENG XING 1",
+                "extractedValue": "CHENG XING 1",
+                "matched": true
+            },
+            {
+                "path": "船舶航次信息",
+                "standardValue": "H2447S",
+                "extractedValue": "H2447S",
+                "matched": true
+            },
+            {
+                "path": "装货港",
+                "standardValue": "LIANYUNGANG",
+                "extractedValue": "LIANYUNGANG",
+                "matched": true
+            },
+            {
+                "path": "卸货港",
+                "standardValue": "FELIXSTOWE",
+                "extractedValue": "FELIXSTOWE",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "100% POLYESTER THROW PO#607018434",
+                "extractedValue": "100% POLYESTER THROW PO#607018434",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 重量",
+                "standardValue": "8100 (KGS)",
+                "extractedValue": "8100 (KGS)",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物体积",
+                "standardValue": "68 (CBM)",
+                "extractedValue": "68 (CBM)",
+                "matched": true
+            },
+            {
+                "path": "运费",
+                "standardValue": "PREPAID AT",
+                "extractedValue": "PREPAID AT DESTINATION",
+                "matched": false
+            },
+            {
+                "path": "装船日期",
+                "standardValue": "22-NOV-2024",
+                "extractedValue": "22-NOV-2024",
+                "matched": true
+            },
+            {
+                "path": "签发地点与日期",
+                "standardValue": "22-NOV-2024 NINGBO",
+                "extractedValue": "22-NOV-2024 NINGBO",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "提单4_useocr_False",
+        "matchCount": 15,
+        "totalCount": 19,
+        "accuracyRate": 78.95,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "BILL OF LOADING - ORIGINAL",
+                "extractedValue": "BILL OF LOADING - ORIGINAL",
+                "matched": true
+            },
+            {
+                "path": "提单号",
+                "standardValue": "DOWN010089-YGG0130990",
+                "extractedValue": "DOWN010089-YGG0130990",
+                "matched": true
+            },
+            {
+                "path": "收货人信息 > 公司名称",
+                "standardValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "extractedValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "matched": true
+            },
+            {
+                "path": "收货人信息 > 地址",
+                "standardValue": "SLEEPDOWN HOUSE, BOWER STREET, OFF TEN ACRE LANE, NEWTON HEATH, MANCHESTER, LANCSHIRE, M4028H, Company No. 4902501",
+                "extractedValue": "SLEEPDOWN HOUSE BOWERS STREET, OFFENACRE LANE NEWTON HEATH, MANCHESTER, LANCASHIRE, M402BH",
+                "matched": true
+            },
+            {
+                "path": "发货人信息 > 公司名称",
+                "standardValue": "SUZHOU SHUNYI TEXTILE PRINTING AND DYEING CO., LTD",
+                "extractedValue": "SUZHOU SHUNYI TEXTILE PRINTING AND DYEING CO., LTD",
+                "matched": true
+            },
+            {
+                "path": "发货人信息 > 地址",
+                "standardValue": "JINFENG INDUSTRIAL PARK, LINGFENG VILLAGE, XIANGCHENG DISTRICT, SUZHOU 215144",
+                "extractedValue": "JINFENG INDUSTRIAL PARK, LINGFENG VILLAGE, BEIQIAOTOWN, XIANGCHENG DISTRICT, SUZHOU 215144",
+                "matched": true
+            },
+            {
+                "path": "通知方 > 公司名称",
+                "standardValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "extractedValue": "SAME AS CONSIGNEE",
+                "matched": false
+            },
+            {
+                "path": "通知方 > 地址",
+                "standardValue": "SLEEP DOWN HOUSE, BOWER STREET, OFF TEN ACRE LANE, NEWTON HEATH, MANCHESTER, LANCSHIRE, M4028H, Company No. 4902501",
+                "extractedValue": "",
+                "matched": false
+            },
+            {
+                "path": "运输方式",
+                "standardValue": "OCEAN VESSEL",
+                "extractedValue": "OCEAN VESSEL",
+                "matched": true
+            },
+            {
+                "path": "船只信息和编号",
+                "standardValue": "CHENG XING 1",
+                "extractedValue": "CHENG XING 1",
+                "matched": true
+            },
+            {
+                "path": "船舶航次信息",
+                "standardValue": "H2447S",
+                "extractedValue": "H24475",
+                "matched": false
+            },
+            {
+                "path": "装货港",
+                "standardValue": "LIANYUNGANG",
+                "extractedValue": "LIANYUNGANG",
+                "matched": true
+            },
+            {
+                "path": "卸货港",
+                "standardValue": "FELIXSTOWE",
+                "extractedValue": "FELIXSTOWE",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "100% POLYESTER THROW PO#607018434",
+                "extractedValue": "100% POLYESTER THROW PO#607018434",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 重量",
+                "standardValue": "8100 (KGS)",
+                "extractedValue": "8100 (KGS)",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物体积",
+                "standardValue": "68 (CBM)",
+                "extractedValue": "68 (CBM)",
+                "matched": true
+            },
+            {
+                "path": "运费",
+                "standardValue": "PREPAID AT",
+                "extractedValue": "PREPAID AT DESTINATION",
+                "matched": false
+            },
+            {
+                "path": "装船日期",
+                "standardValue": "22-NOV-2024",
+                "extractedValue": "22-NOV-2024",
+                "matched": true
+            },
+            {
+                "path": "签发地点与日期",
+                "standardValue": "22-NOV-2024 NINGBO",
+                "extractedValue": "22-NOV-2024 NINGBO",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "提单4_useocr_False",
+        "matchCount": 17,
+        "totalCount": 19,
+        "accuracyRate": 89.47,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "BILL OF LOADING - ORIGINAL",
+                "extractedValue": "BILL OF LOADING - ORIGINAL",
+                "matched": true
+            },
+            {
+                "path": "提单号",
+                "standardValue": "DOWN010089-YGG0130990",
+                "extractedValue": "DOWN010089-YGG0130990",
+                "matched": true
+            },
+            {
+                "path": "收货人信息 > 公司名称",
+                "standardValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "extractedValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "matched": true
+            },
+            {
+                "path": "收货人信息 > 地址",
+                "standardValue": "SLEEPDOWN HOUSE, BOWER STREET, OFF TEN ACRE LANE, NEWTON HEATH, MANCHESTER, LANCSHIRE, M4028H, Company No. 4902501",
+                "extractedValue": "SLEEPDOWN HOUSE BOWERS STREET, OFFENACRE LANE NEWTON HEATH, MANCHESTER, LANCASHIRE, M402BH",
+                "matched": true
+            },
+            {
+                "path": "发货人信息 > 公司名称",
+                "standardValue": "SUZHOU SHUNYI TEXTILE PRINTING AND DYEING CO., LTD",
+                "extractedValue": "SUZHOU SHUNYI TEXTILE PRINTING AND DYEING CO., LTD",
+                "matched": true
+            },
+            {
+                "path": "发货人信息 > 地址",
+                "standardValue": "JINFENG INDUSTRIAL PARK, LINGFENG VILLAGE, XIANGCHENG DISTRICT, SUZHOU 215144",
+                "extractedValue": "JINFENG INDUSTRIAL PARK, LINGFENG VILLAGE, BEIQIAOTOWN, XIANGCHENG DISTRICT, SUZHOU 215144",
+                "matched": true
+            },
+            {
+                "path": "通知方 > 公司名称",
+                "standardValue": "SAME AS CONSIGNEE",
+                "extractedValue": "SAME AS CONSIGNEE",
+                "matched": true
+            },
+            {
+                "path": "通知方 > 地址",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "运输方式",
+                "standardValue": "OCEAN VESSEL",
+                "extractedValue": "OCEAN VESSEL",
+                "matched": true
+            },
+            {
+                "path": "船只信息和编号",
+                "standardValue": "CHENG XING 1",
+                "extractedValue": "CHENG XING 1",
+                "matched": true
+            },
+            {
+                "path": "船舶航次信息",
+                "standardValue": "H2447S",
+                "extractedValue": "H24475",
+                "matched": false
+            },
+            {
+                "path": "装货港",
+                "standardValue": "LIANYUNGANG",
+                "extractedValue": "LIANYUNGANG",
+                "matched": true
+            },
+            {
+                "path": "卸货港",
+                "standardValue": "FELIXSTOWE",
+                "extractedValue": "FELIXSTOWE",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "100% POLYESTER THROW PO#607018434",
+                "extractedValue": "100% POLYESTER THROW PO#607018434",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 重量",
+                "standardValue": "8100 (KGS)",
+                "extractedValue": "8100 (KGS)",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物体积",
+                "standardValue": "68 (CBM)",
+                "extractedValue": "68 (CBM)",
+                "matched": true
+            },
+            {
+                "path": "运费",
+                "standardValue": "PREPAID AT",
+                "extractedValue": "PREPAID AT DESTINATION",
+                "matched": false
+            },
+            {
+                "path": "装船日期",
+                "standardValue": "22-NOV-2024",
+                "extractedValue": "22-NOV-2024",
+                "matched": true
+            },
+            {
+                "path": "签发地点与日期",
+                "standardValue": "22-NOV-2024 NINGBO",
+                "extractedValue": "22-NOV-2024 NINGBO",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "提单9_useocr_True",
+        "matchCount": 18,
+        "totalCount": 19,
+        "accuracyRate": 94.74,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "BILL OF LADING",
+                "extractedValue": "BILL OF LADING",
+                "matched": true
+            },
+            {
+                "path": "提单号",
+                "standardValue": "278949065",
+                "extractedValue": "278949065",
+                "matched": true
+            },
+            {
+                "path": "收货人信息 > 公司名称",
+                "standardValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "extractedValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "matched": true
+            },
+            {
+                "path": "收货人信息 > 地址",
+                "standardValue": "SLEEPDOWN HOUSE BOWER STREET, OFF TEN ACRE LANE NEWTON HEATH, MANCHESTER, LANCSHIRE, M40 2BH",
+                "extractedValue": "SLEEPDOWN HOUSE BOWER STREET, OFF TEN ACRE LANE NEWTON HEATH, MANCHESTER, LANCASHIRE, M40 2BH",
+                "matched": true
+            },
+            {
+                "path": "发货人信息 > 公司名称",
+                "standardValue": "SUZHOU SHUNYI TEXTILE PRINTING AND DYEING CO., LTD",
+                "extractedValue": "SUZHOU SHUNYI TEXTILE PRINTING AND DYEING CO., LTD",
+                "matched": true
+            },
+            {
+                "path": "发货人信息 > 地址",
+                "standardValue": "JINFENG INDUSTRIAL PARK, LINGFENG VILLAGE, BEIQIAO TOWN, XIANGCHENG DISTRICT, SUZHOU 215144",
+                "extractedValue": "JINFENG INDUSTRIAL PARK, LINGFENG VILLAGE, BEIQIAO TOWN, XIANGCHENG DISTRICT, SUZHOU 215144",
+                "matched": true
+            },
+            {
+                "path": "通知方 > 公司名称",
+                "standardValue": "SAME AS CONSIGNEE",
+                "extractedValue": "SAME AS CONSIGNEE",
+                "matched": true
+            },
+            {
+                "path": "通知方 > 地址",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "运输方式",
+                "standardValue": "OCEANVESSEL",
+                "extractedValue": "OCEANVESSEL",
+                "matched": true
+            },
+            {
+                "path": "船只信息和编号",
+                "standardValue": "MOSCOW MAERSK/433W",
+                "extractedValue": "MOSCOW MAERSK/433W",
+                "matched": true
+            },
+            {
+                "path": "船舶航次信息",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "装货港",
+                "standardValue": "QINGDAO",
+                "extractedValue": "QINGDAO",
+                "matched": true
+            },
+            {
+                "path": "卸货港",
+                "standardValue": "FELIXSTOWE",
+                "extractedValue": "FELIXSTOWE",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "100% POLYESTER THROW DUVET COVER SETS",
+                "extractedValue": "100% POLYESTER THROW DUVET COVER SETS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 重量",
+                "standardValue": "12202.000 KGS",
+                "extractedValue": "12202.000 KGS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物体积",
+                "standardValue": "68.000 CBM",
+                "extractedValue": "68.000 CBM",
+                "matched": true
+            },
+            {
+                "path": "运费",
+                "standardValue": "Freight and Charges",
+                "extractedValue": "Freight and Charges",
+                "matched": true
+            },
+            {
+                "path": "装船日期",
+                "standardValue": "AUG.19, 2024",
+                "extractedValue": "AUG.19, 2024",
+                "matched": true
+            },
+            {
+                "path": "签发地点与日期",
+                "standardValue": "",
+                "extractedValue": "SHENZHEN WORLD CARGO LOGISTICS LIMITED",
+                "matched": false
+            }
+        ]
+    },
+    {
+        "name": "提单9_useocr_False",
+        "matchCount": 17,
+        "totalCount": 19,
+        "accuracyRate": 89.47,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "BILL OF LADING",
+                "extractedValue": "BILL OF LADING",
+                "matched": true
+            },
+            {
+                "path": "提单号",
+                "standardValue": "278949065",
+                "extractedValue": "278949065",
+                "matched": true
+            },
+            {
+                "path": "收货人信息 > 公司名称",
+                "standardValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "extractedValue": "T&A TEXTILES AND HOSIERY LIMITED",
+                "matched": true
+            },
+            {
+                "path": "收货人信息 > 地址",
+                "standardValue": "SLEEPDOWN HOUSE BOWER STREET, OFF TEN ACRE LANE NEWTON HEATH, MANCHESTER, LANCSHIRE, M40 2BH",
+                "extractedValue": "SLEEPDOWN HOUSE BOWER STREET, OFF TEN ACRE LANE NEWTON HEATH, MANCHESTER, LANCASHIRE, M40 2BH",
+                "matched": true
+            },
+            {
+                "path": "发货人信息 > 公司名称",
+                "standardValue": "SUZHOU SHUNYI TEXTILE PRINTING AND DYEING CO., LTD",
+                "extractedValue": "SUZHOU SHUNYI TEXTILE PRINTING AND DYEING CO., LTD",
+                "matched": true
+            },
+            {
+                "path": "发货人信息 > 地址",
+                "standardValue": "JINFENG INDUSTRIAL PARK, LINGFENG VILLAGE, BEIQIAO TOWN, XIANGCHENG DISTRICT, SUZHOU 215144",
+                "extractedValue": "JINFENG INDUSTRIAL PARK, LINGFENG VILLAGE, BEIQIAO TOWN, XIANGCHENG DISTRICT, SUZHOU 215144",
+                "matched": true
+            },
+            {
+                "path": "通知方 > 公司名称",
+                "standardValue": "SAME AS CONSIGNEE",
+                "extractedValue": "SAME AS CONSIGNEE",
+                "matched": true
+            },
+            {
+                "path": "通知方 > 地址",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "运输方式",
+                "standardValue": "OCEANVESSEL",
+                "extractedValue": "OCEANVESSEL",
+                "matched": true
+            },
+            {
+                "path": "船只信息和编号",
+                "standardValue": "MOSCOW MAERSK/433W",
+                "extractedValue": "MOSCOW MAERSK/433W",
+                "matched": true
+            },
+            {
+                "path": "船舶航次信息",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "装货港",
+                "standardValue": "QINGDAO",
+                "extractedValue": "QINGDAO",
+                "matched": true
+            },
+            {
+                "path": "卸货港",
+                "standardValue": "FELIXSTOWE",
+                "extractedValue": "FELIXSTOWE",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "100% POLYESTER THROW DUVET COVER SETS",
+                "extractedValue": "100% POLYESTER THROW DUVET COVER SETS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 重量",
+                "standardValue": "12202.000KGS",
+                "extractedValue": "12202.000KGS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物体积",
+                "standardValue": "68.000CBM",
+                "extractedValue": "68.000CBM",
+                "matched": true
+            },
+            {
+                "path": "运费",
+                "standardValue": "Freight and Charges",
+                "extractedValue": "",
+                "matched": false
+            },
+            {
+                "path": "装船日期",
+                "standardValue": "AUG.19, 2024",
+                "extractedValue": "AUG.19, 2024",
+                "matched": true
+            },
+            {
+                "path": "签发地点与日期",
+                "standardValue": "",
+                "extractedValue": "SHENZHEN WORLD CARGO LOGISTICS LIMITED (Signature)",
+                "matched": false
+            }
+        ]
+    },
+    {
+        "name": "lading1_useocr_True",
+        "matchCount": 17,
+        "totalCount": 19,
+        "accuracyRate": 89.47,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "COMBINED TRANSPORT BILL OF LADING",
+                "extractedValue": "COMBINED TRANSPORT BILL OF LADING",
+                "matched": true
+            },
+            {
+                "path": "提单号",
+                "standardValue": "JGL2504248",
+                "extractedValue": "JGL2504248",
+                "matched": true
+            },
+            {
+                "path": "收货人信息 > 公司名称",
+                "standardValue": "The ORDER OF INDUSTRIAL BANK OF KOREA,",
+                "extractedValue": "ARAVIET COMPANY LIMITED",
+                "matched": false
+            },
+            {
+                "path": "收货人信息 > 地址",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "发货人信息 > 公司名称",
+                "standardValue": "SHINKELN (SUZHOU) TEXTILE CO., LTD",
+                "extractedValue": "SHINKELN (SUZHOU) TEXTILE CO., LTD",
+                "matched": true
+            },
+            {
+                "path": "发货人信息 > 地址",
+                "standardValue": "NO. 699 CHANGHONG ROAD, HEHUA VILLAGE DEVELOPMENT ZONE SHENGZE TOWN, WUJIANG DISTRICT, SUZHOU CITY, JIANGSU PROVINCE, CHINA",
+                "extractedValue": "NO. 699 CHANGHONG ROAD, HEHUA VILLAGE DEVELOPMENT ZONE SHENGZE TOWN, WUJIANG DISTRICT, SUZHOU CITY, JIANGSU PROVINCE, CHINA",
+                "matched": true
+            },
+            {
+                "path": "通知方 > 公司名称",
+                "standardValue": "1) NARAVIET COMPANY LIMITED\n2) HAE CORPORATION",
+                "extractedValue": "1) NARAVIET COMPANY LIMITED\n2) HAE CORPORATION",
+                "matched": true
+            },
+            {
+                "path": "通知方 > 地址",
+                "standardValue": "TIEN HAI INDUSTRIAL ZONE, TIEN HAI TOWN\nTIEN HAI DISTRICT, THAI BINH PROVINCE, VIETNAM\n173, DIGITAL-RO, GEUMCHEON-GU, SEOUL, KOREA",
+                "extractedValue": "TIEN HAI INDUSTRIAL ZONE, TIEN HAI TOWN\nTIEN HAI DISTRICT, THAI BINH PROVINCE, VIETNAM\n173, DIGITAL-RO, GEUMCHEON-GU, SEOUL, KOREA",
+                "matched": true
+            },
+            {
+                "path": "运输方式",
+                "standardValue": "OCEAN VESSEL",
+                "extractedValue": "COMBINED TRANSPORT",
+                "matched": false
+            },
+            {
+                "path": "船只信息和编号",
+                "standardValue": "SKY TIARA V.2507S",
+                "extractedValue": "SKY TIARA V.2507S",
+                "matched": true
+            },
+            {
+                "path": "船舶航次信息",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "装货港",
+                "standardValue": "SHANGHAI",
+                "extractedValue": "SHANGHAI",
+                "matched": true
+            },
+            {
+                "path": "卸货港",
+                "standardValue": "HAIPHONG",
+                "extractedValue": "HAIPHONG",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "TJ-SXG380 FABRIC 100PCT RECYCLED POLYESTER\nTJ-DSB290 FABRIC 100PCT RECYCLED POLYESTER",
+                "extractedValue": "TJ-SXG380 FABRIC 100PCT RECYCLED POLYESTER\nTJ-DSB290 FABRIC 100PCT RECYCLED POLYESTER",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 重量",
+                "standardValue": "6022.000KGS",
+                "extractedValue": "6022.000KGS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物体积",
+                "standardValue": "12.000CBM",
+                "extractedValue": "12.000CBM",
+                "matched": true
+            },
+            {
+                "path": "运费",
+                "standardValue": "FREIGHT COLLECT",
+                "extractedValue": "FREIGHT COLLECT",
+                "matched": true
+            },
+            {
+                "path": "装船日期",
+                "standardValue": "2025/4/28",
+                "extractedValue": "2025/4/28",
+                "matched": true
+            },
+            {
+                "path": "签发地点与日期",
+                "standardValue": "SHANGHAI",
+                "extractedValue": "SHANGHAI",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "lading1_useocr_False",
+        "matchCount": 20,
+        "totalCount": 21,
+        "accuracyRate": 95.24,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "COMBINED TRANSPORT BILL OF LADING",
+                "extractedValue": "COMBINED TRANSPORT BILL OF LADING",
+                "matched": true
+            },
+            {
+                "path": "提单号",
+                "standardValue": "JGL2504248",
+                "extractedValue": "JGL2504248",
+                "matched": true
+            },
+            {
+                "path": "收货人信息 > 公司名称",
+                "standardValue": "INDUSTRIAL BANK OF KOREA,",
+                "extractedValue": "INDUSTRIAL BANK OF KOREA",
+                "matched": true
+            },
+            {
+                "path": "收货人信息 > 地址",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "发货人信息 > 公司名称",
+                "standardValue": "SHINKELN (SUZHOU) TEXTILE CO., LTD",
+                "extractedValue": "SHANGHINKELN (SUZIOU) TEXTILE CO., LTD",
+                "matched": true
+            },
+            {
+                "path": "发货人信息 > 地址",
+                "standardValue": "NO. 699 CHANGHONG ROAD, HEHUA VILLAGE DEVELOPMENT ZONE SHENGZE TOWN, WUJIANG DISTRICT, SUZHOU CITY, JIANGSU PROVINCE, CHINA",
+                "extractedValue": "NO. 699 CHANGHONG ROAD, HEHUA VILLAGE DEVELOPMENT ZONE SHENGZE TOWN, WUJIANG DISTRICT, SUZHOU CITY, JIANGSU PROVINCE, CHINA",
+                "matched": true
+            },
+            {
+                "path": "通知方[0] > 公司名称",
+                "standardValue": "ARAVIET COMPANY LIMITED",
+                "extractedValue": "ARAVIET COMPANY LIMITED",
+                "matched": true
+            },
+            {
+                "path": "通知方[0] > 地址",
+                "standardValue": "TIEN HAI INDUSTRIAL ZONE, TIEN HAI TOWN TIEN HAI DISTRICT, THAI BINH PROVINCE, VIETNAM",
+                "extractedValue": "TIEN HAI INDUSTRIAL ZONE, TIEN HAI TOWN TIEN HAI DISTRICT, THAI BINH PROVINCE, VIETNAM",
+                "matched": true
+            },
+            {
+                "path": "通知方[1] > 公司名称",
+                "standardValue": "HAE CORPORATION",
+                "extractedValue": "HAE CORPORATION",
+                "matched": true
+            },
+            {
+                "path": "通知方[1] > 地址",
+                "standardValue": "173, DIGITAL-RO, GEUMCHEON-GU, SEOUL, KOREA",
+                "extractedValue": "173, DIGITAL-RO, GEUMCHEON-GU, SEOUL, KOREA",
+                "matched": true
+            },
+            {
+                "path": "运输方式",
+                "standardValue": "OCEAN VESSEL",
+                "extractedValue": "OCEAN VESSEL",
+                "matched": true
+            },
+            {
+                "path": "船只信息和编号",
+                "standardValue": "SKY TIARA V.2507S",
+                "extractedValue": "SKY TIARA V.2507S",
+                "matched": true
+            },
+            {
+                "path": "船舶航次信息",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "装货港",
+                "standardValue": "SHANGHAI",
+                "extractedValue": "SHANGHAI",
+                "matched": true
+            },
+            {
+                "path": "卸货港",
+                "standardValue": "HAIPHONG",
+                "extractedValue": "HAI PHONG",
+                "matched": false
+            },
+            {
+                "path": "货物信息[0] > 货物名称",
+                "standardValue": "TJ-SXG380 FABRIC 100PCT RECYCLED POLYESTER\nTJ-DSB290 FABRIC 100PCT RECYCLED POLYESTER",
+                "extractedValue": "TJ-SXG380 FABRIC 100PCT RECYCLED POLYESTER TJ-DSB290 FABRIC 100PCT RECYCLED POLYESTER",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 重量",
+                "standardValue": "6022.000KGS",
+                "extractedValue": "6022.000KGS",
+                "matched": true
+            },
+            {
+                "path": "货物信息[0] > 货物体积",
+                "standardValue": "12.000CBM",
+                "extractedValue": "12.000CBM",
+                "matched": true
+            },
+            {
+                "path": "运费",
+                "standardValue": "FREIGHT COLLECT",
+                "extractedValue": "FREIGHT COLLECT",
+                "matched": true
+            },
+            {
+                "path": "装船日期",
+                "standardValue": "2025/4/28",
+                "extractedValue": "2025/4/28",
+                "matched": true
+            },
+            {
+                "path": "签发地点与日期",
+                "standardValue": "SHANGHAI",
+                "extractedValue": "SHANGHAI",
+                "matched": true
+            }
+        ]
+    }
+]

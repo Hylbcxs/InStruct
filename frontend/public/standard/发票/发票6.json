@@ -1,164 +1,35 @@
-[
+
+{
+  "单据种类": "COMMERCIAL INVOICE",
+  "发票编号": "YX24062TH",
+  "发票日期": "18-Dec-24",
+  "卖方信息":{
+    "公司名称": "SUZHOU YOUXINUO TRADING CO., LTD.",
+    "地址": "Wujiang District of the Fenhu Town of Beishe Community in the East Village",
+    "电话": "",
+    "传真": ""
+  },
+  "买方信息": {
+    "公司名称": "TOHO LAMAC CO., LTD",
+    "地址": "42-6 3-CHOME YUSHIMA BUNKYO-KU, TOKYO 113-8513, JAPAN",
+    "电话": "+81-3-3834-4262",
+    "传真": ""
+  },
+  "货物信息":[
     {
-      "fieldName": "单据种类",
-      "fieldValue": "COMMERCIAL INVOICE",
-      "index": 0,
-      "level": 0
+      "货物名称": "FOOTWEAR",
+      "数量": "4662",
+      "单价": "¥46.73",
+      "总价": "¥217,840.00"
     },
     {
-      "fieldName": "发票编号",
-      "fieldValue": "YX24062TH",
-      "index": 1,
-      "level": 0
-    },
-    {
-      "fieldName": "发票日期",
-      "fieldValue": "18-Dec-24",
-      "index": 2,
-      "level": 0
-    },
-    {
-      "fieldName": "卖方信息",
-      "fieldValue": "",
-      "index": 3,
-      "level": 0
-    },
-    {
-      "fieldName": "公司名称",
-      "fieldValue": "SUZHOU YOUXINUO TRADING CO., LTD.",
-      "index": 4,
-      "level": 1
-    },
-    {
-      "fieldName": "地址",
-      "fieldValue": "Wujiang District of the Fenhu Town of Beishe Community in the East Village",
-      "index": 5,
-      "level": 1
-    },
-    {
-      "fieldName": "联系方式",
-      "fieldValue": "",
-      "index": 6,
-      "level": 1
-    },
-    {
-      "fieldName": "买方信息",
-      "fieldValue": "",
-      "index": 7,
-      "level": 0
-    },
-    {
-      "fieldName": "公司名称",
-      "fieldValue": "TOHO LAMAC CO.,LTD",
-      "index": 8,
-      "level": 1
-    },
-    {
-      "fieldName": "地址",
-      "fieldValue": "42-6 3-CHOME YUSHIMA BUNKYO-KU TOKYO 113-8513, JAPAN",
-      "index": 9,
-      "level": 1
-    },
-    {
-      "fieldName": "联系方式",
-      "fieldValue": "TEL:+81-3-3834-4262",
-      "index": 10,
-      "level": 1
-    },
-    {
-      "fieldName": "出发港口",
-      "fieldValue": "SHANGHAI, CHINA",
-      "index": 11,
-      "level": 0
-    },
-    {
-      "fieldName": "到达港口",
-      "fieldValue": "TOKYO,JAPAN",
-      "index": 12,
-      "level": 0
-    },
-    {
-      "fieldName": "货物信息1",
-      "fieldValue": "",
-      "index": 13,
-      "level": 0
-    },
-    {
-      "fieldName": "货物名称",
-      "fieldValue": "FOOTWEAR",
-      "index": 14,
-      "level": 1
-    },
-    {
-      "fieldName": "数量",
-      "fieldValue": "4662",
-      "index": 15,
-      "level": 1
-    },
-    {
-      "fieldName": "单价",
-      "fieldValue": "¥46.73",
-      "index": 16,
-      "level": 1
-    },
-    {
-      "fieldName": "总价",
-      "fieldValue": "¥217,840.00",
-      "index": 17,
-      "level": 1
-    },
-    {
-        "fieldName": "货物信息2",
-        "fieldValue": "",
-        "index": 18,
-        "level": 0
-      },
-    {
-        "fieldName": "货物名称",
-        "fieldValue": "",
-        "index": 19,
-        "level": 1
-      },
-      {
-        "fieldName": "数量",
-        "fieldValue": "2712",
-        "index": 20,
-        "level": 1
-      },
-      {
-        "fieldName": "单价",
-        "fieldValue": "¥40.00",
-        "index": 21,
-        "level": 1
-      },
-      {
-        "fieldName": "总价",
-        "fieldValue": "¥108,480.00",
-        "index": 22,
-        "level": 1
-      },
-    {
-      "fieldName": "货物总数量",
-      "fieldValue": "7374",
-      "index": 23,
-      "level": 0
-    },
-    {
-      "fieldName": "货物总价格",
-      "fieldValue": "¥326.320.00",
-      "index": 24,
-      "level": 0
-    },
-    {
-      "fieldName": "印章信息",
-      "fieldValue": "",
-      "index": 25,
-      "level": 0
-    },
-    {
-      "fieldName": "公司名称",
-      "fieldValue": "苏州优喜诺贸易有限公司",
-      "index": 26,
-      "level": 1
+      "货物名称": "FOOTWEAR",
+      "数量": "2712",
+      "单价": "¥40.00",
+      "总价": "¥108,480.00"
     }
-  ]
+  ],
+  "货物总数量": "7374",
+  "货物总价格": "¥326,320.00"
+
+}

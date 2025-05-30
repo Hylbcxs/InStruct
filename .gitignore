@@ -6,6 +6,7 @@ __pycache__
 /backend/.env
 /backend/.venv
 /backend/upload/
+/backend/output/
 *.db
 backend/core
 backend/ocr/core
@@ -18,3 +19,4 @@ backend/ocr/core
 # big File
 /model/
 /frontend/node_modules
+/frontend/public/standard

@@ -1,206 +1,37 @@
-[
+
+{
+  "单据种类": "中华人民共和国海关出口货物报关单",
+  "合同协议号": "SZSY-YG24Y607017054S",
+  "申报日期": "2024-10-27",
+  "境内发货人": "苏州顺谊纺织印染有限公司 (91320507756441623U)",
+  "境外收货人": "T&A TEXTILES AND HOSIERY LIMITED",
+  "生产销售单位": "苏州顺谊纺织印染有限公司 (91320507756441623U)",
+  "运输方式": "水路运输",
+  "运抵国": "英国",
+  "商品信息": [
     {
-      "fieldName": "单据种类",
-      "fieldValue": "中华人民共和国海关出口货物报关单",
-      "index": 0,
-      "level": 0
+      "商品名称": "床笠",
+      "数量": "1200条",
+      "单价": "4.98美元",
+      "总价": "5976美元"
     },
     {
-      "fieldName": "合同协议号",
-      "fieldValue": "SZSY-YG24Y607017054S",
-      "index": 1,
-      "level": 0
+      "商品名称": "毯子",
+      "数量": "3168条",
+      "单价": "9.89美元",
+      "总价": "31331.52美元"
     },
     {
-      "fieldName": "申报日期",
-      "fieldValue": "2024-10-27",
-      "index": 2,
-      "level": 0
+      "商品名称": "枕套",
+      "数量": "3324条",
+      "单价": "2.65美元",
+      "总价": "8808.6美元"
     },
     {
-      "fieldName": "发货人信息",
-      "fieldValue": "",
-      "index": 3,
-      "level": 0
-    },
-    {
-      "fieldName": "名称",
-      "fieldValue": "苏州顺谊纺织印染有限公司",
-      "index": 4,
-      "level": 1
-    },
-    {
-      "fieldName": "编号",
-      "fieldValue": "91320507756441623U",
-      "index": 5,
-      "level": 1
-    },
-    {
-      "fieldName": "收货人信息",
-      "fieldValue": "",
-      "index": 6,
-      "level": 0
-    },
-    {
-      "fieldName": "名称",
-      "fieldValue": "T&A TEXTILES AND HOSIERY LIMITED",
-      "index": 7,
-      "level": 1
-    },
-    {
-      "fieldName": "编号",
-      "fieldValue": "",
-      "index": 8,
-      "level": 1
-    },
-    {
-      "fieldName": "生产销售单位信息",
-      "fieldValue": "",
-      "index": 9,
-      "level": 0
-    },
-    {
-      "fieldName": "名称",
-      "fieldValue": "苏州顺谊纺织印染有限公司",
-      "index": 10,
-      "level": 1
-    },
-    {
-      "fieldName": "编号",
-      "fieldValue": "91320507756441623U",
-      "index": 11,
-      "level": 1
-    },
-    {
-      "fieldName": "运输方式",
-      "fieldValue": "水路运输",
-      "index": 12,
-      "level": 0
-    },
-    {
-      "fieldName": "运抵国",
-      "fieldValue": "英国",
-      "index": 13,
-      "level": 0
-    },
-    {
-      "fieldName": "商品信息 1",
-      "fieldValue": "",
-      "index": 14,
-      "level": 0
-    },
-    {
-      "fieldName": "商品名称",
-      "fieldValue": "床笠",
-      "index": 15,
-      "level": 1
-    },
-    {
-      "fieldName": "数量",
-      "fieldValue": "1200条",
-      "index": 16,
-      "level": 1
-    },
-    {
-      "fieldName": "单价",
-      "fieldValue": "4.98美元",
-      "index": 17,
-      "level": 1
-    },
-    {
-      "fieldName": "总价",
-      "fieldValue": "5976美元",
-      "index": 18,
-      "level": 1
-    },
-    {
-      "fieldName": "商品信息 2",
-      "fieldValue": "",
-      "index": 19,
-      "level": 0
-    },
-    {
-      "fieldName": "商品",
-      "fieldValue": "毯子",
-      "index": 20,
-      "level": 1
-    },
-    {
-      "fieldName": "数量",
-      "fieldValue": "3168条",
-      "index": 21,
-      "level": 1
-    },
-    {
-      "fieldName": "单价",
-      "fieldValue": "9.89美元",
-      "index": 22,
-      "level": 1
-    },
-    {
-      "fieldName": "总价",
-      "fieldValue": "31331.52美元",
-      "index": 23,
-      "level": 1
-    },
-    {
-      "fieldName": "商品信息 3",
-      "fieldValue": "",
-      "index": 24,
-      "level": 0
-    },
-    {
-      "fieldName": "商品名称",
-      "fieldValue": "枕套",
-      "index": 25,
-      "level": 1
-    },
-    {
-      "fieldName": "数量",
-      "fieldValue": "3324条",
-      "index": 26,
-      "level": 1
-    },
-    {
-      "fieldName": "单价",
-      "fieldValue": "2.65美元",
-      "index": 27,
-      "level": 1
-    },
-    {
-      "fieldName": "总价",
-      "fieldValue": "8808.6美元",
-      "index": 28,
-      "level": 1
-    },
-    {
-      "fieldName": "商品信息 4",
-      "fieldValue": "",
-      "index": 29,
-      "level": 0
-    },
-    {
-      "fieldName": "商品名称及规格型号",
-      "fieldValue": "被套",
-      "index": 30,
-      "level": 1
-    },
-    {
-      "fieldName": "数量",
-      "fieldValue": "336条",
-      "index": 31,
-      "level": 1
-    },
-    {
-      "fieldName": "单价",
-      "fieldValue": "2.65美元",
-      "index": 32,
-      "level": 1
-    },
-    {
-      "fieldName": "总价",
-      "fieldValue": "890.4美元",
-      "index": 33,
-      "level": 1
+      "商品名称": "被套",
+      "数量": "336条",
+      "单价": "2.65美元",
+      "总价": "890.4美元"
     }
   ]
+}

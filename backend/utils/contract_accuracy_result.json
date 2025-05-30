@@ -1,0 +1,1170 @@
+[
+    {
+        "name": "合同_useocr_True",
+        "matchCount": 17,
+        "totalCount": 17,
+        "accuracyRate": 100.0,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "合同",
+                "extractedValue": "合同",
+                "matched": true
+            },
+            {
+                "path": "合同号",
+                "standardValue": "HJ20240827",
+                "extractedValue": "HJ20240827",
+                "matched": true
+            },
+            {
+                "path": "日期",
+                "standardValue": "2024/08/27",
+                "extractedValue": "2024/08/27",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "名璟科技股份有限公司",
+                "extractedValue": "名璟科技股份有限公司",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "台湾台北县汐止市大同路一段292巷9號\nAdd: No.9, Lane 292, Sec 1, Daitung Rd., Shijr City, Taipei county, Taiwan",
+                "extractedValue": "台湾台北县汐止市大同路一段292巷9号\nAdd: No. 9, Lane 292, Sec 1, Datung Rd., Shijr City, Taipei county, Taiwan",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 电话",
+                "standardValue": "+886-2-86423648",
+                "extractedValue": "+886-2-86423648",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 传真",
+                "standardValue": "+886-2-26496153",
+                "extractedValue": "+886-2-26496153",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "吴江市宏炬印染机械有限公司",
+                "extractedValue": "吴江市宏炬印染机械有限公司",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "吴江区盛泽镇东港村（227省道西側）",
+                "extractedValue": "吴江区盛泽镇东港村（227省道西侧）",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 电话",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 传真",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 商品名称",
+                "standardValue": "TUBELESS DISPENSER MODEL:MDS152IU",
+                "extractedValue": "TUBELESS DISPENSER MODEL:MDS152IU",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 数量",
+                "standardValue": "1 SET",
+                "extractedValue": "1 SET",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 单价",
+                "standardValue": "CIF SHANGHAI RMB 215000",
+                "extractedValue": "CIF SHANGHAI RMB 215000",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 总价",
+                "standardValue": "RMB 215000",
+                "extractedValue": "RMB 215000",
+                "matched": true
+            },
+            {
+                "path": "商品总数量",
+                "standardValue": "1",
+                "extractedValue": "1",
+                "matched": true
+            },
+            {
+                "path": "商品总价",
+                "standardValue": "RMB 215000",
+                "extractedValue": "RMB 215000",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "合同_useocr_False",
+        "matchCount": 17,
+        "totalCount": 17,
+        "accuracyRate": 100.0,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "合同",
+                "extractedValue": "合同",
+                "matched": true
+            },
+            {
+                "path": "合同号",
+                "standardValue": "HJ20240827",
+                "extractedValue": "HJ20240827",
+                "matched": true
+            },
+            {
+                "path": "日期",
+                "standardValue": "2024/08/27",
+                "extractedValue": "2024/08/27",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "名璟科技股份有限公司",
+                "extractedValue": "名璟科技股份有限公司",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "台湾台北县汐止市大同路一段292巷9號\nAdd: No.9, Lane 292, Sec 1, Daitung Rd., Shijr City, Taipei county, Taiwan",
+                "extractedValue": "台湾台北县汐止市大同路一段292巷9号 No.9, Lane 292, Sec 1, Datung Rd., Shijr City, Taipei county, Taiwan",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 电话",
+                "standardValue": "+886-2-86423648",
+                "extractedValue": "+886-2-86423648",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 传真",
+                "standardValue": "+886-2-26496153",
+                "extractedValue": "+886-2-26496153",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "吴江市宏炬印染机械有限公司",
+                "extractedValue": "吴江市宏炬印染机械有限公司",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "吴江区盛泽镇东港村(227省道西側)",
+                "extractedValue": "吴江区盛泽镇东港村(227省道西侧)",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 电话",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 传真",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 商品名称",
+                "standardValue": "TUBELESS DISPENSER MODEL:MDS152IU",
+                "extractedValue": "TUBELESS DISPENSER MODEL:MDS152IU",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 数量",
+                "standardValue": "1 SET",
+                "extractedValue": "1 SET",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 单价",
+                "standardValue": "CIF SHANGHAI RMB 215000",
+                "extractedValue": "CIF SHANGHAI RMB 215000",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 总价",
+                "standardValue": "RMB 215000",
+                "extractedValue": "RMB 215000",
+                "matched": true
+            },
+            {
+                "path": "商品总数量",
+                "standardValue": "1",
+                "extractedValue": "1",
+                "matched": true
+            },
+            {
+                "path": "商品总价格",
+                "standardValue": "RMB 215000",
+                "extractedValue": "RMB 215000",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "合同4_useocr_True",
+        "matchCount": 32,
+        "totalCount": 33,
+        "accuracyRate": 96.97,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "销货合同",
+                "extractedValue": "销货合同",
+                "matched": true
+            },
+            {
+                "path": "合同号",
+                "standardValue": "MY24069",
+                "extractedValue": "MY24069",
+                "matched": true
+            },
+            {
+                "path": "日期",
+                "standardValue": "2024.04.16",
+                "extractedValue": "2024.04.16",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "晋裕国际贸易发展有限公司",
+                "extractedValue": "晋裕国际贸易发展有限公司",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "佛山顺德",
+                "extractedValue": "",
+                "matched": false
+            },
+            {
+                "path": "卖方信息 > 电话",
+                "standardValue": "00852-25668109",
+                "extractedValue": "00852-25668109",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 传真",
+                "standardValue": "00852-22345811",
+                "extractedValue": "00852-22345811",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "苏州精实电子科技有限公司",
+                "extractedValue": "苏州精实电子科技有限公司",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 电话",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 传真",
+                "standardValue": "0512-85166666",
+                "extractedValue": "0512-85166666",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 商品名称",
+                "standardValue": "PET薄膜",
+                "extractedValue": "PET薄膜",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 数量",
+                "standardValue": "7560平方米",
+                "extractedValue": "7560平方米",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 单价",
+                "standardValue": "3.6239",
+                "extractedValue": "3.6239",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 总价",
+                "standardValue": "27,396.69",
+                "extractedValue": "27,396.69",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 商品名称",
+                "standardValue": "PET薄膜",
+                "extractedValue": "PET薄膜",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 数量",
+                "standardValue": "1760平方米",
+                "extractedValue": "1760平方米",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 单价",
+                "standardValue": "3.6239",
+                "extractedValue": "3.6239",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 总价",
+                "standardValue": "6,378.07",
+                "extractedValue": "6,378.07",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 商品名称",
+                "standardValue": "PET薄膜",
+                "extractedValue": "PET薄膜",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 数量",
+                "standardValue": "16380平方米",
+                "extractedValue": "16380平方米",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 单价",
+                "standardValue": "3.6239",
+                "extractedValue": "3.6239",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 总价",
+                "standardValue": "59,359.48",
+                "extractedValue": "59,359.48",
+                "matched": true
+            },
+            {
+                "path": "商品信息[3] > 商品名称",
+                "standardValue": "PET薄膜",
+                "extractedValue": "PET薄膜",
+                "matched": true
+            },
+            {
+                "path": "商品信息[3] > 数量",
+                "standardValue": "840平方米",
+                "extractedValue": "840平方米",
+                "matched": true
+            },
+            {
+                "path": "商品信息[3] > 单价",
+                "standardValue": "7.4735",
+                "extractedValue": "7.4735",
+                "matched": true
+            },
+            {
+                "path": "商品信息[3] > 总价",
+                "standardValue": "6,277.74",
+                "extractedValue": "6,277.74",
+                "matched": true
+            },
+            {
+                "path": "商品信息[4] > 商品名称",
+                "standardValue": "PET薄膜",
+                "extractedValue": "PET薄膜",
+                "matched": true
+            },
+            {
+                "path": "商品信息[4] > 数量",
+                "standardValue": "440平方米",
+                "extractedValue": "440平方米",
+                "matched": true
+            },
+            {
+                "path": "商品信息[4] > 单价",
+                "standardValue": "6.9700",
+                "extractedValue": "6.9700",
+                "matched": true
+            },
+            {
+                "path": "商品信息[4] > 总价",
+                "standardValue": "3,066.80",
+                "extractedValue": "3,066.80",
+                "matched": true
+            },
+            {
+                "path": "商品总数量",
+                "standardValue": "26980平方米",
+                "extractedValue": "26980平方米",
+                "matched": true
+            },
+            {
+                "path": "商品总价",
+                "standardValue": "102,478.78",
+                "extractedValue": "102,478.78",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "合同4_useocr_False",
+        "matchCount": 30,
+        "totalCount": 33,
+        "accuracyRate": 90.91,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "销货合同",
+                "extractedValue": "销货合同",
+                "matched": true
+            },
+            {
+                "path": "合同号",
+                "standardValue": "MY24069",
+                "extractedValue": "MY24069",
+                "matched": true
+            },
+            {
+                "path": "日期",
+                "standardValue": "2024.04.16",
+                "extractedValue": "2024.04.16",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "晋裕国际贸易发展有限公司",
+                "extractedValue": "晋裕国际贸易发展有限公司",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "佛山顺德",
+                "extractedValue": "",
+                "matched": false
+            },
+            {
+                "path": "卖方信息 > 电话",
+                "standardValue": "00852-25668109",
+                "extractedValue": "00852-25668109",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 传真",
+                "standardValue": "00852-22345811",
+                "extractedValue": "00852-22345811",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "苏州精实电子科技有限公司",
+                "extractedValue": "苏州精实电子科技有限公司",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 电话",
+                "standardValue": "",
+                "extractedValue": "0512-85166666",
+                "matched": false
+            },
+            {
+                "path": "买方信息 > 传真",
+                "standardValue": "0512-85166666",
+                "extractedValue": "",
+                "matched": false
+            },
+            {
+                "path": "商品信息[0] > 商品名称",
+                "standardValue": "PET薄膜",
+                "extractedValue": "PET薄膜",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 数量",
+                "standardValue": "7560平方米",
+                "extractedValue": "7560平方米",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 单价",
+                "standardValue": "3.6239",
+                "extractedValue": "3.6239",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 总价",
+                "standardValue": "27,396.69",
+                "extractedValue": "27,396.69",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 商品名称",
+                "standardValue": "PET薄膜",
+                "extractedValue": "PET薄膜",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 数量",
+                "standardValue": "1760平方米",
+                "extractedValue": "1760平方米",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 单价",
+                "standardValue": "3.6239",
+                "extractedValue": "3.6239",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 总价",
+                "standardValue": "6,378.07",
+                "extractedValue": "6,378.07",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 商品名称",
+                "standardValue": "PET薄膜",
+                "extractedValue": "PET薄膜",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 数量",
+                "standardValue": "16380平方米",
+                "extractedValue": "16380平方米",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 单价",
+                "standardValue": "3.6239",
+                "extractedValue": "3.6239",
+                "matched": true
+            },
+            {
+                "path": "商品信息[2] > 总价",
+                "standardValue": "59,359.48",
+                "extractedValue": "59,359.48",
+                "matched": true
+            },
+            {
+                "path": "商品信息[3] > 商品名称",
+                "standardValue": "PET薄膜",
+                "extractedValue": "PET薄膜",
+                "matched": true
+            },
+            {
+                "path": "商品信息[3] > 数量",
+                "standardValue": "840平方米",
+                "extractedValue": "840平方米",
+                "matched": true
+            },
+            {
+                "path": "商品信息[3] > 单价",
+                "standardValue": "7.4735",
+                "extractedValue": "7.4735",
+                "matched": true
+            },
+            {
+                "path": "商品信息[3] > 总价",
+                "standardValue": "6,277.74",
+                "extractedValue": "6,277.74",
+                "matched": true
+            },
+            {
+                "path": "商品信息[4] > 商品名称",
+                "standardValue": "PET薄膜",
+                "extractedValue": "PET薄膜",
+                "matched": true
+            },
+            {
+                "path": "商品信息[4] > 数量",
+                "standardValue": "440平方米",
+                "extractedValue": "440平方米",
+                "matched": true
+            },
+            {
+                "path": "商品信息[4] > 单价",
+                "standardValue": "6.9700",
+                "extractedValue": "6.9700",
+                "matched": true
+            },
+            {
+                "path": "商品信息[4] > 总价",
+                "standardValue": "3,066.80",
+                "extractedValue": "3,066.80",
+                "matched": true
+            },
+            {
+                "path": "商品总数量",
+                "standardValue": "26980平方米",
+                "extractedValue": "26980平方米",
+                "matched": true
+            },
+            {
+                "path": "商品总价格",
+                "standardValue": "102,478.78",
+                "extractedValue": "102,478.78",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "合同5_useocr_True",
+        "matchCount": 21,
+        "totalCount": 21,
+        "accuracyRate": 100.0,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "结转合同",
+                "extractedValue": "结转合同",
+                "matched": true
+            },
+            {
+                "path": "合同号",
+                "standardValue": "RDSZJS240326",
+                "extractedValue": "RDSZJS240326",
+                "matched": true
+            },
+            {
+                "path": "日期",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "苏州仁德无纺棉有限公司",
+                "extractedValue": "苏州仁德无纺棉有限公司",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "苏州市吴中区光福镇舟山工业园",
+                "extractedValue": "苏州市吴中区光福镇舟山上业园",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 电话",
+                "standardValue": "0512-66951896",
+                "extractedValue": "0512-66951896",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 传真",
+                "standardValue": "0512-66952660",
+                "extractedValue": "0512-66952660",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "苏州精实电子科技有限公司",
+                "extractedValue": "苏州精实电子科技有限公司",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "吴江经济开发区益胜路南侧",
+                "extractedValue": "吴江经济开发区益胜路南侧",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 电话",
+                "standardValue": "0512-85166666",
+                "extractedValue": "0512-85166666",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 传真",
+                "standardValue": "0512-85167777",
+                "extractedValue": "0512-85167777",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 商品名称",
+                "standardValue": "电子线",
+                "extractedValue": "电子线",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 数量",
+                "standardValue": "160.000",
+                "extractedValue": "160.000",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 单价",
+                "standardValue": "11.7455",
+                "extractedValue": "11.7455",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 总价",
+                "standardValue": "1,879.28",
+                "extractedValue": "1,879.28",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 商品名称",
+                "standardValue": "极细同轴线",
+                "extractedValue": "极细同轴线",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 数量",
+                "standardValue": "5.000",
+                "extractedValue": "5.000",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 单价",
+                "standardValue": "49.9800",
+                "extractedValue": "49.9800",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 总价",
+                "standardValue": "249.90",
+                "extractedValue": "249.90",
+                "matched": true
+            },
+            {
+                "path": "商品总数量",
+                "standardValue": "165.000",
+                "extractedValue": "165.000",
+                "matched": true
+            },
+            {
+                "path": "商品总价格",
+                "standardValue": "2,129.18",
+                "extractedValue": "2,129.18",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "合同7_useocr_True",
+        "matchCount": 19,
+        "totalCount": 21,
+        "accuracyRate": 90.48,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "合同",
+                "extractedValue": "合同",
+                "matched": true
+            },
+            {
+                "path": "合同号",
+                "standardValue": "WXW20240521-001",
+                "extractedValue": "WXW20240521-001",
+                "matched": true
+            },
+            {
+                "path": "日期",
+                "standardValue": "2024-5-21",
+                "extractedValue": "2024-5-21",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "苏州市五行微电子有限公司",
+                "extractedValue": "苏州市五行微电子有限公司",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "苏州市吴江区格林悦城24栋305，张蔚娴 18550643872 Room 305, building 24, gelin yuecheng garden, Wujiang district, Suzhou city, Jiangsu province Weixian Zhang 18550643872",
+                "extractedValue": "苏州市吴江区格林悦城24栋305，张蔚娴 18550643872 Room 305, building 24, gelin yuecheng garden, Wujiang district, Suzhou city, Jiangsu province Weixian Zhang 18550643872",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 电话",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 传真",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "Sigetronics, Inc",
+                "extractedValue": "Sigetronics, Inc",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "497 Technovalley-ro, Bongdong-cup Wanju-gun, Jeonbuk, Korea",
+                "extractedValue": "497 Technovalley-ro, Bongdong-eup, Wanju-gun, Jeollabuk-do, Korea",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 电话",
+                "standardValue": "82-63-262-4662",
+                "extractedValue": "82-63-262-4662",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 传真",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 商品名称",
+                "standardValue": "芯片",
+                "extractedValue": "PT046",
+                "matched": false
+            },
+            {
+                "path": "商品信息[0] > 数量",
+                "standardValue": "15,000",
+                "extractedValue": "15,000",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 单价",
+                "standardValue": "0.97",
+                "extractedValue": "0.97",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 总价",
+                "standardValue": "14550",
+                "extractedValue": "14550",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 商品名称",
+                "standardValue": "芯片",
+                "extractedValue": "PT046YF1",
+                "matched": false
+            },
+            {
+                "path": "商品信息[1] > 数量",
+                "standardValue": "35,000",
+                "extractedValue": "35,000",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 单价",
+                "standardValue": "0.97",
+                "extractedValue": "0.97",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 总价",
+                "standardValue": "33950",
+                "extractedValue": "33950",
+                "matched": true
+            },
+            {
+                "path": "商品总数量",
+                "standardValue": "50,000",
+                "extractedValue": "50,000",
+                "matched": true
+            },
+            {
+                "path": "商品总价格",
+                "standardValue": "48500",
+                "extractedValue": "48500",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "合同5_useocr_False",
+        "matchCount": 20,
+        "totalCount": 21,
+        "accuracyRate": 95.24,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "结转合同",
+                "extractedValue": "结转合同",
+                "matched": true
+            },
+            {
+                "path": "合同号",
+                "standardValue": "RD-SZJS240326",
+                "extractedValue": "RD-SZJS240326",
+                "matched": true
+            },
+            {
+                "path": "日期",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "苏州仁德无纺棉有限公司",
+                "extractedValue": "苏州仁德无纺棉有限公司",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "苏州市吴中区光福镇舟山工业园",
+                "extractedValue": "苏州市吴中区光福镇舟山工业园",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 电话",
+                "standardValue": "0512-66951896",
+                "extractedValue": "0512-66951896",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 传真",
+                "standardValue": "0512-66952660",
+                "extractedValue": "0512-66952660",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "苏州精实电子科技有限公司",
+                "extractedValue": "苏州精实电子科技有限公司",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "吴江经济开发区益胜路南侧",
+                "extractedValue": "吴江经济开发区益胜路南侧",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 电话",
+                "standardValue": "0512-85166666",
+                "extractedValue": "0512-85166666",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 传真",
+                "standardValue": "0512-85167777",
+                "extractedValue": "0512-85167777",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 商品名称",
+                "standardValue": "电子线",
+                "extractedValue": "电子线",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 数量",
+                "standardValue": "160.000",
+                "extractedValue": "160.000",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 单价",
+                "standardValue": "11.7455",
+                "extractedValue": "11.7456",
+                "matched": false
+            },
+            {
+                "path": "商品信息[0] > 总价",
+                "standardValue": "1,879.28",
+                "extractedValue": "1,879.28",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 商品名称",
+                "standardValue": "极细同轴线",
+                "extractedValue": "极细同轴线",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 数量",
+                "standardValue": "5.000",
+                "extractedValue": "5.000",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 单价",
+                "standardValue": "49.9800",
+                "extractedValue": "49.9800",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 总价",
+                "standardValue": "249.90",
+                "extractedValue": "249.90",
+                "matched": true
+            },
+            {
+                "path": "商品总数量",
+                "standardValue": "165.000",
+                "extractedValue": "165.000",
+                "matched": true
+            },
+            {
+                "path": "商品总价格",
+                "standardValue": "2,129.18",
+                "extractedValue": "2,129.18",
+                "matched": true
+            }
+        ]
+    },
+    {
+        "name": "合同7_useocr_False",
+        "matchCount": 17,
+        "totalCount": 21,
+        "accuracyRate": 80.95,
+        "details": [
+            {
+                "path": "单据种类",
+                "standardValue": "合同",
+                "extractedValue": "合同",
+                "matched": true
+            },
+            {
+                "path": "合同号",
+                "standardValue": "WXW20240521-001",
+                "extractedValue": "",
+                "matched": false
+            },
+            {
+                "path": "日期",
+                "standardValue": "2024-5-21",
+                "extractedValue": "2024-5-21",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 公司名称",
+                "standardValue": "苏州市五行微电子有限公司",
+                "extractedValue": "苏州市五行微电子有限公司",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 地址",
+                "standardValue": "苏州市吴江区格林悦城24栋305，张蔚娴 18550643872 Room 305, building 24, gelin yuecheng garden, Wujiang district, Suzhou city, Jiangsu province Weixian Zhang 18550643872",
+                "extractedValue": "",
+                "matched": false
+            },
+            {
+                "path": "卖方信息 > 电话",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "卖方信息 > 传真",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 公司名称",
+                "standardValue": "Sigetronics, Inc",
+                "extractedValue": "Sigetronics, Inc",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 地址",
+                "standardValue": "497 Technovalley-ro, Bongdong-cup Wanju-gun, Jeonbuk, Korea",
+                "extractedValue": "497 Techno Valley-ro, Bongdong-eup Wanju-gun, Jeonbuk, Korea",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 电话",
+                "standardValue": "82-63-262-4662",
+                "extractedValue": "82-63-262-4662",
+                "matched": true
+            },
+            {
+                "path": "买方信息 > 传真",
+                "standardValue": "",
+                "extractedValue": "",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 商品名称",
+                "standardValue": "芯片",
+                "extractedValue": "PT046 (HFE: 900~1350)",
+                "matched": false
+            },
+            {
+                "path": "商品信息[0] > 数量",
+                "standardValue": "15,000",
+                "extractedValue": "15,000",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 单价",
+                "standardValue": "0.97",
+                "extractedValue": "0.97",
+                "matched": true
+            },
+            {
+                "path": "商品信息[0] > 总价",
+                "standardValue": "14550",
+                "extractedValue": "14550",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 商品名称",
+                "standardValue": "芯片",
+                "extractedValue": "PT046YF1 (HFE: 1400~1800)",
+                "matched": false
+            },
+            {
+                "path": "商品信息[1] > 数量",
+                "standardValue": "35,000",
+                "extractedValue": "35,000",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 单价",
+                "standardValue": "0.97",
+                "extractedValue": "0.97",
+                "matched": true
+            },
+            {
+                "path": "商品信息[1] > 总价",
+                "standardValue": "33950",
+                "extractedValue": "33950",
+                "matched": true
+            },
+            {
+                "path": "商品总数量",
+                "standardValue": "50,000",
+                "extractedValue": "50,000",
+                "matched": true
+            },
+            {
+                "path": "商品总价格",
+                "standardValue": "48500",
+                "extractedValue": "48500",
+                "matched": true
+            }
+        ]
+    }
+]

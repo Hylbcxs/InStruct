@@ -213,7 +213,6 @@ export default {
         2. 每个字段的值为图片中对应的语义内容；
         3. 如果某个字段包含子项，请使用嵌套的 JSON 结构展示；
         4. 不需要包含位置信息、类型或其他元数据；
-        5. 注意：请只输出 JSON, 确保字段尽可能完整、语义准确, 保持 JSON 结构规范, 不要添加任何解释或文本说明！
 
         ### 需要提取的字段：
         - **单据种类**：合同种类
@@ -235,7 +234,7 @@ export default {
           - 单价
           - 总价
         - **商品总数量**: 所有商品的数量之和
-        - **商品总价**: 所有商品的总价之和
+        - **商品总价格**: 所有商品的总价之和
 
         ### 示例输出格式：
         {
@@ -279,7 +278,6 @@ export default {
       2. 每个字段的值为图片中对应的语义内容；
       3. 如果某个字段包含子项，请使用嵌套的 JSON 结构展示；
       4. 不需要包含位置信息、类型或其他元数据；
-      5. 注意：请只输出 JSON, 确保字段尽可能完整、语义准确, 保持 JSON 结构规范, 不要添加任何解释或文本说明！
 
       ### 需要提取的字段：
       `,
@@ -811,7 +809,7 @@ export default {
       if (this.extractMode === "auto") {
         extractedFields = this.selectedFile.ExtractedDefaultField
       } else if (this.extractMode === "custom") {
-        extractedFields = this.extractedCustomFields
+        extractedFields = this.selectedFile.ExtractedCustomField
       };
       if (!extractedFields.length) {
         this.$message.warning('没有可导出的数据');

@@ -1,122 +1,27 @@
-[
+{
+  "单据种类": "COMMERCIAL INVOICE",
+  "发票编号": "KON24-0159",
+  "发票日期": "2024/07/19",
+  "卖方信息": {
+    "公司名称": "AUK CORPORATION",
+    "地址": "62-8, 8-gil, Yakchon-ro, Iksan-city, Jeonbuk-do Rep. of Korea",
+    "电话": "(63)839-7230-7235",
+    "传真": "(63)839-7108"
+  },
+  "买方信息": {
+    "公司名称": "Suzhou City Wu Xing Mei Electronic Co., Ltd",
+    "地址": "Room 305, building24, gelin yuecheng garden Wujiang district, Suzhou city, Jiangsu province",
+    "电话": "+86-18550643872",
+    "传真": ""
+  },
+  "货物信息": [
     {
-      "fieldName": "单据种类",
-      "fieldValue": "COMMERCIAL INVOICE",
-      "index": 0,
-      "level": 0
-    },
-    {
-      "fieldName": "发票编号",
-      "fieldValue": "KON24-0159",
-      "index": 1,
-      "level": 0
-    },
-    {
-      "fieldName": "发票日期",
-      "fieldValue": "2024/07/19",
-      "index": 2,
-      "level": 0
-    },
-    {
-      "fieldName": "卖方信息",
-      "fieldValue": "",
-      "index": 3,
-      "level": 0
-    },
-    {
-      "fieldName": "公司名称",
-      "fieldValue": "AUK CORPORATION",
-      "index": 4,
-      "level": 1
-    },
-    {
-      "fieldName": "地址",
-      "fieldValue": "62-8, 8-gil, Yakchon-ro, Iksan-city, Jeonbuk-do Rep. of Korea",
-      "index": 5,
-      "level": 1
-    },
-    {
-      "fieldName": "电话",
-      "fieldValue": "(63) 839-7230-7235",
-      "index": 6,
-      "level": 1
-    },
-    {
-      "fieldName": "传真",
-      "fieldValue": "(63) 839-7108",
-      "index": 7,
-      "level": 1
-    },
-    {
-      "fieldName": "买方信息",
-      "fieldValue": "",
-      "index": 8,
-      "level": 0
-    },
-    {
-      "fieldName": "公司名称",
-      "fieldValue": "Suzhou City Wu Xing Mei Electronic Co., Ltd",
-      "index": 9,
-      "level": 1
-    },
-    {
-      "fieldName": "地址",
-      "fieldValue": "Room 305, building24, gelin yuecheng garden Wujiang district, Suzhou city, Jiangsu province",
-      "index": 10,
-      "level": 1
-    },
-    {
-      "fieldName": "电话",
-      "fieldValue": "+86-18550643872",
-      "index": 11,
-      "level": 1
-    },
-    {
-      "fieldName": "传真",
-      "fieldValue": "",
-      "index": 12,
-      "level": 1
-    },
-    {
-      "fieldName": "货物信息 1",
-      "fieldValue": "",
-      "index": 13,
-      "level": 0
-    },
-    {
-      "fieldName": "货物名称",
-      "fieldValue": "LED CHIP",
-      "index": 14,
-      "level": 1
-    },
-    {
-      "fieldName": "数量",
-      "fieldValue": "50,000,000.00 EA",
-      "index": 15,
-      "level": 1
-    },
-    {
-      "fieldName": "单价",
-      "fieldValue": "0.00074 USD",
-      "index": 16,
-      "level": 1
-    },
-    {
-      "fieldName": "总价",
-      "fieldValue": "37,000.00 USD",
-      "index": 17,
-      "level": 1
-    },
-    {
-      "fieldName": "货物总数量",
-      "fieldValue": "50,000,000.00 EA",
-      "index": 18,
-      "level": 0
-    },
-    {
-      "fieldName": "货物总价",
-      "fieldValue": "37,000.00 USD",
-      "index": 19,
-      "level": 0
+      "货物名称": "LED CHIP",
+      "数量": "50,000,000.00 EA",
+      "单价": "0.00074 USD",
+      "总价": "37,000.00 USD"
     }
-]
+  ],
+  "货物总数量": "50,000,000.00 EA",
+  "货物总价格": "37,000.00 USD"
+}
