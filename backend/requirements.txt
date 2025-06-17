@@ -63,7 +63,7 @@ opt-einsum==3.3.0
 orjson==3.10.18
 packaging==24.2
 paddleocr==3.0.0
-paddlepaddle @ file:///opt/data/private/hyl/code/InStruct/model/wheel/paddlepaddle-3.0.0-cp310-cp310-linux_x86_64.whl
+# paddlepaddle @ file:///opt/data/private/hyl/code/InStruct/model/wheel/paddlepaddle-3.0.0-cp310-cp310-linux_x86_64.whl
 paddlex==3.0.0
 pandas==1.5.3
 pillow==11.2.1

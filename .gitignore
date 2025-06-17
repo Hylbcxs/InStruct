@@ -20,3 +20,7 @@ backend/ocr/core
 /model/
 /frontend/node_modules
 /frontend/public/standard
+
+*.tar.gz
+*.tar
+/conda_pkg
