@@ -22,6 +22,7 @@ from api.openai_api import router as openai_router
 # from api.acc_api import router as acc_router
 from api.files.file_router_factory import create_file_router
 from api.fields.field_router_factory import create_field_router
+from api.documents.documents_router_factory import create_documents_router
 
 load_dotenv()
 UPLOAD_DIR = os.getenv("UPLOAD_DIR")
@@ -73,8 +74,10 @@ for config in models_config:
 
     app.include_router(file_router)
     app.include_router(field_router)
+documents_router = create_documents_router()
 
 app.include_router(openai_router)
+app.include_router(documents_router)
 
 # 允许跨域
 app.add_middleware(

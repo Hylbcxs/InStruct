@@ -4,6 +4,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   server: {
+    port: 3001,
     watch: {
       // 使用轮询而不是 inotify
       usePolling: true,

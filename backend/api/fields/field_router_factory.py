@@ -13,6 +13,8 @@ from services.field_service import (
     get_extracted_custom_field,
     update_open_loading,
     update_close_loading,
+    update_standard_field,
+    get_standard_field
 )
 
 def create_field_router(model_class, url_prefix: str = "/fields"):
@@ -34,6 +36,9 @@ def create_field_router(model_class, url_prefix: str = "/fields"):
     @router.get("/extracted-field/{file_id}")
     def read_extracted_field(file_id: int, db: Session = Depends(get_db)):
         extracted_data = get_extracted_default_field(db, model_class, file_id)
+        standard_data = get_standard_field(db, model_class, file_id)
+        if standard_data:
+            extracted_data = standard_data
         if not extracted_data:
             return {"file_id": file_id, "extracted_data": ''}
         return {"file_id": file_id, "extracted_data": extracted_data}
@@ -57,6 +62,17 @@ def create_field_router(model_class, url_prefix: str = "/fields"):
         if not extracted_data:
             return {"file_id": file_id, "extracted_data": ''}
         return {"file_id": file_id, "extracted_data": extracted_data}
+
+    @router.post("/save-standard-field")
+    def save_standard_field(
+        file_id: Annotated[int, Body(...)],
+        standard_data: Annotated[List[dict], Body(...)],
+        db: Session = Depends(get_db)
+    ):
+        updated_file = update_standard_field(db, model_class, file_id, standard_data)
+        if not updated_file:
+            raise HTTPException(status_code=404, detail="文件未找到")
+        return {"message": "标准字段保存成功", "data": updated_file}
 
     # 开启 loading
     @router.post("/open-loading")

@@ -1,4 +1,5 @@
 from paddleocr import PaddleOCR
+from paddleocr import DocImgOrientationClassification
 import json
 import base64
 import time
@@ -10,6 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 TEXT_DETECTION_MODEL = os.getenv("TEXT_DETECTION_MODEL")
 TEXT_RECOGNITION_MODEL = os.getenv("TEXT_RECOGNITION_MODEL")
+ORIENTATION_CLASSIFICATION_MODEL = os.getenv("ORIENTATION_CLASSIFICATION_MODEL")
 SAVE_JSON = "../ocr/output"
 
 def get_top_left(box):
@@ -69,3 +71,18 @@ def ocr_extract(prompt, img_url):
     new_prompt = prompt + "\n以下是ocr识别到的文本内容仅作为参考："+ocr_lines + "\n请确保字段尽可能完整、语义准确，保持 JSON 结构规范, 不要添加任何解释或文本说明。"
 
     return new_prompt
+
+def ocr_extract_with_orientation(img_url):
+    model = DocImgOrientationClassification(model_dir=ORIENTATION_CLASSIFICATION_MODEL)
+    output = model.predict(img_url,  batch_size=1)
+    for res in output:
+        res.save_to_json(SAVE_JSON)
+
+    for filename in os.listdir(SAVE_JSON):
+        json_path = os.path.join(SAVE_JSON, filename)
+        with open(json_path, "r", encoding="utf-8") as f:
+            ocr_data = json.load(f)
+        os.remove(json_path)
+
+    label_names = ocr_data["label_names"]
+    return label_names[0]

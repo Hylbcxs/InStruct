@@ -2,8 +2,8 @@
 <template>
   <!-- <el-aside width="200px" class="sidebar"> -->
   <div class="sidebar">
-    <el-menu default-active="/invoice" class="el-menu-vertical" @select="handleSelect">
-      <el-sub-menu index="1">
+    <el-menu default-active="/document" class="el-menu-vertical" @select="handleSelect">
+      <el-sub-menu index="1" @click.native="handleSubMenuClick">
         <template #title>
           <el-icon><Document /></el-icon>
           <span>单证识别</span>
@@ -20,25 +20,9 @@
         <el-menu-item-group>
           <el-menu-item index="/landing" class="landing">提单</el-menu-item>
         </el-menu-item-group>
-        <!-- <el-menu-item-group>
-          <el-menu-item index="/test" class="test">测试</el-menu-item>
-        </el-menu-item-group> -->
       </el-sub-menu>
 
-      <!-- <el-menu-item index="2">
-        <el-icon><icon-menu /></el-icon>
-        <span>报关单</span>
-      </el-menu-item>
 
-      <el-menu-item index="3">
-        <el-icon><Document /></el-icon>
-        <span>合同</span>
-      </el-menu-item>
-
-      <el-menu-item index="4">
-        <el-icon><icon-menu /></el-icon>
-        <span>提单</span>
-      </el-menu-item> -->
     </el-menu>
   <!-- </el-aside> -->
   </div>
@@ -48,11 +32,20 @@
   export default {
     name: 'Sidebar',
     methods: {
-    handleSelect(index, indexPath, item) {
-      console.log('Selected Index:', index)
-      this.$router.push(index)
+      handleSelect(index, indexPath, item) {
+        console.log('Selected Index:', index)
+        this.$router.push(index)
+      },
+      handleSubMenuClick(event) {
+        // 判断是否点击的是标题区域，防止误触子菜单
+        const titleEl = event.target.closest('.el-sub-menu__title');
+        console.log('SubMenu Clicked:', titleEl);
+        // 移除自动跳转到documents的逻辑，让用户主动选择子菜单项
+        if (titleEl) {
+          this.$router.push('/documents');
+        }
+      }
     }
-  }
   }
 </script>
 

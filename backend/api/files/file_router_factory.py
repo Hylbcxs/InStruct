@@ -66,5 +66,7 @@ def create_file_router(model_class, file_prefix: str, url_prefix: str = "/files"
             return {"success": True, "message": f"{upload_dir} 下所有文件已清空"}
         except Exception as e:
             return {"success": False, "message": f"清空失败: {str(e)}"}
+        
 
     return router
+    

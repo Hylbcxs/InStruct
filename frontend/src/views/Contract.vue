@@ -9,7 +9,7 @@
             <el-switch v-model="multiSelect" @change="handleSwitchChange"/>
           </div>
           <!-- 添加上传文件提示区域 -->
-          <el-upload class="upload-hint" :action="`http://localhost:8002/contract/upload`" multiple="true" :limit="10" :on-success="handleUploadSuccess" :accept="'.png,.jpg,.jpeg'" :before-upload="beforeUpload" :show-file-list="false" :data="{ uploadDir: this.uploadDirectory }" :auto-upload="true">  
+          <el-upload class="upload-hint" :action="`http://localhost:8002/contract/upload`" multiple="true" :limit="10" :on-success="handleUploadSuccess" :accept="'.png,.jpg,.jpeg,.pdf'" :before-upload="beforeUpload" :show-file-list="false" :data="{ uploadDir: this.uploadDirectory }" :auto-upload="true">  
             <div slot="tip" class="el-upload__tip">
               <el-icon><UploadFilled /></el-icon>
               上传文件(支持单个/批量)
@@ -31,7 +31,7 @@
       <el-col :span="10">
         <el-card shadow="hover" class="contract-preview" style="display: flex; align-items: center; justify-content: center;">
           <div v-if="!(selectedFile?.thumbnail)">
-            <el-upload drag :http-request="customUploadRequest" :multiple="true" :limit="10" :on-success="handleUploadSuccess" :accept="'.png,.jpg,.jpeg'" :before-upload="beforeUpload" :show-file-list="false">
+                          <el-upload drag :http-request="customUploadRequest" :multiple="true" :limit="10" :on-success="handleUploadSuccess" :accept="'.png,.jpg,.jpeg,.pdf'" :before-upload="beforeUpload" :show-file-list="false">
               <el-icon class="el-icon--upload"><upload-filled /></el-icon>
               <div class="el-upload__text">             
                 点击上传文件 / 拖拽文件到此处<br/>
@@ -71,15 +71,45 @@
 
                 <el-table-column label="值" min-idth="60%">
                   <template #default="{ row }">
-                    <div @mouseenter="handleMouseEnter(row.fieldName, row.index)" @mouseleave="handleMouseLeave(row.fieldName, row.index)" style="display: flex; justify-content: space-between;">
-                      <span>{{ row.fieldValue }}</span>
-                      <el-tooltip content="复制" placement="top"custom>
+                    <div @mouseenter="handleMouseEnter(row.fieldName, row.index)" @mouseleave="handleMouseLeave(row.fieldName, row.index)" style="display: flex; justify-content: space-between; align-items: center;" >
+                      <!-- <span>{{ row.fieldValue }}</span> -->
+                      <el-popconfirm :title="`字段: ${row.fieldName}`" :hide-after="0" placement="top" :show-arrow="true" :teleported="true" trigger="click">
+                        <template #reference>
+                          <el-input 
+                            v-model="row.fieldValue" 
+                            size="small" 
+                            @change="handleFieldValueChange(row)" 
+                            :class="{ 'confirmed-field': confirmedFields[`${row.fieldName}-${row.index}`] }"
+                            :style="{ 
+                              flex: 1,
+                              backgroundColor: confirmedFields[`${row.fieldName}-${row.index}`] ? '#f0f9f0' : '',
+                              borderColor: confirmedFields[`${row.fieldName}-${row.index}`] ? '#67c23a' : '',
+                              color: confirmedFields[`${row.fieldName}-${row.index}`] ? '#67c23a !important' : '',
+                              fontWeight: confirmedFields[`${row.fieldName}-${row.index}`] ? '600' : 'normal'
+                            }" />
+                        </template>
+                        <template #actions="{ confirm, cancel }">
+                          <el-button
+                            type="danger"
+                            size="small"
+                            @click="handleFieldConfirm(row, selectedFile.ExtractedDefaultField)"
+                          >
+                            确认
+                          </el-button>
+                        </template>
+                    
+                      </el-popconfirm>
+                      
+                      <el-tooltip content="复制" placement="top">
+                        <el-icon @click="copyToClipboard(row.fieldValue)" v-show="isMouseOverRow[`${row.fieldName}-${row.index}`]" style="margin-left: 8px;"><CopyDocument /></el-icon>
                       </el-tooltip>
-                      <el-icon @click="copyToClipboard(row.fieldValue)" v-show="isMouseOverRow[`${row.fieldName}-${row.index}`]"><CopyDocument /></el-icon>
                     </div>
                   </template>
                 </el-table-column>
               </el-table>
+              <div style="text-align: right; margin-top: 20px;" v-if="selectedFile && selectedFile.ExtractedDefaultField && selectedFile.ExtractedDefaultField.length > 0">
+                <el-button type="primary" @click="confirmAutoExtraction(selectedFile.id, selectedFile.ExtractedDefaultField)">确认</el-button>
+              </div>
             </div>
             
             <div v-else-if="extractMode === 'custom'" style="padding-top: 10px; overflow: auto; ">
@@ -376,11 +406,15 @@ export default {
       processingTasks: [],       // 当前待处理的任务队列
       activeTasks: 0,            // 当前正在执行的任务数
       maxConcurrency: 3,        // 最大并发数
-      useOCRSwitch: true // 控制是否使用 OCR，默认启用
+      useOCRSwitch: true, // 控制是否使用 OCR，默认启用
+      confirmedFields: {},
     }
   },
   async created() {
     await this.fetchFiles();
+    if (this.$route.params.fileId) {
+      this.autoSelectFile(this.$route.params.fileId);
+    }
   },
   methods: {
     async handleSelect(key) {
@@ -406,6 +440,13 @@ export default {
           }  
         }
         
+      }
+    },
+    async autoSelectFile(fileId) {
+      // 等待文件列表加载完成
+      await this.$nextTick();
+      if (this.files.length > 0) {
+        await this.handleSelect(fileId);
       }
     },
     // 删除所有文件
@@ -722,9 +763,9 @@ export default {
     },
 
     beforeUpload(file) {
-      const isAllowedType = /\.(png|jpg|jpeg)$/i.test(file.name);
+      const isAllowedType = /\.(png|jpg|jpeg|pdf)$/i.test(file.name);
       if (!isAllowedType) {
-        this.$message.error('只能上传 .png, .jpg, .jpeg 文件');
+        this.$message.error('只能上传 .png, .jpg, .jpeg, .pdf 文件');
         return false;
       }
       const isLt50M = file.size / 1024 / 1024 < 50;
@@ -861,7 +902,70 @@ export default {
       }
 
       return path.join(' > ');
-    }
+    },
+
+    // 字段确认处理
+    handleFieldConfirm(row, extracteddefaultfield) {
+      const updatedExtractedFields = extracteddefaultfield.map(item => {
+        if (item.index === row.index) {
+          return {
+            ...item,
+            fieldValue: row.fieldValue
+          };
+        }
+        return item;
+      });
+
+      // 更新确认状态，标记该字段为已确认
+      const fieldKey = `${row.fieldName}-${row.index}`;
+      this.confirmedFields = {
+        ...this.confirmedFields,
+        [fieldKey]: true
+      };
+
+      this.$message.success(`字段 "${row.fieldName}-${row.index}" 已确认`);
+      console.log("更新后的提取字段：",extracteddefaultfield)
+    },
+     
+    // 字段值变化处理
+    handleFieldValueChange(row) {
+      // 当字段值发生变化时，重置确认状态
+      const fieldKey = `${row.fieldName}-${row.index}`;
+      // 使用新对象来触发响应式更新
+      this.confirmedFields = {
+        ...this.confirmedFields,
+        [fieldKey]: false
+      };
+    },
+
+    async confirmAutoExtraction(file_id, extracteddefaultfield) {
+      if (!this.selectedFile) {
+        this.$message.warning('请先选择一个文件');
+        return;
+      }
+      this.$confirm('确认提交当前的字段抽取结果吗？', '提示', {
+        confirmButtonText: '确定',
+        cancelButtonText: '取消',
+        type: 'warning'
+      }).then(async () => {
+        try {
+          const res = await axios.post('http://localhost:8002/contract/save-standard-field', {
+            file_id: Number(file_id),
+            standard_data: extracteddefaultfield
+          }, {
+            headers: {
+              'Content-Type': 'application/json'
+            }
+          });
+          this.$message.success('字段数据保存成功！');
+        } catch (error) {
+          console.error('保存字段数据失败:', error);
+          this.$message.error('保存字段数据失败，请重试');
+        }
+      }).catch(() => {
+        this.$message.info('已取消提交');
+      });
+    },
   }
 }
 </script>
@@ -893,6 +997,36 @@ export default {
 }
 .el-upload-dragger .el-upload__text em {
   color: #acafb2;
+}
+/* 已确认字段的绿色样式 */
+.confirmed-field {
+  background-color: #f0f9f0 !important;
+  border-color: #67c23a !important;
+}
+
+.confirmed-field :deep(.el-input__wrapper) {
+  background-color: #f0f9f0 !important;
+  border-color: #67c23a !important;
+  box-shadow: 0 0 0 1px #67c23a inset !important;
+}
+
+.confirmed-field :deep(.el-input__inner) {
+  background-color: #f0f9f0 !important;
+  color: #67c23a !important;
+  font-weight: 500 !important;
+}
+
+.confirmed-field:focus :deep(.el-input__wrapper),
+.confirmed-field.is-focus :deep(.el-input__wrapper) {
+  box-shadow: 0 0 0 1px #67c23a inset !important;
+}
+
+/* 更强的样式覆盖 */
+.confirmed-field input {
+  background-color: #f0f9f0 !important;
+  color: #67c23a !important;
+  border-color: #67c23a !important;
+  font-weight: 500 !important;
 }
 
 </style>

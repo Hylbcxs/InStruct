@@ -33,3 +33,4 @@ def delete_all(db: Session, model_class: Type[Any]):
         db.rollback()
         print("❌ 删除失败:", str(e))
         return {"success": False, "error": str(e)}
+
